@@ -1,0 +1,5 @@
+data/raw/*
+!data/raw/MANIFEST.json
+data/interim/
+data/processed/
+__pycache__/

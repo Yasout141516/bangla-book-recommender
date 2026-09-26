@@ -1,0 +1,65 @@
+# Progress
+
+Last updated: 2026-09-26. Decisions are referenced as D-xxx ([decision log](docs/02-decision-log.md)).
+
+## ✅ Phase 0: Research and planning (done)
+- [x] Researched Bangla RAG directions (legal, government services, books) and chose a **metadata-only book recommender** (D-001)
+- [x] Scope: Bangladeshi + West Bengal + translated books (D-004); no spoilers (D-003); non-commercial (D-010)
+- [x] Data model: works, authors, series, editions, sources, with provenance on every field (D-005–D-007)
+- [x] Tag vocabulary v0.1: 17 genres, 10 moods, 24 themes, plus format, audience, pace, tone, setting, era, content notes (D-002)
+- [x] Evaluated ~30 data sources for coverage, license and access ([05](docs/05-data-sources.md))
+- [x] Literature review: RokomariBG, BanglaBook, narrative-driven recommendation, LLM rerankers, LLM tag enrichment, entity resolution, Bangla text processing ([09](docs/09-literature-review.md))
+
+## ✅ Phase 1a: Data collection (done)
+- [x] RokomariBG: all 13 files (books, authors, categories, publishers, reviews, relation files)
+- [x] BanglaBook review CSVs
+- [x] Bangla Wikipedia: 342 book/novel articles (`scripts/collect_wikipedia.py`)
+- [x] Wikidata: 3,471 Bengali-language writers (`scripts/collect_wikidata_authors.py`)
+- [x] Polite, resumable crawler (`scripts/crawl.py`); partial crawls of Boighor (493) and Boitoi (460), then paused (D-014, D-015)
+- [x] Storage conventions and a raw manifest with checksums (`scripts/make_manifest.py`, D-012)
+- [x] RokomariBG profiling report (`scripts/profile_rokomaribg.py`): **9,804 fiction works with usable metadata**
+
+## ⏳ Phase 1b: Cleaning pipeline (next)
+Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
+- [ ] **Clean RokomariBG books → `data/interim/rokomari_books.parquet`**
+  - [ ] deduplicate by `book_id`, keeping the longest summary (D-013)
+  - [ ] strip "Show More"; normalise whitespace; `bnunicodenormalizer` + NFC; clean ZWJ/ZWNJ
+  - [ ] Bangla digits → ASCII; validate ISBN-10/13; explicit nulls
+  - [ ] detect the script of each field (Bangla / Latin / mixed)
+  - [ ] clean titles: format suffixes `(Paperback)`; series and volume tags into their own fields
+  - [ ] classify summaries: blurb / excerpt / table of contents / preface / English / empty
+- [ ] **Category mapping table**: 1,515 Rokomari categories → our genres and format; drop merchandising lists
+- [ ] **Origin**: publisher "(India)" → ISBN prefix → translation category
+- [ ] **Author table**
+  - [ ] clean names: pen-name brackets, honorifics, ZWNJ
+  - [ ] separate editorial boards and publishers from authors
+  - [ ] match to Wikidata (exact matching currently links 489 authors = 15% of book links; improve with normalisation, then fuzzy matching, then an LLM for ambiguous pairs)
+  - [ ] romanised aliases (IndicXlit)
+- [ ] **Merge editions into works** (normalised title + author key, OCLC FRBR-style)
+- [ ] **Parsers** for Wikipedia (plot sections, drop film pages), Boighor and Boitoi pages (blurbs and genre tags) → interim tables
+- [ ] **Link supplements to works** (title + author matching) and attach reviews
+- [ ] Output: `data/processed/works.parquet`, `authors.parquet`, `series.parquet`, `sources.parquet`
+- [ ] Data-quality report for the processed catalogue
+
+## 🔜 Phase 2: Labelling
+- [ ] Prompt: spoiler-free `premise_bn` / `premise_en` / `hook` from source text only (D-008)
+- [ ] Tag prompts, one facet at a time, from the fixed vocabulary (KAR-style); drop tags the source doesn't support (Doc2Query--)
+- [ ] Label a 200-book pilot; hand-check it; refine prompts; then label all ~9.8k
+- [ ] Native reader review of the Bangla tag labels
+
+## 🔜 Phase 3: Retrieval and reranking
+- [ ] Build `embedding_text`; compare bge-m3, multilingual-e5 and others
+- [ ] Hybrid search (dense + sparse) with filters; "similar to X" lookup
+- [ ] Query understanding (romanised → Bangla transliteration, filter extraction)
+- [ ] LLM reranker with explanations; shuffle candidates to reduce position bias
+
+## 🔜 Phase 4: Evaluation and demo (deferred, D-011)
+- [ ] Eval set: 100–200 real + synthetic taste queries (Bangla / English / romanised), hand-checked
+- [ ] Metrics: recall@10, nDCG@10, answer-language check
+- [ ] Simple web demo
+
+## Known issues and open questions
+- Some "usable" summaries are book excerpts, not blurbs. The summary classifier will lower the 9.8k count somewhat.
+- The West Bengal share is small (~1.2k). Boighor and Boitoi can resume later if needed.
+- Wikidata's genre field is noisy (e.g. "film promotion"); use it only for author identity.
+- The choice of LLMs for labelling and reranking (cost vs Bangla quality) is still open.

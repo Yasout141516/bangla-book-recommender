@@ -1,0 +1,218 @@
+[
+  {
+    "path": "banglabook/bb_test.csv",
+    "sha256": "051026a40bc58ad93e895611f16e81da4ae8a0c08538ede0d912d00cedac11de",
+    "bytes": 17448926,
+    "source_url": "https://github.com/mohsinulkabir14/BanglaBook",
+    "license": "CC BY-NC-SA 4.0",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "banglabook/bb_train.csv",
+    "sha256": "231e3fc0df25a06e83939f831115b0ba70586e6a33a6b3744a07ef521010c397",
+    "bytes": 61338063,
+    "source_url": "https://github.com/mohsinulkabir14/BanglaBook",
+    "license": "CC BY-NC-SA 4.0",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "banglabook/bb_validation.csv",
+    "sha256": "fc7bf6179bc9e2a50debdd87d3dc679b9b74a49cc0e879e221f64af529ec8772",
+    "bytes": 8785352,
+    "source_url": "https://github.com/mohsinulkabir14/BanglaBook",
+    "license": "CC BY-NC-SA 4.0",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "boighor/2026-09-26/crawl_stdout.txt",
+    "sha256": "b2c8d5a633d4280acf9ad52ffdc80834148b192f6fd73ab6735fde0752dcf73f",
+    "bytes": 52,
+    "source_url": "https://boighor.com (scripts/crawl.py)",
+    "license": "No data license; store facts, use blurbs only as private input (non-commercial, D-010)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "boighor/2026-09-26/fetch_log.jsonl",
+    "sha256": "10b8cacf59301100ff915ce37705584341b04d001041248395f45365d9625a96",
+    "bytes": 67995,
+    "source_url": "https://boighor.com (scripts/crawl.py)",
+    "license": "No data license; store facts, use blurbs only as private input (non-commercial, D-010)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "boitoi/2026-09-26/crawl_stdout.txt",
+    "sha256": "12c4cbce63aea18ce4e2bbf4eee294f0ade455556ac54c2b444476c1df3345a5",
+    "bytes": 50,
+    "source_url": "https://boitoi.com.bd (scripts/crawl.py)",
+    "license": "No data license; store facts, use blurbs only as private input (non-commercial, D-010)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "boitoi/2026-09-26/fetch_log.jsonl",
+    "sha256": "0096427bce6b29c2cd890e95da090107745abbb7d6ce74d456900e1430d50694",
+    "bytes": 84085,
+    "source_url": "https://boitoi.com.bd (scripts/crawl.py)",
+    "license": "No data license; store facts, use blurbs only as private input (non-commercial, D-010)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/author.json.gz",
+    "sha256": "1af812049a67966f642a1abc6ee43c0f00109ca60894365f974d58fe9fe7ac0b",
+    "bytes": 2313334,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/author_to_category.json.gz",
+    "sha256": "c8ba5f85fae3cf02bb0f2ee124eb788a00eb241b9df635844ffb72b6ad9e0968",
+    "bytes": 451743,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/author_to_publisher.json.gz",
+    "sha256": "cd971e325e2511c020f74954c9589252e3eb1e96655a82bb7c22ba75f8b3ecf8",
+    "bytes": 197873,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/book.json.gz",
+    "sha256": "3e72db8fd392ed15e8241b64d509cdf908a75170f16f593203a939efb790a0c7",
+    "bytes": 39944189,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/book_to_author.json.gz",
+    "sha256": "046ab239bb5719c5624202f5d63934397e7137d9bf84731cadc5671642eb9c90",
+    "bytes": 530749,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/book_to_category.json.gz",
+    "sha256": "c8e56f685e574c8ad935aeded81b3f4d65af7ba10bf03f4fc15f7cf78e0f0c37",
+    "bytes": 1074839,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/book_to_publisher.json.gz",
+    "sha256": "007f5737dde34466436e5bd05d79466bea7a31e3ab7f17399de0ad6cba24cf58",
+    "bytes": 455411,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/book_to_review.json.gz",
+    "sha256": "69393173b46c3ac58d5bc931fb33495ab916da969ab3fd9b8c50a8d044462ea5",
+    "bytes": 1446886,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/category.json.gz",
+    "sha256": "a2f3f6229e234bd7e5476c5c2215bee4234e4a69b830849f4b3b01000c437b50",
+    "bytes": 68225,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/publisher.json.gz",
+    "sha256": "026e509b3538aad5da991fef8be1b8d222b85b875e7a15ad1738f5a166c86f00",
+    "bytes": 214911,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/publisher_to_category.json.gz",
+    "sha256": "24d8ff34df2eafc68da51edd8f0bde09f70f3101de3baf18faaf909104fb2edb",
+    "bytes": 71929,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/README_rokomaribg.md",
+    "sha256": "35868e9b1d79c5e24c6b0823806f5f24c58e0690b60aa48888260681a3556699",
+    "bytes": 4516,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/review.json.gz",
+    "sha256": "23a367ebc41a0e8d553935864725d00f82a895ce51e77f9107544062b8f4b9c8",
+    "bytes": 42363083,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "rokomaribg/user_to_review.json.gz",
+    "sha256": "ad11e9a8bc84d14ea9c22cd1522e4017d762ea47c3ff261ffc0d67c96f955a99",
+    "bytes": 1541597,
+    "source_url": "https://github.com/backlashblitz/Bangla-Book-Recommendation-Dataset",
+    "license": "CC BY-NC 4.0 (HF mirror tag; GitHub repo has no license file)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "wikidata/2026-09-26/authors.json",
+    "sha256": "c9901003f144a8b12651bdbd7334e1a09e2132ff1c10c04029521bc3ac5a9ec5",
+    "bytes": 4132329,
+    "source_url": "https://query.wikidata.org/sparql (scripts/collect_wikidata_authors.py)",
+    "license": "CC0",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "wikipedia/2026-09-26/pages.jsonl",
+    "sha256": "179e0f07df80349a78b2eb36a5f63495d290e216011985a1e5f5ec7a8eea8e68",
+    "bytes": 5122944,
+    "source_url": "https://bn.wikipedia.org (category walk of বাংলা ভাষার উপন্যাস and related)",
+    "license": "CC BY-SA 4.0",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "wikipedia/bn_novel_pages.json",
+    "sha256": "10201f4fb4186f8d8f05b97ae9baa182a0537610ba943d369f55a43f69a14730",
+    "bytes": 17703,
+    "source_url": "https://bn.wikipedia.org (category walk of বাংলা ভাষার উপন্যাস and related)",
+    "license": "CC BY-SA 4.0",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "boighor/2026-09-26/listings/",
+    "files": 21,
+    "bytes": 469983,
+    "source_url": "https://boighor.com (scripts/crawl.py)",
+    "license": "No data license; store facts, use blurbs only as private input (non-commercial, D-010)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "boighor/2026-09-26/pages/",
+    "files": 493,
+    "bytes": 5032791,
+    "source_url": "https://boighor.com (scripts/crawl.py)",
+    "license": "No data license; store facts, use blurbs only as private input (non-commercial, D-010)",
+    "fetched_at": "2026-09-26"
+  },
+  {
+    "path": "boitoi/2026-09-26/pages/",
+    "files": 460,
+    "bytes": 10551766,
+    "source_url": "https://boitoi.com.bd (scripts/crawl.py)",
+    "license": "No data license; store facts, use blurbs only as private input (non-commercial, D-010)",
+    "fetched_at": "2026-09-26"
+  }
+]
