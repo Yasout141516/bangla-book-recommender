@@ -41,6 +41,9 @@ query (bn / en / romanised)
   → LLM rerank → top 5 with a reason for each, in the user's language
 ```
 
+## User experience
+The demo's screens, result card, states and feedback are specified in [12 UX plan](12-ux-plan.md).
+
 ## Success criteria (first version)
 - Recall@10 on a test set of 100–200 real "suggest a book like…" queries
 - In a blind comparison, readers prefer our top 5 over a bookstore's "similar books"

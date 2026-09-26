@@ -25,6 +25,16 @@ query (bn / en / romanised)
   → top ~30 candidates
   → LLM rerank → top 5 with a reason for each, in the user's language
 ```
+### Architecture
+Legend: **green** = built · **yellow** = partial · **grey dashed** = planned · **blue** = UX states from the [UX plan](docs/12-ux-plan.md).
+Sources for both diagrams: [`diagrams/*.mmd`](diagrams/). An editable `.excalidraw` file sits next to each one.
+
+**Data pipeline**
+![Data pipeline](diagrams/data-pipeline.svg)
+
+**Query flow (planned)**
+![Query flow](diagrams/query-flow.svg)
+
 Each book is stored as **metadata only** (never full text):
 title and author (with romanised aliases), a spoiler-free premise written from source text,
 and taste tags from a fixed bilingual vocabulary: genre, mood, pace, themes, setting, era, tone.
@@ -124,6 +134,7 @@ PROGRESS.md    what's done and what's left
 | [09 Literature review](docs/09-literature-review.md) | Related work and the techniques we adopt |
 | [10 Cleaning spec](docs/10-cleaning-spec.md) | Step-by-step cleaning rules with real examples and checks |
 | [11 Challenges and lessons](docs/11-challenges-and-lessons.md) | Problems found, root causes, fixes and measured impact (interview prep) |
+| [12 UX plan](docs/12-ux-plan.md) | Demo screens, result card, states, feedback, and the design review report |
 | [Report: cleaning S1–S6](docs/reports/cleaning-s1-s6.md) · [validation](docs/reports/validation-s1-s6.md) | Generated rule counts and the 18 hard checks |
 
 ## Ethics and licensing

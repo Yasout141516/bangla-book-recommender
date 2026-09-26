@@ -1,0 +1,740 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "gstack-lite/diagram",
+  "elements": [
+    {
+      "id": "RBG",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 25.0390625,
+      "y": 8,
+      "width": 167.8125,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "RokomariBG<br>127k books",
+        "fontSize": 20,
+        "strokeColor": "#1b4332"
+      },
+      "link": null,
+      "backgroundColor": "#d8f3dc",
+      "fillStyle": "solid",
+      "strokeColor": "#2d6a4f"
+    },
+    {
+      "id": "BB",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 21.1171875,
+      "y": 148,
+      "width": 175.65625,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "BanglaBook<br>158k reviews",
+        "fontSize": 20,
+        "strokeColor": "#1b4332"
+      },
+      "link": null,
+      "backgroundColor": "#d8f3dc",
+      "fillStyle": "solid",
+      "strokeColor": "#2d6a4f"
+    },
+    {
+      "id": "WP",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 21.0625,
+      "y": 288,
+      "width": 175.765625,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "bn Wikipedia<br>342 pages",
+        "fontSize": 20,
+        "strokeColor": "#1b4332"
+      },
+      "link": null,
+      "backgroundColor": "#d8f3dc",
+      "fillStyle": "solid",
+      "strokeColor": "#2d6a4f"
+    },
+    {
+      "id": "WD",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 19.75,
+      "y": 428,
+      "width": 178.390625,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Wikidata<br>3,471 writers",
+        "fontSize": 20,
+        "strokeColor": "#1b4332"
+      },
+      "link": null,
+      "backgroundColor": "#d8f3dc",
+      "fillStyle": "solid",
+      "strokeColor": "#2d6a4f"
+    },
+    {
+      "id": "ST",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 8,
+      "y": 568,
+      "width": 201.890625,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Boighor + Boitoi<br>953 pages",
+        "fontSize": 20,
+        "strokeColor": "#5c4700"
+      },
+      "link": null,
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeColor": "#b08900"
+    },
+    {
+      "id": "RAW",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 374.34375,
+      "y": 274.48261084555793,
+      "width": 159.390625,
+      "height": 117.03478240966797,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "data/raw<br>+ MANIFEST.json",
+        "fontSize": 12,
+        "strokeColor": "#1b4332"
+      },
+      "link": null,
+      "backgroundColor": "#d8f3dc",
+      "fillStyle": "solid",
+      "strokeColor": "#2d6a4f"
+    },
+    {
+      "id": "S16",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 735,
+      "y": 178,
+      "width": 234.046875,
+      "height": 120,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Clean S1-S6<br>dedupe, normalise,<br>titles, summaries",
+        "fontSize": 20,
+        "strokeColor": "#1b4332"
+      },
+      "link": null,
+      "backgroundColor": "#d8f3dc",
+      "fillStyle": "solid",
+      "strokeColor": "#2d6a4f"
+    },
+    {
+      "id": "VAL",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 1195.21875,
+      "y": 200.5,
+      "width": 185.703125,
+      "height": 75,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Validation<br>18 hard checks",
+        "fontSize": 20,
+        "strokeColor": "#1b4332"
+      },
+      "link": null,
+      "backgroundColor": "#d8f3dc",
+      "fillStyle": "solid",
+      "strokeColor": "#2d6a4f"
+    },
+    {
+      "id": "S712",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 1586.578125,
+      "y": 225.5,
+      "width": 224.09375,
+      "height": 120,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Clean S7-S12<br>categories, origin,<br>authors, works",
+        "fontSize": 20,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "PROC",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 1860.671875,
+      "y": 227.2841549337917,
+      "width": 154.28125,
+      "height": 116.43169403076172,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "data/processed<br>works, authors",
+        "fontSize": 12,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "LAB",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 2064.953125,
+      "y": 288,
+      "width": 190.25,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "LLM labelling<br>premise + tags",
+        "fontSize": 20,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "EMB",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 2360.734375,
+      "y": 275.29405660921196,
+      "width": 146.046875,
+      "height": 115.4118881225586,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Embeddings<br>dense + sparse",
+        "fontSize": 12,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "RBG_RAW",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 192.852,
+      "y": 53,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          99.26500000000001,
+          0
+        ],
+        [
+          225.35299999999998,
+          219.341
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "RBG"
+      },
+      "end": {
+        "id": "RAW"
+      }
+    },
+    {
+      "id": "BB_RAW",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 196.773,
+      "y": 193,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          95.34400000000002,
+          0
+        ],
+        [
+          186.66400000000002,
+          85.36399999999998
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "BB"
+      },
+      "end": {
+        "id": "RAW"
+      }
+    },
+    {
+      "id": "WP_RAW",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 196.828,
+      "y": 333,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          95.28900000000002,
+          0
+        ],
+        [
+          173.516,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "WP"
+      },
+      "end": {
+        "id": "RAW"
+      }
+    },
+    {
+      "id": "WD_RAW",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 198.141,
+      "y": 473,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          93.97600000000003,
+          0
+        ],
+        [
+          185.29600000000002,
+          -85.36399999999998
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "WD"
+      },
+      "end": {
+        "id": "RAW"
+      }
+    },
+    {
+      "id": "ST_RAW",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 209.891,
+      "y": 613,
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          82.22600000000003,
+          0
+        ],
+        [
+          208.314,
+          -219.341
+        ]
+      ],
+      "label": {
+        "text": "partial crawl",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "ST"
+      },
+      "end": {
+        "id": "RAW"
+      }
+    },
+    {
+      "id": "RAW_S16",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 533.734,
+      "y": 291.015,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100.63299999999992,
+          -53.014999999999986
+        ],
+        [
+          197.26599999999996,
+          -53.014999999999986
+        ]
+      ],
+      "label": {
+        "text": "RokomariBG only",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "RAW"
+      },
+      "end": {
+        "id": "S16"
+      }
+    },
+    {
+      "id": "S16_VAL",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 969.047,
+      "y": 238,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          113.08600000000001,
+          0
+        ],
+        [
+          222.67200000000003,
+          0.4819999999999993
+        ]
+      ],
+      "label": {
+        "text": "interim parquet",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "S16"
+      },
+      "end": {
+        "id": "VAL"
+      }
+    },
+    {
+      "id": "VAL_S712",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1381.422,
+      "y": 238.5,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          102.32799999999997,
+          -0.5
+        ],
+        [
+          201.25,
+          21.367999999999995
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "VAL"
+      },
+      "end": {
+        "id": "S712"
+      }
+    },
+    {
+      "id": "RAW_S712",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 533.734,
+      "y": 333,
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100.63299999999992,
+          0
+        ],
+        [
+          318.289,
+          0
+        ],
+        [
+          548.399,
+          0
+        ],
+        [
+          754.3359999999999,
+          0
+        ],
+        [
+          950.016,
+          0
+        ],
+        [
+          1048.938,
+          -21.867999999999995
+        ]
+      ],
+      "label": {
+        "text": "Wikidata authors,<br>BanglaBook reviews",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "RAW"
+      },
+      "end": {
+        "id": "S712"
+      }
+    },
+    {
+      "id": "S712_PROC",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1810.672,
+      "y": 285.5,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          46,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "S712"
+      },
+      "end": {
+        "id": "PROC"
+      }
+    },
+    {
+      "id": "PROC_LAB",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 2014.953,
+      "y": 285.5,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          46.2800000000002,
+          8.41500000000002
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "PROC"
+      },
+      "end": {
+        "id": "LAB"
+      }
+    },
+    {
+      "id": "RAW_LAB",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 533.734,
+      "y": 365.041,
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100.63299999999992,
+          40.459
+        ],
+        [
+          318.289,
+          40.459
+        ],
+        [
+          548.399,
+          40.459
+        ],
+        [
+          754.3359999999999,
+          40.459
+        ],
+        [
+          950.016,
+          40.459
+        ],
+        [
+          1164.891,
+          40.459
+        ],
+        [
+          1301.938,
+          40.459
+        ],
+        [
+          1404.0790000000002,
+          40.459
+        ],
+        [
+          1506.219,
+          40.459
+        ],
+        [
+          1548.359,
+          15.02600000000001
+        ]
+      ],
+      "label": {
+        "text": "Wikipedia + store<br>blurbs as sources",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "RAW"
+      },
+      "end": {
+        "id": "LAB"
+      }
+    },
+    {
+      "id": "LAB_EMB",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 2255.203,
+      "y": 333,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          52.766000000000076,
+          0
+        ],
+        [
+          101.53099999999995,
+          0
+        ]
+      ],
+      "label": {
+        "text": "JSONL",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "LAB"
+      },
+      "end": {
+        "id": "EMB"
+      }
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

@@ -1,0 +1,34 @@
+graph LR
+  RBG["RokomariBG<br/>127k books"]
+  BB["BanglaBook<br/>158k reviews"]
+  WP["bn Wikipedia<br/>342 pages"]
+  WD["Wikidata<br/>3,471 writers"]
+  ST["Boighor + Boitoi<br/>953 pages"]
+  RAW[("data/raw<br/>+ MANIFEST.json")]
+  S16["Clean S1-S6<br/>dedupe, normalise,<br/>titles, summaries"]
+  VAL{{"Validation<br/>18 hard checks"}}
+  S712["Clean S7-S12<br/>categories, origin,<br/>authors, works"]
+  PROC[("data/processed<br/>works, authors")]
+  LAB["LLM labelling<br/>premise + tags"]
+  EMB[("Embeddings<br/>dense + sparse")]
+
+  RBG --> RAW
+  BB --> RAW
+  WP --> RAW
+  WD --> RAW
+  ST -. partial crawl .-> RAW
+  RAW -->|RokomariBG only| S16
+  S16 -->|interim parquet| VAL
+  VAL --> S712
+  RAW -. Wikidata authors,<br/>BanglaBook reviews .-> S712
+  S712 --> PROC
+  PROC --> LAB
+  RAW -. Wikipedia + store<br/>blurbs as sources .-> LAB
+  LAB -->|JSONL| EMB
+
+  classDef built fill:#d8f3dc,stroke:#2d6a4f,color:#1b4332
+  classDef partial fill:#fff3bf,stroke:#b08900,color:#5c4700
+  classDef planned fill:#f1f3f5,stroke:#868e96,color:#495057,stroke-dasharray:4 3
+  class RBG,BB,WP,WD,RAW,S16,VAL built
+  class ST partial
+  class S712,PROC,LAB,EMB planned

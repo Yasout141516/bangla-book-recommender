@@ -1,0 +1,858 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "gstack-lite/diagram",
+  "elements": [
+    {
+      "id": "Q",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 8,
+      "y": 88,
+      "width": 222.40625,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Query<br>bn / en / Banglish",
+        "fontSize": 20,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "QU",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 280.40625,
+      "y": 88,
+      "width": 186.953125,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "LLM query<br>understanding",
+        "fontSize": 20,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "OOS",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 661.03125,
+      "y": 8,
+      "width": 207.6875,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Off-topic:<br>friendly redirect",
+        "fontSize": 20,
+        "strokeColor": "#0b3d6e"
+      },
+      "link": null,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "DYM",
+      "type": "diamond",
+      "groupIds": [],
+      "x": 682.5625,
+      "y": 225.1875,
+      "width": 165.625,
+      "height": 165.625,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "'Like X':<br>X found?",
+        "fontSize": 20,
+        "strokeColor": "#0b3d6e"
+      },
+      "link": null,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "PICK",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 1095.890625,
+      "y": 168,
+      "width": 184.28125,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Did-you-mean<br>picker",
+        "fontSize": 20,
+        "strokeColor": "#0b3d6e"
+      },
+      "link": null,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "RET",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 1330.171875,
+      "y": 234.40625,
+      "width": 201.9375,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Hybrid retrieval<br>+ filters",
+        "fontSize": 20,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "WEAK",
+      "type": "diamond",
+      "groupIds": [],
+      "x": 1582.609375,
+      "y": 202.796875,
+      "width": 153.21875,
+      "height": 153.21875,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Strong<br>match?",
+        "fontSize": 20,
+        "strokeColor": "#0b3d6e"
+      },
+      "link": null,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "FALL",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 1814.203125,
+      "y": 120.5,
+      "width": 206.390625,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Honest fallback:<br>loosely related",
+        "fontSize": 20,
+        "strokeColor": "#0b3d6e"
+      },
+      "link": null,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "RR",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 1838.171875,
+      "y": 295.5,
+      "width": 158.453125,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "LLM rerank<br>top 30 to 5",
+        "fontSize": 20,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "UI",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 2227.53125,
+      "y": 155.5,
+      "width": 213.515625,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Mobile web<br>5 cards + reasons",
+        "fontSize": 20,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "ERR",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 2273.6484375,
+      "y": 303,
+      "width": 121.28125,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Error +<br>retry",
+        "fontSize": 20,
+        "strokeColor": "#0b3d6e"
+      },
+      "link": null,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "FB",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 2491.046875,
+      "y": 155.5,
+      "width": 207.109375,
+      "height": 90,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Feedback<br>thumbs + reason",
+        "fontSize": 20,
+        "strokeColor": "#0b3d6e"
+      },
+      "link": null,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "EVAL",
+      "type": "rectangle",
+      "groupIds": [],
+      "x": 2748.15625,
+      "y": 147.81312755671252,
+      "width": 85.078125,
+      "height": 105.37374877929688,
+      "strokeWidth": 2,
+      "label": {
+        "groupIds": [],
+        "text": "Offline<br>eval set",
+        "fontSize": 12,
+        "strokeColor": "#495057"
+      },
+      "link": null,
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "Q_QU",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 230.406,
+      "y": 133,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          46,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "Q"
+      },
+      "end": {
+        "id": "QU"
+      }
+    },
+    {
+      "id": "QU_OOS",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 467.359,
+      "y": 93.706,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          96.83600000000007,
+          -40.706
+        ],
+        [
+          189.67199999999997,
+          -40.706
+        ]
+      ],
+      "label": {
+        "text": "not about books",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "QU"
+      },
+      "end": {
+        "id": "OOS"
+      }
+    },
+    {
+      "id": "QU_RET",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 467.359,
+      "y": 133,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          96.83600000000007,
+          0
+        ],
+        [
+          297.516,
+          0
+        ],
+        [
+          514.9459999999999,
+          0
+        ],
+        [
+          720.672,
+          0
+        ],
+        [
+          837.8130000000001,
+          0
+        ],
+        [
+          922.4550000000002,
+          98.374
+        ]
+      ],
+      "label": {
+        "text": "search text + filters",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "QU"
+      },
+      "end": {
+        "id": "RET"
+      }
+    },
+    {
+      "id": "QU_DYM",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 422.82,
+      "y": 178,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          141.37500000000006,
+          130
+        ],
+        [
+          255.243,
+          130
+        ]
+      ],
+      "label": {
+        "text": "similar to X",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "QU"
+      },
+      "end": {
+        "id": "DYM"
+      }
+    },
+    {
+      "id": "DYM_PICK",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 822.507,
+      "y": 282.819,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          159.798,
+          -69.81900000000002
+        ],
+        [
+          269.3840000000001,
+          -69.81900000000002
+        ]
+      ],
+      "label": {
+        "text": "ambiguous",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "DYM"
+      },
+      "end": {
+        "id": "PICK"
+      }
+    },
+    {
+      "id": "PICK_RET",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1280.172,
+      "y": 213,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          62.067999999999984,
+          19.540999999999997
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "PICK"
+      },
+      "end": {
+        "id": "RET"
+      }
+    },
+    {
+      "id": "DYM_RET",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 847.688,
+      "y": 308,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          134.61699999999996,
+          0
+        ],
+        [
+          340.34299999999996,
+          0
+        ],
+        [
+          457.48400000000004,
+          0
+        ],
+        [
+          478.58299999999997,
+          -4.788999999999987
+        ]
+      ],
+      "label": {
+        "text": "found",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "DYM"
+      },
+      "end": {
+        "id": "RET"
+      }
+    },
+    {
+      "id": "DYM_RET",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 828.629,
+      "y": 327.059,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          153.67599999999993,
+          45.940999999999974
+        ],
+        [
+          359.40199999999993,
+          45.940999999999974
+        ],
+        [
+          476.543,
+          45.940999999999974
+        ],
+        [
+          538.735,
+          -0.26700000000005275
+        ]
+      ],
+      "label": {
+        "text": "not in catalogue:<br>use as description",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "DYM"
+      },
+      "end": {
+        "id": "RET"
+      }
+    },
+    {
+      "id": "RET_WEAK",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1532.109,
+      "y": 279.406,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          46,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "RET"
+      },
+      "end": {
+        "id": "WEAK"
+      }
+    },
+    {
+      "id": "WEAK_RR",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1708.906,
+      "y": 305.828,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          65.86000000000013,
+          34.672000000000025
+        ],
+        [
+          125.26600000000008,
+          34.672000000000025
+        ]
+      ],
+      "label": {
+        "text": "yes",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "WEAK"
+      },
+      "end": {
+        "id": "RR"
+      }
+    },
+    {
+      "id": "WEAK_FALL",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1697.38,
+      "y": 241.458,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          77.38599999999997,
+          -75.958
+        ],
+        [
+          112.82299999999987,
+          -75.958
+        ]
+      ],
+      "label": {
+        "text": "no",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "WEAK"
+      },
+      "end": {
+        "id": "FALL"
+      }
+    },
+    {
+      "id": "FALL_UI",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 2020.594,
+      "y": 165.5,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          103.46900000000005,
+          0
+        ],
+        [
+          202.99199999999973,
+          16.56899999999999
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "FALL"
+      },
+      "end": {
+        "id": "UI"
+      }
+    },
+    {
+      "id": "RR_UI",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1996.625,
+      "y": 306.956,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          127.4380000000001,
+          -53.95600000000002
+        ],
+        [
+          227.0250000000001,
+          -78.82600000000002
+        ]
+      ],
+      "label": {
+        "text": "streamed reasons",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "RR"
+      },
+      "end": {
+        "id": "UI"
+      }
+    },
+    {
+      "id": "RR_ERR",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 1996.625,
+      "y": 343.375,
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          127.4380000000001,
+          4.625
+        ],
+        [
+          273.02300000000014,
+          4.625
+        ]
+      ],
+      "label": {
+        "text": "LLM fails",
+        "fontSize": 20,
+        "groupIds": []
+      },
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "RR"
+      },
+      "end": {
+        "id": "ERR"
+      }
+    },
+    {
+      "id": "UI_FB",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 2441.047,
+      "y": 200.5,
+      "strokeWidth": 2,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          46,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "UI"
+      },
+      "end": {
+        "id": "FB"
+      }
+    },
+    {
+      "id": "FB_EVAL",
+      "type": "arrow",
+      "groupIds": [],
+      "x": 2698.156,
+      "y": 200.5,
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          46,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "start": {
+        "id": "FB"
+      },
+      "end": {
+        "id": "EVAL"
+      }
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

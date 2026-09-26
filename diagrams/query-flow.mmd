@@ -1,0 +1,36 @@
+graph LR
+  Q["Query<br/>bn / en / Banglish"]
+  QU["LLM query<br/>understanding"]
+  OOS["Off-topic:<br/>friendly redirect"]
+  DYM{"'Like X':<br/>X found?"}
+  PICK["Did-you-mean<br/>picker"]
+  RET["Hybrid retrieval<br/>+ filters"]
+  WEAK{"Strong<br/>match?"}
+  FALL["Honest fallback:<br/>loosely related"]
+  RR["LLM rerank<br/>top 30 to 5"]
+  UI["Mobile web<br/>5 cards + reasons"]
+  ERR["Error +<br/>retry"]
+  FB["Feedback<br/>thumbs + reason"]
+  EVAL[("Offline<br/>eval set")]
+
+  Q --> QU
+  QU -->|not about books| OOS
+  QU -->|search text + filters| RET
+  QU -->|similar to X| DYM
+  DYM -->|ambiguous| PICK
+  PICK --> RET
+  DYM -->|found| RET
+  DYM -->|not in catalogue:<br/>use as description| RET
+  RET --> WEAK
+  WEAK -->|yes| RR
+  WEAK -->|no| FALL
+  FALL --> UI
+  RR -->|streamed reasons| UI
+  RR -. LLM fails .-> ERR
+  UI --> FB
+  FB -.-> EVAL
+
+  classDef planned fill:#f1f3f5,stroke:#868e96,color:#495057,stroke-dasharray:4 3
+  classDef state fill:#e7f5ff,stroke:#1971c2,color:#0b3d6e
+  class Q,QU,RET,RR,UI,EVAL planned
+  class OOS,DYM,PICK,WEAK,FALL,ERR,FB state

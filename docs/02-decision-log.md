@@ -134,3 +134,16 @@ To change a decision, add a new entry that supersedes the old one. Don't edit ol
 - **Decision:** Publish the project as a public GitHub repo. `data/` stays git-ignored except `data/raw/MANIFEST.json`.
   Anyone can rebuild the data with the scripts and the links in the manifest.
 - **Why:** Portfolio visibility. Dataset licenses (NC, NC-SA) and store blurbs (copyrighted) don't allow redistribution.
+
+### D-017: Demo UX decisions from a design review
+- **Date:** 2026-09-26
+- **Decision:** 11 UX decisions, each approved individually, recorded in [12 UX plan](12-ux-plan.md):
+  - mobile-first web; first screen = input + 4 example queries
+  - result card: title → reason → tags → premise → source line
+  - progressive loading; honest fallback for weak matches; did-you-mean picker for "similar to X"
+  - LLM error → message + retry
+  - tag chips + more-like-this + toggles for refining
+  - 👍/👎 per card + optional reason
+  - Noto Sans Bengali, mobile-first
+- **Deferred:** accessibility details, type scale, and whether matches stay on screen when the LLM fails.
+- **Why:** the plan had no UI decisions; making them now keeps the retrieval work aimed at what users will see.

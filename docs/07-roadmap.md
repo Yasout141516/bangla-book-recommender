@@ -13,7 +13,9 @@
 - [x] Collect bn Wikipedia articles (342) and Wikidata Bengali writers (3,471)
 - [x] Partial crawls of Boighor (493) and Boitoi (460), then paused (D-014, D-015)
 - [x] Public GitHub repo with code and docs (D-016); detailed checklist in [PROGRESS.md](../PROGRESS.md)
-- [ ] **Cleaning pipeline for RokomariBG** (steps in [08](08-data-pipeline.md)) ← next
+- [x] Cleaning pipeline S1–S6 for RokomariBG ([10](10-cleaning-spec.md), [11](11-challenges-and-lessons.md))
+- [x] UX plan for the demo, from a design review ([12](12-ux-plan.md), D-017)
+- [ ] **Cleaning S7–S12**: category mapping, origin, authors, Wikidata linking, works ← next
 - [ ] Parsers for Boighor, Boitoi and Wikipedia raw data → `data/interim/`
 - [ ] Native reader review of the Bangla tag labels
 
@@ -38,7 +40,7 @@
 - [ ] LLM rerank with an explanation in the user's language
 
 ## Phase 4: Pilot
-- [ ] Simple web UI or Messenger bot
+- [ ] Mobile-first web demo, built to the [UX plan](12-ux-plan.md) (decide the open accessibility items first)
 - [ ] Share with a book community; collect 👍/👎 feedback
 - [ ] Add reader signals (ratings, co-liked books)
 - [ ] Scale the catalogue to 3–5k works
