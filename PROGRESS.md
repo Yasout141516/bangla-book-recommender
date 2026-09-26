@@ -30,19 +30,26 @@ Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
   - [x] S6 classify summaries: flap / blurb / summary / excerpt / toc / preface / author_bio / english / empty
   - [x] 102 unit tests; validation script with 18 hard checks, all passing ([report](docs/reports/validation-s1-s6.md))
   - [x] Problems and fixes written up in [docs/11](docs/11-challenges-and-lessons.md)
-  - Result: **9,497 distinct fiction works** with a usable summary (8,259 blurbs, 2,005 flap texts)
-- [ ] **Category mapping table**: 1,515 Rokomari categories → our genres and format; drop merchandising lists
-- [ ] **Origin**: publisher "(India)" → ISBN prefix → translation category
-- [ ] **Author table**
-  - [ ] clean names: pen-name brackets, honorifics, ZWNJ
-  - [ ] separate editorial boards and publishers from authors
-  - [ ] match to Wikidata (exact matching currently links 489 authors = 15% of book links; improve with normalisation, then fuzzy matching, then an LLM for ambiguous pairs)
-  - [ ] romanised aliases (IndicXlit)
-- [ ] **Merge editions into works** (normalised title + author key, OCLC FRBR-style)
-- [ ] **Parsers** for Wikipedia (plot sections, drop film pages), Boighor and Boitoi pages (blurbs and genre tags) → interim tables
-- [ ] **Link supplements to works** (title + author matching) and attach reviews
-- [ ] Output: `data/processed/works.parquet`, `authors.parquet`, `series.parquet`, `sources.parquet`
-- [ ] Data-quality report for the processed catalogue
+  - Result then: "9,497 fiction works". **Superseded:** that count used substring matching, so "story" matched "History" (docs/11 #18)
+- [x] **S7 category mapping**: `data/mappings/category_map.csv` (1,516 categories, rules + all 189 mapped categories read by hand); format, genre hints, audience, origin/language hints (D-018, D-019)
+- [x] **S8 origin and language**: literary origin, with the author's nationality first (D-021); English-language books identified and excluded
+- [x] **S9 author table**: names parsed (pen names, honorifics, ranks, descriptors, organisations); 16,601 Rokomari ids
+- [x] **S10 Wikidata linking**: 357 ids → 355 people; hand-checked precision 37/40 correct, 0/40 wrong (D-020)
+- [x] **S11 works**: 127,302 editions → 118,175 works; merge only with a known author; volume from title or URL slug (D-022)
+- [x] **S12 catalogue**: **14,024 works** in the catalogue; every excluded work keeps its reasons
+- [x] Validation: 22 hard checks for S7–S12 ([report](docs/reports/validation-s7-s12.md)); 171 unit tests in total
+- [x] Full rebuild from raw data: 7 min 46 s, identical numbers
+- [ ] Parsers for Wikipedia, Boighor and Boitoi pages → attach better premises for matching works (optional)
+
+### Catalogue (2026-09-26)
+| | Works |
+|---|---|
+| In catalogue | **14,024** |
+| Format | novel 6,457 · stories 2,958 · poetry 1,969 · comics 377 · drama 263 · mixed/unknown 2,000 |
+| Origin | Bangladesh 10,491 · translated 1,862 · West Bengal 1,671 (confidence: high 5,262 · medium 5,891 · low 2,871) |
+| Summary source | blurb 11,364 · flap text 2,645 |
+| Main author linked to Wikidata | 3,133 |
+| With at least one review | 6,372 |
 
 ## 🔜 Phase 2: Labelling
 - [ ] Prompt: spoiler-free `premise_bn` / `premise_en` / `hook` from source text only (D-008)
@@ -62,6 +69,9 @@ Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
 - [ ] Simple web demo
 
 ## Known issues and open questions
+- Some summaries start with marketing text ("…ক্যারেকটার কার্ড ফ্রি") or list series titles; not removed by rules.
+- Series issues that differ only by subtitle (রোমাঞ্চ) can still merge into one work.
+- 2,871 catalogue works still have a low-confidence (default) origin.
 - Rules can't tell a narrative opening (the first scene of the book) from flap copy written as a scene. An LLM check on a sample is planned for labelling.
 - Some summaries are study-guide style (character analysis) rather than blurbs; not detected by rules.
 - The West Bengal share is small (~1.2k). Boighor and Boitoi can resume later if needed.

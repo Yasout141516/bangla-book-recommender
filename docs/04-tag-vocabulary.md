@@ -18,6 +18,7 @@ These lists are deliberately small (D-002). Rules:
 | `nonfiction` | প্রবন্ধ / নন-ফিকশন | Non-fiction |
 | `memoir` | স্মৃতিকথা / আত্মজীবনী | Memoir / autobiography |
 | `comics` | কমিকস | Comics / graphic novel |
+| `drama` | নাটক | Drama / play |
 
 ## audience (1)
 | id | bn | en |
@@ -146,3 +147,4 @@ For West Bengal books set after 1947, use `1947_1971`, `post_independence` or `c
 
 ## Changelog
 - **v0.1 (2026-09-26):** first starter set. Bangla labels to be reviewed by a native reader.
+- **v0.2 (2026-09-26):** added format `drama` (D-019). Rokomari has several drama categories and v0.1 had no slot for them.

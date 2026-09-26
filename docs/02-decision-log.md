@@ -147,3 +147,41 @@ To change a decision, add a new entry that supersedes the old one. Don't edit ol
   - Noto Sans Bengali, mobile-first
 - **Deferred:** accessibility details, type scale, and whether matches stay on screen when the LLM fails.
 - **Why:** the plan had no UI decisions; making them now keeps the retrieval work aimed at what users will see.
+
+### D-018: Categories give hints; the LLM gives final genres
+- **Date:** 2026-09-26
+- **Decision:** S7 maps Rokomari categories (via the committed, hand-reviewed `data/mappings/category_map.csv`)
+  to format, audience, origin/language hints and **genre hints**. Final genres and the other taste tags come
+  from LLM labelling.
+- **Why:** Rokomari often combines five genres in one category ("Mystery, Detective, Horror, Thriller and Adventure").
+- Categories that are neither fiction nor non-fiction ("Others") are `unknown`, not `exclude`. A book is fiction if any
+  of its categories maps to fiction.
+
+### D-019: `drama` added to the format vocabulary
+- **Date:** 2026-09-26
+- **Decision:** add `drama` (নাটক) to the formats in [04](04-tag-vocabulary.md).
+- **Why:** Rokomari has several drama categories (836 + 487 + … books), and the v0.1 format list had no slot for them.
+
+### D-020: Wikidata links need evidence beyond the name
+- **Date:** 2026-09-26
+- **Decision:** link a Rokomari author to Wikidata only when all of these hold:
+  - the name key matches exactly one Wikidata person, by label or a non-truncated alias
+  - the author has at least one fiction book
+  - no other Rokomari author has the same key
+  Rokomari IDs are merged only through a shared Wikidata ID.
+- **Why:** the first version was about 70% precise on a hand-checked sample; this one is 37/40 correct and 0/40 wrong (docs/11 #20).
+
+### D-021: Origin is literary origin
+- **Date:** 2026-09-26
+- **Decision:** `origin` describes where the author is from, not where the edition was printed. Order: translation
+  category → main author's Wikidata nationality (Bangladesh/Pakistan → bangladesh, India → west_bengal;
+  British Raj alone gives no signal) → publisher "(India)" → West Bengal category → ISBN prefix → default.
+  English-language books get `english_language` and leave the Bangla catalogue.
+- **Why:** a Dhaka reprint of Bibhutibhushan is a West Bengal book to readers (docs/11 #23).
+
+### D-022: No merge without evidence
+- **Date:** 2026-09-26
+- **Decision:** editions merge into one work only when they share title key, a **known** main author and volume.
+  The volume comes from the title, else from a trailing number in the Rokomari URL slug. Bundles, placeholder titles and
+  author-less editions never merge.
+- **Why:** docs/11 #21–22.

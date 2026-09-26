@@ -156,13 +156,73 @@ data checks, and **reading samples by hand**. The worst bug (reversed vowel sign
 - **Behaviour check:** the pipeline was rerun and its report diffed against the run before the refactor. The only changes
   were intended (+3 Show More count, +516 flap texts from the added `ফ্লাপ` spelling, confirmed by count).
 
+## E. S7–S12: categories, origin, authors, works
+
+### 18. "story" matched inside "History": history books counted as fiction
+- **Found by:** listing categories whose names matched the fiction keywords before writing the S7 rules.
+  "History and Tradition" (1,216 books), "Islamic History" and dozens more were on the list.
+- **Impact:** the earlier headline figures (9,804, then 9,497 "fiction works") included history non-fiction.
+- **Fix:** every keyword matches whole words only, plus a hard validation check that no "History" category is mapped
+  (except "Historical Novel/Story").
+- **Lesson:** a substring match on English words is a bug waiting to happen; check keyword hits by reading them.
+
+### 19. Keyword rules had false positives that only reading caught
+- Reading all 190 mapped categories found 5 wrong ones:
+  - `Artificial Intelligence & Robotics` became spy fiction (via "Intelligence")
+  - `Kindergarten: Play Group` became drama (via "Play")
+  - a mixed "Novel, Poem, Short Story & Drama Collection" got format poetry
+  - "…Translated & English" was flagged as English-language
+  - `Fables` categories were missed
+- Each was fixed in the rule, not patched per category, and each has a regression test.
+
+### 20. Wikidata linking: 70% precision on the first try
+- **Found by:** hand-checking 40 random links. Only about 28 of 40 were clearly correct.
+- **Causes:**
+  1. Wikidata's own aliases include truncated names (`ফয়েজ আহমদ` is an alias of Faiz Ahmad Taiyeb, b. 1982, and collides with the journalist Foyez Ahmad).
+  2. Bracketed nicknames (`(রফিক)`, `(রাসেল)`) linked to unrelated people.
+  3. Common names: textbook authors matched a Wikidata writer with the same name.
+- **Fix:** skip aliases that are truncations of the label; no linking through nicknames; link only authors of fiction books;
+  never link when several Rokomari authors share the name.
+- **Result:** a new random sample of 40 had 37 correct, 3 unverifiable and 0 wrong. Coverage dropped (600 → 357 linked
+  Rokomari authors), but the links that matter survive (Humayun Ahmed, Tagore, Satyajit Ray, Sunil, and pen names such as
+  বনফুল → Balai Chand Mukhopadhyay).
+- **Lesson:** precision beats coverage for links. A wrong link spreads wrong facts (nationality, dates) to every book.
+
+### 21. Over-merging editions into works
+- **Symptom:** the largest "work" had 336 editions. It was titled `Book`, and consisted of unrelated items.
+- **Causes:** placeholder titles, and 46,610 editions with no author link being merged by title alone. That joined
+  different manga volumes (`One Piece` 57, `Case Closed` 72) and a truncated title (`আল`, 73).
+- **Fix:** never merge without an author or with a placeholder title. After the fix, the largest group is
+  *পথের পাঁচালী* (96 real reprints).
+
+### 22. Volumes missing from titles
+- **Symptom:** `বিমল কুমার সমগ্র` (4 editions, 312–1,176 pages) and `নিশুতি` merged separate volumes.
+- **Found by:** comparing page counts inside merged groups, then reading the URL slugs:
+  `bimal-kumar-samagara-2`, `nishuti-3…6`.
+- **Check before using it:** slugs in known-good groups (*পথের পাঁচালী*, *নৌকাডুবি*) never end in a number, so a trailing
+  number is a volume, not a uniqueness suffix. It's used only when the title gives no volume.
+- **Remaining:** issues that differ only by subtitle (`রোমাঞ্চ`: apode / taboo / ishwari) still merge.
+
+### 23. What "origin" means
+- **Symptom:** Bibhutibhushan's *লবটুলিয়ার কাহিনি* was labelled Bangladesh, because a Dhaka publisher reprinted it.
+- **Decision:** origin is **literary origin** (where the author is from), not where this edition was printed. The main
+  author's Wikidata nationality now outranks publisher, category and ISBN evidence.
+- **Subtlety:** pre-1947 authors are only "British Raj" in Wikidata (Tagore, Mir Mosharraf Hossain), which says nothing
+  about today's border, so that gives no signal and the book-level evidence decides.
+- Also: English-language Indian editions (*Salem's Lot* from an Indian publisher) were labelled West Bengal; English books
+  now get `english_language` and are excluded from the Bangla catalogue.
+
+### 24. Performance: a Python loop over 116k groups
+- The first S11 version sorted each work group separately and didn't finish in 10 minutes. The vectorised version
+  (sort once, `drop_duplicates`, `groupby` aggregations) runs in about 80 seconds with the same logic.
+
 ## How validation works
-1. **Unit tests** (`tests/test_text.py`, 102 tests): real messy values from the data, plus a regression test for every bug above.
+1. **Unit tests** (171 tests in `tests/`): real messy values from the data, plus a regression test for every bug above.
 2. **Validation script** (`python -m scripts.clean.validate_s1_s6` → [report](reports/validation-s1-s6.md)): hard invariants on every row.
    - Examples: IDs unique; the cleaned summary is a substring of the raw summary, so nothing is invented;
      no reversed vowel signs; normalising twice changes nothing; every ISBN passes its checksum;
      no consonant or conjunct is lost except reviewed patterns.
-   - 18 hard checks. The script exits with an error if any fails. The two word-level audits use a 20k-summary sample; the others check every row.
+   - 18 hard checks for S1–S6 and 22 for S7–S12 (`validate_s7_s12`). Each script exits with an error if any fails. The two word-level audits use a 20k-summary sample; the others check every row.
 3. **Reading samples** of every class after each change. This caught #9, #12 and #13.
 
 ## Interview talking points

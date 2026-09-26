@@ -7,7 +7,25 @@ A detailed specification of the cleaning pipeline. Each step lists **what** it d
 **Implementation status (2026-09-26):** S1–S6 are implemented in `scripts/clean/` and validated
 ([report](reports/validation-s1-s6.md)). While building them, S2 gained steps this spec didn't foresee:
 legacy-encoding repairs (reversed vowel signs, ত্ত→তু, স্হ→স্থ), HTML residue removal, and disabling one harmful
-library step. See [11 Challenges and lessons](11-challenges-and-lessons.md). S7–S12 are not built yet.
+library step. See [11 Challenges and lessons](11-challenges-and-lessons.md).
+
+**S7–S12 are implemented too** ([validation](reports/validation-s7-s12.md)). Differences from the plan below, each in the
+decision log:
+- S7 gives **genre hints**, not final genres (D-018)
+- `drama` was added as a format (D-019)
+- Wikidata linking uses evidence rules, and the fuzzy-matching and LLM steps weren't needed yet (D-020)
+- origin means literary origin, with the author's nationality first (D-021)
+- editions merge only with a known author, with the URL slug as a volume source (D-022)
+
+**Run order:**
+```
+python -m scripts.clean.rokomari_books      # S1–S6  → data/interim/rokomari_books.parquet
+python -m scripts.clean.build_category_map  # S7 map → data/mappings/category_map.csv (committed)
+python -m scripts.clean.categories_origin   # S7–S8  → data/interim/rokomari_books_s8.parquet
+python -m scripts.clean.authors             # S9–S10 → data/interim/authors.parquet
+python -m scripts.clean.works               # S11–S12 → data/processed/{works,editions,authors}.parquet
+python -m scripts.clean.validate_s1_s6 && python -m scripts.clean.validate_s7_s12
+```
 
 Principles:
 - Raw data is never modified. Every step reads the previous stage and writes a new one.

@@ -1,0 +1,1517 @@
+category_id,category_name,books,action,rule,format,genre_hints,audience,origin_hint,language_hint,religious,is_collection
+32,"Self-Help, Motivational and Meditation",1826,exclude,nonfiction,,,,,,False,False
+1,Book,1608,ignore,generic,,,,,,False,False
+31,"Mathematics, Science & Technology",1602,exclude,nonfiction,,,,,,False,False
+30,Religious Books,1549,exclude,nonfiction,,,,,,True,False
+81,Islamic Books,1526,exclude,nonfiction,,,,,,True,False
+403,Foreign Language Books,1490,ignore,generic,,,,,en,False,False
+35,Translated Books,1455,ignore,generic,,,,translated,,False,False
+371,Sirate Rasul S.A.W,1431,exclude,nonfiction,,,,,,False,False
+407,"Rhymes, Poems and Recitation",1409,map,fiction,poetry,,,,,False,False
+10,"Business, Investing & Economics",1400,exclude,nonfiction,,,,,,False,False
+9,"Biographies, Memories & Interviews",1283,exclude,nonfiction,,,,,,False,False
+363,Story,1261,map,fiction,short_story_collection,,,,,False,False
+90,Engineering,1250,exclude,academic,,,,,,False,False
+2389,Seerat Granthamela 2025 🕌📚,1226,ignore,promotion,,,,,,False,False
+19,History and Tradition,1216,exclude,nonfiction,,,,,,False,False
+40,Amar Ekushe Boimela,1192,ignore,promotion,,,,,,False,False
+14,"Computer, Internet, Freelancing and Outsourcing",1180,exclude,nonfiction,,,,,,False,False
+1983,July Triumph!! 📚,1170,ignore,promotion,,,,,,False,False
+91,Medical,1162,exclude,academic,,,,,,False,False
+364,Novel,1120,map,fiction,novel,,,,,False,False
+408,"Mystery, Detective, Horror, Thriller and Adventure",1117,map,fiction,,detective|thriller|horror|adventure,,,,False,False
+957,In Stock Foreign Books,1112,ignore,promotion,,,,,,False,False
+410,Science Fiction,1092,map,fiction,,sci_fi,,,,False,False
+36,Travel,1084,exclude,nonfiction,,,,,,False,False
+7905,Boimela 2025: Religious Books,1059,ignore,promotion,,,,,,True,False
+386,Islamic Practices and Guides,1030,exclude,nonfiction,,,,,,True,False
+8,Bangladesh,1020,ignore,generic,,,,,,False,False
+399,Muslim Personalities,1014,unknown,unmatched,,,,,,False,False
+86,Quran and Tafseer,1008,exclude,nonfiction,,,,,,False,False
+11,Children & Teens,1006,ignore,generic,,,,,,False,False
+1084,"Islamic Research, Criticism and Article",984,exclude,nonfiction,,,,,,True,False
+42,Articles,982,exclude,nonfiction,,,,,,False,False
+12,Collections & Box Sets,952,ignore,promotion,,,,,,False,True
+21,"Professional, Journal & Reference",950,exclude,nonfiction,,,,,,False,False
+120,Computer Science & Engineering,935,exclude,academic,,,,,,False,False
+404,Politics,932,exclude,nonfiction,,,,,,False,False
+13,Comics & Graphic Novels,927,map,fiction,comics,,,,,False,False
+1085,Translated Islamic Books,904,exclude,nonfiction,,,,translated,,True,False
+20,Humor & Entertainment,901,map,fiction,,humor_satire,,,,False,False
+904,Article about Bangladesh,895,exclude,nonfiction,,,,,,False,False
+29,Philosophy and Philosopher,892,exclude,nonfiction,,,,,,False,False
+87,Hadith & Sunnah,884,exclude,nonfiction,,,,,,False,False
+26,"Music, Films & Entertainment",875,exclude,nonfiction,,,,,,False,False
+413,University,869,exclude,academic,,,,,,False,False
+24,Liberation War 1971,865,unknown,unmatched,,,,,,False,False
+395,Islamic Books for Children and Teens,859,exclude,nonfiction,,,,,,True,False
+405,"Society, Civilization and Culture",855,exclude,nonfiction,,,,,,False,False
+121,Electrical & Electronic Engineering,839,exclude,academic,,,,,,False,False
+368,About Quran,839,exclude,nonfiction,,,,,,False,False
+677,Contemporary Novel,836,map,fiction,novel,,,,,False,False
+414,Books of Drama,836,map,fiction,drama,,,,,False,False
+2005,West Bengal Books: Collection,833,ignore,generic,,,,west_bengal,,False,True
+41,Law and Justice,830,exclude,nonfiction,,,,,,False,False
+988,Agricultural University,822,exclude,academic,,,,,,False,False
+79,Magazine,821,exclude,nonfiction,,,,,,False,False
+1080,Islam and Women,817,unknown,unmatched,,,,,,False,False
+18,Health and Fitness,816,exclude,nonfiction,,,,,,False,False
+978,Public and Private University,809,exclude,academic,,,,,,False,False
+2238,Madrasa,808,exclude,academic,,,,,,False,False
+889,Poem- Bangla,806,map,fiction,poetry,,,,,False,False
+387,Islamic Rules and Regulation and Provisions,800,exclude,nonfiction,,,,,,True,False
+389,"Daoyat, Tabligue, Lecture & Speeches",793,unknown,unmatched,,,,,,False,False
+680,Novel: Romance,787,map,fiction,novel,romance,,,,False,False
+372,"Prophets-Messengers, Sahaba, Tabei & Oli-Awliya",781,unknown,unmatched,,,,,,False,False
+1079,"Faith, Believe and Tawbah",767,unknown,unmatched,,,,,,False,False
+558,Computer Programming,760,exclude,nonfiction,,,,,,False,False
+2396,Romantic Poem,755,map,fiction,poetry,romance,,,,False,False
+923,University Admission Preparation,745,exclude,academic,,,,,,False,False
+1338,Pre Primary-Kindergarten,745,unknown,unmatched,,,,,,False,False
+393,Islamic History and Tradition,744,exclude,nonfiction,,,,,,True,False
+123,Mechanical Engineering,740,exclude,academic,,,,,,False,False
+182,Others Medical Book,729,exclude,academic,,,,,,False,False
+396,Islamic Literature,720,exclude,nonfiction,,,,,,True,False
+134,Others Engineering Book,719,exclude,academic,,,,,,False,False
+620,Family and Parenting,714,exclude,nonfiction,,,,,,False,False
+34,Sports & Games,710,unknown,unmatched,,,,,,False,False
+151,Medicine,707,exclude,academic,,,,,,False,False
+6362,Foreign Language Books: Engineering,706,exclude,academic,,,,,en,False,False
+1355,National University,699,exclude,academic,,,,,,False,False
+402,Various Islamic Books,696,exclude,nonfiction,,,,,,True,False
+28,Others,696,unknown,unmatched,,,,,,False,False
+7,"Drawing, Painting, Design and Photography",695,unknown,unmatched,,,,,,False,False
+585,Islamic Personalities,686,exclude,nonfiction,,,,,,True,False
+2652,Islamic Book: Self-development,686,exclude,nonfiction,,,,,,True,False
+6,Agriculture,683,exclude,nonfiction,,,,,,False,False
+2373,Islamic book: Self-development,676,exclude,nonfiction,,,,,,True,False
+435,Translated Books: Self-Development and Meditation,672,unknown,unmatched,,,,translated,,False,False
+438,Translated Religious Books: Islam,670,exclude,nonfiction,,,,translated,,True,False
+1512,West Bengal Books: Story,667,map,fiction,short_story_collection,,,west_bengal,,False,False
+918,Admission Test Preparation,666,exclude,academic,,,,,,False,False
+2003,"West Bengal Books: Mystery, Detective, Horror, Thriller and Adventure",662,map,fiction,,detective|thriller|horror|adventure,,west_bengal,,False,False
+437,Translated Books: Religious Books,651,exclude,nonfiction,,,,translated,,True,False
+2740,Alia Madrasa,643,exclude,academic,,,,,,False,False
+1209,Children and Teens: Comic and Graphic Story,642,map,fiction,comics,,children,,,False,False
+2409,Career Development,642,unknown,unmatched,,,,,,False,False
+1795,Translated Books: Self-Development and Meditation,638,unknown,unmatched,,,,translated,,False,False
+390,Ideal Lifestyle for Family and Personal,631,unknown,unmatched,,,,,,False,False
+914,Science Fiction,630,map,fiction,,sci_fi,,,,False,False
+679,Science Fiction Novel,614,map,fiction,novel,sci_fi,,,,False,False
+1176,When 8-12: Religious Books,614,exclude,nonfiction,,,,,,True,False
+7888,Book Fair 2025,612,ignore,promotion,,,,,,False,False
+1037,Islamic History,601,exclude,nonfiction,,,,,,True,False
+2008,West Bengal Books: Others,598,unknown,unmatched,,,,west_bengal,,False,False
+888,Poems,598,map,fiction,poetry,,,,,False,False
+678,Classic Novel,597,map,fiction,novel,,,,,False,False
+1204,"When 12-17: Mathematics, Science and Technology",595,exclude,nonfiction,,,,,,False,False
+1196,"When 12-17: Mystery, Detective, Thriller and Adventure",595,map,fiction,,detective|thriller|adventure,teen,,,False,False
+910,"Children and Teens: Mystery, Detective, Horror, Thriller and Adventure",593,map,fiction,,detective|thriller|horror|adventure,children,,,False,False
+934,Others Job Preparation,592,exclude,academic,,,,,,False,False
+27,Nature & Outdoors,584,unknown,unmatched,,,,,,False,False
+1221,"Children and Teens: Mathematics, Science and Technology",584,exclude,nonfiction,,,,,,False,False
+654,Humor & Entertainment,577,map,fiction,,humor_satire,,,,False,False
+409,Animals and Animal Kingdom,576,unknown,unmatched,,,,,,False,False
+122,Civil Engineering,571,exclude,academic,,,,,,False,False
+1160,When 4-8: Comic and Graphic Story,571,map,fiction,comics,,children,,,False,False
+912,Thriller,569,map,fiction,,thriller,,,,False,False
+400,"Dua, Dorud and Zikr",568,unknown,unmatched,,,,,,False,False
+683,Novel: Thriller & Adventure,565,map,fiction,novel,thriller|adventure,,,,False,False
+406,West Bengal Books - পশ্চিমবঙ্গ এর বই | Rokomari.com,562,unknown,unmatched,,,,west_bengal,,False,False
+903,Article about Religion and religious persons,561,exclude,nonfiction,,,,,,True,False
+2002,West Bengal Books: Novel,559,map,fiction,novel,,,west_bengal,,False,False
+731,English & Translated Books on Business & Economy,556,exclude,nonfiction,,,,translated,,False,False
+660,Countries and Travel,554,exclude,nonfiction,,,,,,False,False
+15,"Cooking, Food and Nutrition",554,exclude,nonfiction,,,,,,False,False
+392,Spirituality and Sufism,551,unknown,unmatched,,,,,,False,False
+1083,About Women,550,unknown,unmatched,,,,,,False,False
+1957,Comic Books,543,map,fiction,comics,,,,,False,False
+373,Salah,543,unknown,unmatched,,,,,,False,False
+415,Translated Books: Novels,539,map,fiction,novel,,,translated,,False,False
+1354,Polytechnic or Technical,535,unknown,unmatched,,,,,,False,False
+416,"Translated: Mystery, Detective, Horror, Thriller, Myth and Adventure",533,map,fiction,,detective|thriller|horror|adventure|mythology,,translated,,False,False
+176,Diseases and Diagnosis,532,unknown,unmatched,,,,,,False,False
+2413,Self-development and Motivation,530,unknown,unmatched,,,,,,False,False
+913,"Mystery, Detective, Horror, Thriller, Myth and Adventure: Translated & English",529,map,fiction,,detective|thriller|horror|adventure|mythology,,translated,,False,False
+1261,Children and Teens: Famous Persons and Biographies,520,exclude,nonfiction,,,,,,False,False
+2320,Honors,518,exclude,academic,,,,,,False,False
+1321,Literature Collection,516,unknown,unmatched,,,,,,False,True
+2561,Translate & Tafseer,516,unknown,unmatched,,,,,,False,False
+1546,Novel: West Bengal,516,map,fiction,novel,,,west_bengal,,False,False
+692,Story: Children and Teens,515,map,fiction,short_story_collection,,children,,,False,False
+919,Job Entrance Exam Preparation,515,exclude,academic,,,,,,False,False
+1175,When 8-12: Comic and Graphic Story,512,map,fiction,comics,,children,,,False,False
+1179,"When 8-12: Mystery, Detective, Thriller and Adventure",511,map,fiction,,detective|thriller|adventure,children,,,False,False
+1187,"When 8-12: Mathematics, Science and Technology",508,exclude,nonfiction,,,,,,False,False
+1192,When 12-17: Biographies,507,exclude,nonfiction,,,,,,False,False
+686,Translated Novel,502,map,fiction,novel,,,translated,,False,False
+928,BCS,501,exclude,academic,,,,,,False,False
+682,Novel: Children and Teens,501,map,fiction,novel,,children,,,False,False
+1195,When 12-17: Science Fiction,499,map,fiction,,sci_fi,teen,,,False,False
+150,Nursing,494,exclude,academic,,,,,,False,False
+632,"Research, Article and Statistics on Bangladesh",491,exclude,nonfiction,,,,,,False,False
+2553,English Grammar and Language Learning,491,exclude,nonfiction,,,,,en,False,False
+1161,When 4-8: Religious Books,490,exclude,nonfiction,,,,,,True,False
+380,"Death, Afterlife & Heaven-Hell",488,unknown,unmatched,,,,,,False,False
+916,Drama/ Play,487,map,fiction,drama,,,,,False,False
+168,Surgery,485,unknown,unmatched,,,,,,False,False
+2007,West Bengal Books: Children & Teens,479,unknown,unmatched,,,,west_bengal,,False,False
+445,Translated Books: Children & Teens,479,unknown,unmatched,,,,translated,,False,False
+1242,When 8-12: Story,476,map,fiction,short_story_collection,,children,,,False,False
+911,Horror and Supernatural,472,map,fiction,,horror|supernatural,,,,False,False
+929,BCS: Preliminary,471,exclude,academic,,,,,,False,False
+544,Mathematics,469,exclude,nonfiction,,,,,,False,False
+950,Reference Book,467,exclude,nonfiction,,,,,,False,False
+426,"Translated Books: Biographies, Memories and Interviews",467,exclude,nonfiction,,,,translated,,False,False
+695,Islamic Story,465,map,fiction,short_story_collection,,,,,True,False
+909,Mystery and Detective,465,map,fiction,,detective,,,,False,False
+1174,When 8-12: Biography,462,exclude,nonfiction,,,,,,False,False
+546,Science & Math Books for Children,462,exclude,nonfiction,,,,,,False,False
+381,Arabic Learning,459,unknown,unmatched,,,,,,False,False
+1903,Foreign Language Books: Religious Books,458,exclude,nonfiction,,,,,en,True,False
+22,"Media, Journalism & Reporting",456,unknown,unmatched,,,,,,False,False
+1387,When 12-17: Comic and Graphic Story,456,map,fiction,comics,,teen,,,False,False
+578,"Musician, Artist and Literary Person",455,unknown,unmatched,,,,,,False,False
+1280,Adventure,450,map,fiction,,adventure,,,,False,False
+1194,When 12-17: Story,444,map,fiction,short_story_collection,,teen,,,False,False
+2188,Foreign Language Books: Self-help and meditation,442,exclude,nonfiction,,,,,en,False,False
+687,Contemporary Story,437,map,fiction,short_story_collection,,,,,False,False
+1110,Religious Books Collection,430,exclude,nonfiction,,,,,,True,True
+1547,Story: West Bengal,428,map,fiction,short_story_collection,,,west_bengal,,False,False
+718,Story Compilation,415,map,fiction,short_story_collection,,,,,False,True
+969,"Foreign Language Books: Mathematics, Science & Technology",414,exclude,nonfiction,,,,,en,False,False
+379,Arabic & Urdu Books,408,unknown,unmatched,,,,,,False,False
+1344,Class 9 and 10(SSC): Science Department,407,exclude,academic,,,,,,False,False
+1260,When 12-17: Novel,406,map,fiction,novel,,teen,,,False,False
+716,Novel Compilation,404,map,fiction,novel,,,,,False,True
+902,Article about Literary and Literature,402,exclude,nonfiction,,,,,,False,False
+1455,Horror and Supernatural Story,399,map,fiction,short_story_collection,horror|supernatural,,,,False,False
+688,Classic Story,393,map,fiction,short_story_collection,,,,,False,False
+1372,Delightful Literature,390,unknown,unmatched,,,,,,False,False
+139,Dental,386,unknown,unmatched,,,,,,False,False
+1425,Novel: Horror and Supernatural,379,map,fiction,novel,horror|supernatural,,,,False,False
+1453,Telecommunication,374,unknown,unmatched,,,,,,False,False
+1081,Ideal Women Biographies,372,exclude,nonfiction,,,,,,False,False
+2006,West Bengal Books: Articles,372,exclude,nonfiction,,,,west_bengal,,False,False
+976,"Foreign Language Books: Business, Investment and Economics",367,exclude,nonfiction,,,,,en,False,False
+2401,"West Bengal Books: Politics, History and Tradition",367,exclude,nonfiction,,,,west_bengal,,False,False
+675,Dictionary,367,exclude,nonfiction,,,,,,False,False
+418,Translated Books: Story,366,map,fiction,short_story_collection,,,translated,,False,False
+509,Political Research and Article,365,exclude,nonfiction,,,,,,False,False
+1193,When 12-17: Religious Books,361,exclude,nonfiction,,,,,,True,False
+1386,Children and Teens Compilation,358,unknown,unmatched,,,,,,False,True
+1210,Children and Teens: Reference and Self-help book,356,exclude,nonfiction,,,,,,False,False
+696,Translated Story,354,map,fiction,short_story_collection,,,translated,,False,False
+895,Article about Politics and Politicians,350,exclude,nonfiction,,,,,,False,False
+1173,When 8-12: Fables,350,map,fiction,short_story_collection,,children,,,False,False
+2406,Classic Poetry,350,map,fiction,poetry,,,,,False,False
+1073,History and Tradition: Research and Article,346,exclude,nonfiction,,,,,,False,False
+723,Economics,345,exclude,nonfiction,,,,,,False,False
+1162,When 4-8: Story,344,map,fiction,short_story_collection,,children,,,False,False
+2764,Diploma in Engineering,340,exclude,academic,,,,,,False,False
+684,Historical Novel,340,map,fiction,novel,historical,,,,False,False
+571,Networking,340,unknown,unmatched,,,,,,False,False
+725,"Branding, Marketing and Selling",337,unknown,unmatched,,,,,,False,False
+1302,Children and Teens Collection,337,unknown,unmatched,,,,,,False,True
+579,Politicians,336,unknown,unmatched,,,,,,False,False
+623,Health-Fitness and Prescriptions,335,exclude,nonfiction,,,,,,False,False
+388,About Islam,332,unknown,unmatched,,,,,,False,False
+908,Others: Articles,330,exclude,nonfiction,,,,,,False,False
+581,Historically Renowned Persons,320,unknown,unmatched,,,,,,False,False
+2499,Others Books,319,unknown,unmatched,,,,,,False,False
+547,Space Science and Astronomy,319,exclude,nonfiction,,,,,,False,False
+391,Islamic Ideal,318,exclude,nonfiction,,,,,,True,False
+545,Science and Technology,316,exclude,nonfiction,,,,,,False,False
+401,Islamic Day and Happenings,311,exclude,nonfiction,,,,,,True,False
+1307,Biography Collection,310,exclude,nonfiction,,,,,,False,True
+138,Cardiology,309,unknown,unmatched,,,,,,False,False
+887,Rhymes,309,map,fiction,poetry,,,,,False,False
+597,Autobiography,309,unknown,unmatched,,,,,,False,False
+1159,When 4-8: Fables,308,map,fiction,short_story_collection,,children,,,False,False
+1139,About Liberation War,308,unknown,unmatched,,,,,,False,False
+681,Novel: Political and Liberation war,307,map,fiction,novel,liberation_war|social,,,,False,False
+155,Obstetrics & Gynecology,307,unknown,unmatched,,,,,,False,False
+1243,When 8-12: Novel,307,map,fiction,novel,,children,,,False,False
+1153,When 0-4: Primary Learning,300,unknown,unmatched,,,,,,False,False
+719,Poem Compilation,298,map,fiction,poetry,,,,,False,True
+374,Ramadan,297,unknown,unmatched,,,,,,False,False
+156,Oncology,295,unknown,unmatched,,,,,,False,False
+1493,Diary & Letter Collection,293,unknown,unmatched,,,,,,False,True
+1065,History of Liberation War: About '71,292,exclude,nonfiction,,,,,,False,False
+2632,Parenting,291,exclude,nonfiction,,,,,,False,False
+1144,Novel on Liberation War,291,map,fiction,novel,liberation_war,,,,False,False
+893,Others book on law,289,exclude,nonfiction,,,,,,False,False
+7333,Foreign Language Books: Islamic Books,289,exclude,nonfiction,,,,,en,True,False
+1351,মানবিক প্রথম বর্ষ | Rokomari.com,287,unknown,unmatched,,,,,,False,False
+2316,"West Bengal Books: Biographies, letters, Diaries, Memories",285,exclude,nonfiction,,,,west_bengal,,False,False
+3455,মানবিক দ্বিতীয় বর্ষ | Rokomari.com,285,unknown,unmatched,,,,,,False,False
+1165,When 4-8: learning,283,unknown,unmatched,,,,,,False,False
+136,Anatomy,283,unknown,unmatched,,,,,,False,False
+158,Orthopedics,283,unknown,unmatched,,,,,,False,False
+172,Homeopathic,281,unknown,unmatched,,,,,,False,False
+7313,West Bengal Books: Mystery & Detective,280,map,fiction,,detective,,west_bengal,,False,False
+370,Discussion about Hadith,279,exclude,nonfiction,,,,,,False,False
+1169,"When 4-8: Mathematics, Science and Technology",279,exclude,nonfiction,,,,,,False,False
+1244,When 4-8: Story,275,map,fiction,short_story_collection,,children,,,False,False
+967,Foreign Language Books: Novel,273,map,fiction,novel,,,,en,False,False
+423,Translated Books: History and Tradition,269,exclude,nonfiction,,,,translated,,False,False
+1298,Article: Column,268,exclude,nonfiction,,,,,,False,False
+2004,West Bengal Books: Poem and Rhyme,268,map,fiction,poetry,,,west_bengal,,False,False
+2737,Ideal Lifestyle for Personal,267,unknown,unmatched,,,,,,False,False
+615,Spirituality and Sufism,264,unknown,unmatched,,,,,,False,False
+891,Translated Poem,263,map,fiction,poetry,,,translated,,False,False
+140,Dermatology,262,unknown,unmatched,,,,,,False,False
+901,Article: Rabindranath,262,exclude,nonfiction,,,,,,False,False
+383,Islamic Financial and Business,260,exclude,nonfiction,,,,,,True,False
+1554,Humor Story,258,map,fiction,short_story_collection,humor_satire,,,,False,False
+1378,When 8-12: Horror,254,map,fiction,,horror,children,,,False,False
+162,Pharmacology,251,unknown,unmatched,,,,,,False,False
+38,Translated Books: Poetry,251,map,fiction,poetry,,,translated,,False,False
+2402,"West Bengal Books: Music, Films and Photography",250,exclude,nonfiction,,,,west_bengal,,False,False
+563,Web Design and Development,250,unknown,unmatched,,,,,,False,False
+376,Hajj-Omra & Qurbani,248,unknown,unmatched,,,,,,False,False
+1904,Foreign Language Books: Children & Teens non-fiction Books,247,exclude,nonfiction,,,,,en,False,False
+1089,Islam & Science,244,exclude,nonfiction,,,,,,False,False
+1278,"Mystery, Detective, Horror, Thriller and Adventure Collection & Box Sets",241,ignore,promotion,,,,,,False,True
+582,Scientists,239,unknown,unmatched,,,,,,False,False
+2655,Class 9 and 10(SSC): Common Subject,239,exclude,academic,,,,,,False,False
+161,Pathology,238,unknown,unmatched,,,,,,False,False
+2317,HSC 1st Year: Compulsory Subject,238,exclude,academic,,,,,,False,False
+548,Scientist and Mathematician,237,unknown,unmatched,,,,,,False,False
+411,"Exams Preparation Guide Books - ভর্তি, নিয়োগ ও প্রস্তুতি পরীক্ষার বই | Rokomari.com",236,exclude,academic,,,,,,False,False
+1256,Biography & Memory: Others,235,exclude,nonfiction,,,,,,False,False
+1247,When 4-8: Bangla Rhymes,233,map,fiction,poetry,,children,,,False,False
+7370,West Bengal Books: Contemporary Story,233,map,fiction,short_story_collection,,,west_bengal,,False,False
+2010,West Bengal Books: Comics,233,map,fiction,comics,,,west_bengal,,False,False
+119,Architecture,232,unknown,unmatched,,,,,,False,False
+1347,Class 9 and 10(SSC): Arts Department,231,exclude,academic,,,,,,False,False
+552,Physics,230,unknown,unmatched,,,,,,False,False
+1183,When 8-12: Reference and Self-help Book,230,exclude,nonfiction,,,,,,False,False
+378,"Islamic Region, Regime and Politics",230,exclude,nonfiction,,,,,,True,False
+164,Garments & Textile Engineering,230,exclude,academic,,,,,,False,False
+924,Science Department Admission,229,exclude,academic,,,,,,False,False
+163,Physiology,229,unknown,unmatched,,,,,,False,False
+128,Chemical Engineering,228,exclude,academic,,,,,,False,False
+653,Jokes,228,map,fiction,,humor_satire,,,,False,False
+2738,Ideal Lifestyle for Family,228,unknown,unmatched,,,,,,False,False
+933,Teacher Entrance Preparation,227,unknown,unmatched,,,,,,False,False
+7226,International Kolkata Book Fair,226,ignore,promotion,,,,,,False,False
+2781,Dakhil: Class Nine-Ten,225,exclude,academic,,,,,,False,False
+8212,Hajj,225,unknown,unmatched,,,,,,False,False
+2330,West Bengal books: Travel and Immigration,224,exclude,nonfiction,,,,west_bengal,,False,False
+385,Islamic Philosophy,224,exclude,nonfiction,,,,,,True,False
+720,Articles & Research Collection,221,exclude,nonfiction,,,,,,False,True
+419,Translated Books: Articles,221,exclude,nonfiction,,,,translated,,False,False
+412,Academic Books | Rokomari.com,220,unknown,unmatched,,,,,,False,False
+966,Foreign Language Books: Childrens Fiction Books,220,map,fiction,,,children,,en,False,False
+1145,Story on Liberation War,218,map,fiction,short_story_collection,liberation_war,,,,False,False
+727,Management and Leadership,217,unknown,unmatched,,,,,,False,False
+382,"Islamic Law, Fatwa and Fiqh",216,exclude,nonfiction,,,,,,True,False
+2552,Bangla Grammar and Language,216,exclude,nonfiction,,,,,,False,False
+691,Liberation War 1971 and Political Story,216,map,fiction,short_story_collection,liberation_war|social,,,,False,False
+126,Industrial & Production Engineering,216,exclude,academic,,,,,,False,False
+894,"Article about Society, Civilization and Culture",216,exclude,nonfiction,,,,,,False,False
+82,Hinduism Books,214,unknown,unmatched,,,,,,False,False
+1348,Class 9 and 10(SSC): Business Studies Department,213,exclude,academic,,,,,,False,False
+7004,Boimela 2024: Bangladesh and Liberation war,212,ignore,promotion,,,,,,False,False
+972,"Foreign Language Books : Biographies, Memories & Interviews",212,exclude,nonfiction,,,,,en,False,False
+2412,Entrepreneur,211,unknown,unmatched,,,,,,False,False
+7764,When 8-12: Sirate Rasul S.A.W,209,exclude,nonfiction,,,,,,False,False
+658,Travelling India,208,unknown,unmatched,,,,,,False,False
+129,Materials & Metallurgical Engineering,208,exclude,academic,,,,,,False,False
+1350,বিজ্ঞান প্রথম বর্ষ | Rokomari.com,206,unknown,unmatched,,,,,,False,False
+1225,Children and Teens: Language movement and Liberation War,204,exclude,nonfiction,,,,,,False,False
+689,Science Fiction Story,203,map,fiction,short_story_collection,sci_fi,,,,False,False
+157,Ophthalmology,201,unknown,unmatched,,,,,,False,False
+1492,Speech Compilation,200,unknown,unmatched,,,,,,False,True
+152,Microbiology,200,unknown,unmatched,,,,,,False,False
+2782,Alim,198,unknown,unmatched,,,,,,False,False
+1336,Articles on Recent Issues,197,exclude,nonfiction,,,,,,False,False
+555,"Article, Research, Journal and Reference Books on Science & Math",196,exclude,nonfiction,,,,,,False,False
+2390,West Bengal Books: Religious Book,195,exclude,nonfiction,,,,west_bengal,,True,False
+735,Economy of Bangladesh,194,unknown,unmatched,,,,,,False,False
+153,Neurology,194,unknown,unmatched,,,,,,False,False
+7314,West Bengal Books: Horror & Supernatural,194,map,fiction,,horror|supernatural,,west_bengal,,False,False
+3456,ব্যবসায় শিক্ষা দ্বিতীয় বর্ষ | Rokomari.com,194,unknown,unmatched,,,,,,False,False
+1454,Mystery and Detective Story,193,map,fiction,short_story_collection,detective,,,,False,False
+917,Translated Books of Drama,193,map,fiction,drama,,,translated,,False,False
+3454,বিজ্ঞান দ্বিতীয় বর্ষ | Rokomari.com,191,unknown,unmatched,,,,,,False,False
+907,Article about Education & Educationist,190,exclude,nonfiction,,,,,,False,False
+897,Article about Philosophy and Philosophers,190,exclude,nonfiction,,,,,,False,False
+2325,SSC and Equivalent: Suggestion & Testpapers,190,exclude,academic,,,,,,False,False
+591,Workplace Memories and Experience,189,exclude,nonfiction,,,,,,False,False
+159,Pediatrics,189,unknown,unmatched,,,,,,False,False
+1198,When 12-17: Language movement and Liberation War,189,exclude,nonfiction,,,,,,False,False
+1120,Children & Teens Collection,189,unknown,unmatched,,,,,,False,True
+1729,Biochemistry,188,unknown,unmatched,,,,,,False,False
+991,Department of Physics and Applied Physics,188,exclude,academic,,,,,,False,False
+498,Politics and Bangladesh,188,exclude,nonfiction,,,,,,False,False
+1238,When 8-12: Rhymes,187,map,fiction,poetry,,children,,,False,False
+1337,School Books | Rokomari.com,187,unknown,unmatched,,,,,,False,False
+2812,Dauraye Hadith,186,exclude,nonfiction,,,,,,False,False
+1334,"Admission, Recruitment & Preparation Exams: Miscellaneous",186,exclude,academic,,,,,,False,False
+598,Interviews,185,exclude,nonfiction,,,,,,False,False
+1259,Psychological and Counseling,185,unknown,unmatched,,,,,,False,False
+1315,Bangladesh and History,185,exclude,nonfiction,,,,,,False,False
+721,Column Collection,184,unknown,unmatched,,,,,,False,True
+2415,"West Bengal Books: Mathematics, Science and Technology",184,exclude,nonfiction,,,,west_bengal,,False,False
+2705,IELTS,184,unknown,unmatched,,,,,,False,False
+1370,Philosophy Related Books,183,exclude,nonfiction,,,,,,False,False
+131,Aeronautical Engineering,182,exclude,academic,,,,,,False,False
+1292,Children & Teens: Others,182,unknown,unmatched,,,,,,False,False
+551,Biology,182,unknown,unmatched,,,,,,False,False
+417,Translated Books: Science Fiction,182,map,fiction,,sci_fi,,translated,,False,False
+693,Thriller & Adventure Story,181,map,fiction,short_story_collection,thriller|adventure,,,,False,False
+2821,"West Bengal Books: Society, Civilization and Culture",180,exclude,nonfiction,,,,west_bengal,,False,False
+2392,West Bengal Books: Philosophical Book,180,unknown,unmatched,,,,west_bengal,,False,False
+1200,When 12-17: Reference and Self-help book,180,exclude,nonfiction,,,,,,False,False
+80,Rokomari Collection - রকমারি কালেকশন | Rokomari.com,180,unknown,unmatched,,,,,,False,True
+2315,Research and Articles on Media and Journalism,179,exclude,nonfiction,,,,,,False,False
+133,Environmental Engineering,179,exclude,academic,,,,,,False,False
+7279,West Bengal Books: Poem- Bangla,179,map,fiction,poetry,,,west_bengal,,False,False
+685,Islamic Novel,179,map,fiction,novel,,,,,True,False
+7311,West Bengal Books: Thriller,178,map,fiction,,thriller,,west_bengal,,False,False
+626,Health & Others,178,exclude,nonfiction,,,,,,False,False
+1352,ব্যবসায় শিক্ষা প্রথম বর্ষ | Rokomari.com,178,unknown,unmatched,,,,,,False,False
+1309,"Foreign Language Books: Essay, Articles & Research",177,exclude,nonfiction,,,,,en,False,False
+1138,"Diary, Letters and Memories",177,exclude,nonfiction,,,,,,False,False
+1342,Class 8,177,exclude,academic,,,,,,False,False
+2796,Jamaat-e-Nahbe Mir,176,unknown,unmatched,,,,,,False,False
+429,Translation Books: Politics,174,exclude,nonfiction,,,,translated,,False,False
+1048,History of Bangladesh: District & Area Wise,172,exclude,nonfiction,,,,,,False,False
+562,Graphics and Multimedia,172,unknown,unmatched,,,,,,False,False
+2794,Jamaat Taisir,170,unknown,unmatched,,,,,,False,False
+2636,"Family, Parenting and Children related Others Book",167,exclude,nonfiction,,,,,,False,False
+175,Physiotherapy & Therapy,167,unknown,unmatched,,,,,,False,False
+7240,Kolkata Book Fair 2025,167,ignore,promotion,,,,,,False,False
+2411,Student Life Development,167,unknown,unmatched,,,,,,False,False
+743,Literature Magazine: Special Edition,166,exclude,nonfiction,,,,,,False,False
+1349,College Books | Rokomari.com,165,unknown,unmatched,,,,,,False,False
+925,Arts Department Admission,165,exclude,academic,,,,,,False,False
+1306,Foreign Language Books: History and Tradition,163,exclude,nonfiction,,,,,en,False,False
+180,Medical: Exams Preparation,163,exclude,academic,,,,,,False,False
+469,History of Colonial and India Partition time,162,exclude,nonfiction,,,,,,False,False
+2426,Olympiad,160,unknown,unmatched,,,,,,False,False
+3502,HSC 2nd Year: Compulsory Subject,160,exclude,academic,,,,,,False,False
+3136,"Mystery, Detective, Horror, Thriller and Adventure Collection",159,map,fiction,,detective|thriller|horror|adventure,,,,False,True
+166,Radiology,159,unknown,unmatched,,,,,,False,False
+177,Research & Reference,158,exclude,nonfiction,,,,,,False,False
+147,Genetics,158,unknown,unmatched,,,,,,False,False
+2511,"Foreign Language Books: Professional, Journal and Reference",157,exclude,nonfiction,,,,,en,False,False
+7376,West Bengal Books: Story-Children and Teens,157,map,fiction,short_story_collection,,children,west_bengal,,False,False
+1071,"Historically Renowned persons, observations and happenings",157,unknown,unmatched,,,,,,False,False
+427,"Translated Books: Mathematics, Science & Technology",156,exclude,nonfiction,,,,translated,,False,False
+1318,Dictionary Based on Language,153,exclude,nonfiction,,,,,,False,False
+932,Bank Job Entrance Exam Preparation,153,exclude,academic,,,,,,False,False
+1124,Self Help and Meditation Collection,153,unknown,unmatched,,,,,,False,True
+1076,Political History,152,exclude,nonfiction,,,,,,False,False
+394,Islamic English Books,150,exclude,nonfiction,,,,,en,True,False
+6999,Boimela 2024: Career and Skill Development,149,ignore,promotion,,,,,,False,False
+674,"Articles, Research and Criticism on Languages",149,exclude,nonfiction,,,,,,False,False
+1086,Islam and Contemporary World,148,unknown,unmatched,,,,,,False,False
+2813,Alim First Year,148,unknown,unmatched,,,,,,False,False
+1357,Education and Research,146,exclude,nonfiction,,,,,,False,False
+1371,Article about Science and Information-Technology,142,exclude,nonfiction,,,,,,False,False
+1082,Veiling,142,unknown,unmatched,,,,,,False,False
+926,Commerce Department Admission,141,exclude,academic,,,,,,False,False
+1340,Class 6,141,exclude,academic,,,,,,False,False
+137,Anesthesia,140,unknown,unmatched,,,,,,False,False
+1339,Class-5 (PEC),140,exclude,academic,,,,,,False,False
+574,"Math, Science & Technology: Others",140,exclude,nonfiction,,,,,,False,False
+505,International Politics,139,exclude,nonfiction,,,,,,False,False
+6476,Class 9 and 10(SSC): Compulsory Subject,138,exclude,academic,,,,,,False,False
+2333,West Bengal Books: Drama,137,map,fiction,drama,,,west_bengal,,False,False
+1445,HSC 1st Year: Physics,136,exclude,academic,,,,,,False,False
+927,"Bangla, English and Math",136,unknown,unmatched,,,,,en,False,False
+1341,Class 7,135,exclude,academic,,,,,,False,False
+2394,West Bengal Books: Health and Fitness,134,exclude,nonfiction,,,,west_bengal,,False,False
+2853,Academic Book Collection,134,unknown,unmatched,,,,,,False,True
+549,Science Project,134,exclude,nonfiction,,,,,,False,False
+2633,"Child Development, Health and Nutrition",133,exclude,nonfiction,,,,,,False,False
+1496,Department of Entrepreneurship and Leadership,131,exclude,academic,,,,,,False,False
+990,Veterinary and Animal Husbandry,129,unknown,unmatched,,,,,,False,False
+165,Psychiatry,129,unknown,unmatched,,,,,,False,False
+568,Microsoft Office,128,unknown,unmatched,,,,,,False,False
+1092,Novel Collection,127,map,fiction,novel,,,,,False,True
+3501,HSC and Equivalent: Suggestion & Testpapers,126,exclude,academic,,,,,,False,False
+977,"Foreign Language Books: Environment, Nature and Outdoors",126,exclude,nonfiction,,,,,en,False,False
+602,Politician,125,unknown,unmatched,,,,,,False,False
+557,Freelancing and Outsourcing,125,unknown,unmatched,,,,,,False,False
+2627,Quaran Learning,124,unknown,unmatched,,,,,,False,False
+8213,Umrah,123,unknown,unmatched,,,,,,False,False
+1047,History: Language Movement,121,exclude,nonfiction,,,,,,False,False
+899,Article about Liberation War and Language movement,120,exclude,nonfiction,,,,,,False,False
+672,"Other Books on Cooking, Food, Nutrition",120,exclude,nonfiction,,,,,,False,False
+943,Business and Investment,120,exclude,nonfiction,,,,,,False,False
+922,Engineering Admission Preparation,119,exclude,academic,,,,,,False,False
+2009,West Bengal Books: Humor,119,map,fiction,,humor_satire,,west_bengal,,False,False
+1529,Kindergarten: Play Group,118,unknown,unmatched,,,,,,False,False
+3015,Psychology,118,exclude,nonfiction,,,,,,False,False
+1263,General Knowledge,117,unknown,unmatched,,,,,,False,False
+1539,Class- 1,116,exclude,academic,,,,,,False,False
+921,Medical Admission Preparation,116,exclude,academic,,,,,,False,False
+1381,When 4-8: Horror,115,map,fiction,,horror,children,,,False,False
+492,Pre-Independence Bangladesh,115,unknown,unmatched,,,,,,False,False
+1540,Class- 2,114,exclude,academic,,,,,,False,False
+1374,Mythological & legendary,114,map,fiction,,mythology,,,,False,False
+982,Department of Marketing,113,exclude,academic,,,,,,False,False
+2217,Banking Diploma,113,unknown,unmatched,,,,,,False,False
+154,Nutrition & Diabetics,113,unknown,unmatched,,,,,,False,False
+690,Romantic Story,112,map,fiction,short_story_collection,romance,,,,False,False
+657,Travelling Bangladesh,112,unknown,unmatched,,,,,,False,False
+2398,Math Olympiad,111,unknown,unmatched,,,,,,False,False
+980,Department of Management,111,exclude,academic,,,,,,False,False
+1326,When 0-4: Drawing,111,unknown,unmatched,,,,,,False,False
+2739,Religious Book on Parenting,111,exclude,nonfiction,,,,,,True,False
+1275,History of Ancient Bangla,110,exclude,nonfiction,,,,,,False,False
+559,Basic of Computer,110,exclude,nonfiction,,,,,,False,False
+2754,Spoken English,109,unknown,unmatched,,,,,en,False,False
+724,Banking and Finance,109,unknown,unmatched,,,,,,False,False
+2795,Jamaat Mizan,108,unknown,unmatched,,,,,,False,False
+1045,History: Ancient Bangla,105,exclude,nonfiction,,,,,,False,False
+1452,Computer Science and Engineering,104,exclude,academic,,,,,,False,False
+377,Zakat,104,unknown,unmatched,,,,,,False,False
+1078,Islamic Questions and Answers,104,exclude,nonfiction,,,,,,True,False
+2403,West Bengal Books: Self-Help and Meditation,104,exclude,nonfiction,,,,west_bengal,,False,False
+2580,Travelling In Europe,102,unknown,unmatched,,,,,,False,False
+877,Folk Music,101,exclude,nonfiction,,,,,,False,False
+2433,Biographical novel,101,map,fiction,novel,historical,,,,False,False
+1009,Department of Economics,100,exclude,academic,,,,,,False,False
+722,"Share Market, Business and Investment",99,exclude,nonfiction,,,,,,False,False
+1855,Family/ Personal Laws,99,unknown,unmatched,,,,,,False,False
+570,Operating System,99,unknown,unmatched,,,,,,False,False
+2753,Vocabulary,99,unknown,unmatched,,,,,,False,False
+1131,From the Field of Liberation War,98,unknown,unmatched,,,,,,False,False
+605,Renowned Person,98,unknown,unmatched,,,,,,False,False
+2308,"Nursing, IHT, MATS and Paramedical Admission",97,exclude,academic,,,,,,False,False
+984,Department of Accounting,97,exclude,academic,,,,,,False,False
+974,Foreign Language Books: Philosophy,97,exclude,nonfiction,,,,,en,False,False
+697,Farmer and Farming: Crop and Vegetables Cultivation,96,unknown,unmatched,,,,,,False,False
+507,"Political Unrest, War and Genocide",96,unknown,unmatched,,,,,,False,False
+2800,Jamaat Sharhe Bekaya,94,unknown,unmatched,,,,,,False,False
+78,Others,94,unknown,unmatched,,,,,,False,False
+7400,West Bengal Books: Article about Literary and Literature,93,exclude,nonfiction,,,,west_bengal,,False,False
+7190,West Bengal Books: Rokomari Collection,92,unknown,unmatched,,,,west_bengal,,False,True
+2823,West Bengal Books: Language and Dictionary,92,exclude,nonfiction,,,,west_bengal,,False,False
+3002,West Bengal Books: Agriculture,92,exclude,nonfiction,,,,west_bengal,,False,False
+2801,Jamaat Jalalaine,91,unknown,unmatched,,,,,,False,False
+662,Travelling In America,91,unknown,unmatched,,,,,,False,False
+174,Veterinary & Animal Sciences,90,unknown,unmatched,,,,,,False,False
+1333,Bangladeshi History: July Uprising,90,exclude,nonfiction,,,,,,False,False
+252,Reference and Dictionary,89,exclude,nonfiction,,,,,,False,False
+3364,"Diploma in Commerce, HSC (BMT)",88,exclude,academic,,,,,,False,False
+567,Hardware and Troubleshooting,88,unknown,unmatched,,,,,,False,False
+564,Artificial Intelligence & Robotics,87,unknown,unmatched,,,,,,False,False
+523,Muslim Civilization and Culture,87,exclude,nonfiction,,,,,,False,False
+1541,Class- 3,86,exclude,academic,,,,,,False,False
+1816,Immunology,86,unknown,unmatched,,,,,,False,False
+7268,Bangla Grammar,85,unknown,unmatched,,,,,,False,False
+421,Translated Books: Collections & Box Sets,85,ignore,promotion,,,,translated,,False,True
+1316,Recent Bangladesh,84,unknown,unmatched,,,,,,False,False
+6768,HSC 1st Year: Physics Pattho Sohayika,84,exclude,academic,,,,,,False,False
+6770,HSC 1st Year: Chemistry Pattho Sohayika,84,exclude,academic,,,,,,False,False
+8193,Arabic Grammar and Language Learning,84,exclude,nonfiction,,,,,,False,False
+2404,"West Bengal Books: Education, Reference and Research",84,exclude,nonfiction,,,,west_bengal,,False,False
+1389,Children and Teens: Riddle and Puzzle,84,unknown,unmatched,,,,,,False,False
+1042,Political History and Happenings of Bangladesh,83,exclude,nonfiction,,,,,,False,False
+1748,HSC 1st Year: Chemistry,83,exclude,academic,,,,,,False,False
+503,Political Conspiracy and Assassination,83,unknown,unmatched,,,,,,False,False
+2802,Jamaat Meshkat,83,unknown,unmatched,,,,,,False,False
+8183,Islamic Literature: Stories,83,map,fiction,short_story_collection,,,,,True,False
+661,Travels and Emigration: Classic,83,unknown,unmatched,,,,,,False,False
+1072,History: Military War,82,exclude,nonfiction,,,,,,False,False
+3462,HSC 2nd Year: Mathematics,82,exclude,academic,,,,,,False,False
+6842,HSC 2nd Year: Physics Pattho Sohayika,82,exclude,academic,,,,,,False,False
+2844,West Bengal Books: Nature and Outdoors,82,unknown,unmatched,,,,west_bengal,,False,False
+2727,Java Programming,82,unknown,unmatched,,,,,,False,False
+1313,Educationist,82,unknown,unmatched,,,,,,False,False
+1094,"Mystery, Detective, Horror & thriller Collection",81,map,fiction,,detective|thriller|horror,,,,False,True
+1749,HSC 1st Year: Mathematics,81,exclude,academic,,,,,,False,False
+6984,একাডেমিক বই,81,unknown,unmatched,,,,,,False,False
+2755,"Reading, Listening and Writing English",81,unknown,unmatched,,,,,en,False,False
+1329,BCS Preli: Bangla Language and Literature,79,exclude,academic,,,,,,False,False
+2380,"Presentation, Speech and Debating Tactics",79,unknown,unmatched,,,,,,False,False
+1134,Books of Liberation War from the Foreigners Experience,78,unknown,unmatched,,,,,,False,False
+2735,Psychology,78,exclude,nonfiction,,,,,,False,False
+6844,HSC 2nd Year: Chemistry Pattho Sohayika,78,exclude,academic,,,,,,False,False
+2492,Philosophy of Life,78,exclude,nonfiction,,,,,,False,False
+422,Translated Books: Fairy tales,77,map,fiction,short_story_collection,fantasy,,translated,,False,False
+1105,"Mathematics, Science & Technology Collection",77,exclude,nonfiction,,,,,,False,True
+2783,Fazil,77,unknown,unmatched,,,,,,False,False
+1542,Class- 4,77,exclude,academic,,,,,,False,False
+2854,Arabic Grammar,76,unknown,unmatched,,,,,,False,False
+3461,HSC 2nd Year: Chemistry,76,exclude,academic,,,,,,False,False
+7344,West Bengal Books: Literature Collection,75,unknown,unmatched,,,,west_bengal,,False,True
+6935,Childhood memories,75,exclude,nonfiction,,,,,,False,False
+556,Translated books on Science,74,exclude,nonfiction,,,,translated,,False,False
+6766,HSC 1st Year: English Pattho Sohayika,73,exclude,academic,,,,,en,False,False
+2724,Basic Programming,73,unknown,unmatched,,,,,,False,False
+640,Bangladesh in Post-Independence Situation,73,unknown,unmatched,,,,,,False,False
+1180,When 8-12: History & Politics,73,exclude,nonfiction,,,,,,False,False
+1182,When 8-12: Computer and Internet,72,exclude,nonfiction,,,,,,False,False
+6772,HSC 1st Year: Mathematics Pattho Sohayika,72,exclude,academic,,,,,,False,False
+497,Post-Independence,72,unknown,unmatched,,,,,,False,False
+1090,Islamic Magazine,72,exclude,nonfiction,,,,,,True,False
+2548,Islamic Medicine,72,exclude,academic,,,,,,True,False
+6846,HSC 2nd Year: Mathematics Pattho Sohayika,72,exclude,academic,,,,,,False,False
+146,Gastroenterology,71,unknown,unmatched,,,,,,False,False
+6444,Class 9 and 10(Science): Physics Pattho Sohayika,71,exclude,academic,,,,,,False,False
+145,Forensic Medicine,70,exclude,academic,,,,,,False,False
+7298,GST Admission Test,70,exclude,academic,,,,,,False,False
+7296,Primary Preliminary,70,unknown,unmatched,,,,,,False,False
+2792,Qawmi: Class Seven,69,exclude,academic,,,,,,False,False
+1330,BCS Preli: English Language and Literature,69,exclude,academic,,,,,en,False,False
+2725,Python Programming,69,unknown,unmatched,,,,,,False,False
+467,History of Mughal Period,68,exclude,nonfiction,,,,,,False,False
+2856,Qawmi Madrasa Various Books,68,exclude,academic,,,,,,False,False
+506,Criticism and Column Collection,68,exclude,nonfiction,,,,,,False,True
+2831,Fatwa (Ifta) Department,68,exclude,academic,,,,,,False,False
+971,Foreign Language Books: Drama,68,map,fiction,drama,,,,en,False,False
+946,Self-Development: Communication Development,67,unknown,unmatched,,,,,,False,False
+6774,HSC 1st Year: Biology Pattho Sohayika,67,exclude,academic,,,,,,False,False
+7390,West Bengal Books: Children and Teens Novel,67,map,fiction,novel,,children,west_bengal,,False,False
+2728,C Programming,67,unknown,unmatched,,,,,,False,False
+7282,West Bengal Books: Classic Poetry,66,map,fiction,poetry,,,west_bengal,,False,False
+7388,West Bengal Books: Historical Novel,66,map,fiction,novel,historical,,west_bengal,,False,False
+8214,Qurbani,66,unknown,unmatched,,,,,,False,False
+3460,HSC 2nd Year: Physics,65,exclude,academic,,,,,,False,False
+1264,"Computer, Internet, Freelancing and Outsourcing: Others",65,exclude,nonfiction,,,,,,False,False
+1050,History: Pre Independence Situation,65,exclude,nonfiction,,,,,,False,False
+6848,HSC 2nd Year: Biology Pattho Sohayika,65,exclude,academic,,,,,,False,False
+1969,When 4-8: General Knowledge,65,unknown,unmatched,,,,,,False,False
+2711,IELTS Speaking,65,unknown,unmatched,,,,,,False,False
+2397,"Detective, Intelligence and Secret Agency,",64,map,fiction,,detective|spy,,,,False,False
+1451,Common Subject,64,unknown,unmatched,,,,,,False,False
+1123,Admission and Recruitment Collection,63,exclude,academic,,,,,,False,True
+1097,Collections & Box Sets,63,ignore,promotion,,,,,,False,True
+2786,Qawmi: KG and Class One,63,exclude,academic,,,,,,False,False
+7365,West Bengal Books: Memories and Interviews,63,exclude,nonfiction,,,,west_bengal,,False,False
+728,SME,63,unknown,unmatched,,,,,,False,False
+179,Clinical Practice,63,unknown,unmatched,,,,,,False,False
+752,Religious Magazine: Special Edition,62,exclude,nonfiction,,,,,,True,False
+800,Children & Teen Magazine: Special Edition,62,exclude,nonfiction,,,,,,False,False
+1367,Exam Preparation: Foreign Books,61,exclude,academic,,,,,,False,False
+6445,Class 9 and 10(Science): Chemistry Pattho Sohayika,61,exclude,academic,,,,,,False,False
+1246,When 4-8: English Rhymes,61,map,fiction,poetry,,children,,en,False,False
+1858,Muslim Law,61,exclude,nonfiction,,,,,,False,False
+878,Rock and Roll,61,unknown,unmatched,,,,,,False,False
+1019,Department of English,61,exclude,academic,,,,,en,False,False
+169,Urology,61,unknown,unmatched,,,,,,False,False
+2787,Qawmi: Class Two,61,exclude,academic,,,,,,False,False
+2393,Animal and Bird Related,60,unknown,unmatched,,,,,,False,False
+2723,Children & Teens - Comic & Graphic Story,60,map,fiction,comics,,children,,,False,False
+577,About Sports,60,unknown,unmatched,,,,,,False,False
+961,About Liberation War,60,unknown,unmatched,,,,,,False,False
+1064,"History of Liberation War: Diary, Memories and Letters",60,exclude,nonfiction,,,,,,False,False
+700,Domestic Birds,60,unknown,unmatched,,,,,,False,False
+1149,When 0-4,60,unknown,unmatched,,,,,,False,False
+1150,When 4-8,60,unknown,unmatched,,,,,,False,False
+366,History of Liberation War,60,exclude,nonfiction,,,,,,False,False
+595,Memories and Interviews,60,exclude,nonfiction,,,,,,False,False
+584,Religious Personalities,60,exclude,nonfiction,,,,,,True,False
+1391,"Quote, Aphorisms & Proverbs",60,unknown,unmatched,,,,,,False,False
+575,Players Biographies,60,exclude,nonfiction,,,,,,False,False
+1148,Subject wise Book,60,unknown,unmatched,,,,,,False,False
+1151,When 8-12,60,unknown,unmatched,,,,,,False,False
+1152,When 12-17,60,unknown,unmatched,,,,,,False,False
+365,Fictional Works on Liberation War,60,unknown,unmatched,,,,,,False,False
+1206,When 12-17: Magazine,60,exclude,nonfiction,,,,,,False,False
+7766,Sirate Rasul S.A.W,60,exclude,nonfiction,,,,,,False,False
+7763,When 12-17: Sirate Rasul S.A.W,60,exclude,nonfiction,,,,,,False,False
+1217,"Children and Teens: Mystery, Detective, Thriller and Adventure",60,map,fiction,,detective|thriller|adventure,children,,,False,False
+2495,Student life memories,60,exclude,nonfiction,,,,,,False,False
+701,Technology and Economical Aspects: Farming,60,exclude,nonfiction,,,,,,False,False
+1279,Science Fiction Collection,60,map,fiction,,sci_fi,,,,False,True
+501,Political Personality of Bangladesh,60,unknown,unmatched,,,,,,False,False
+6364,Foreign Language Books: University,60,exclude,academic,,,,,en,False,False
+2479,"Puzzle, Riddle, IQ",60,unknown,unmatched,,,,,,False,False
+6410,Honors 1st Year,60,exclude,academic,,,,,,False,False
+2560,Qur'aan,60,unknown,unmatched,,,,,,False,False
+1208,Children & Teens: Primary Learning,60,unknown,unmatched,,,,,,False,False
+2314,Techniques of Journalism,60,unknown,unmatched,,,,,,False,False
+8278,Religious History,60,exclude,nonfiction,,,,,,True,False
+8309,Travelling In Southern Asia,60,unknown,unmatched,,,,,,False,False
+1273,Nature and Outdoors,60,unknown,unmatched,,,,,,False,False
+629,Nature Outdoors: Articles and Others,60,exclude,nonfiction,,,,,,False,False
+625,Herbal,60,unknown,unmatched,,,,,,False,False
+624,Women & Children Health,60,exclude,nonfiction,,,,,,False,False
+1229,Children and Teens: Rhymes,60,map,fiction,poetry,,children,,,False,False
+1846,Criminal Law,60,exclude,nonfiction,,,,,,False,False
+737,Deshi Magazine,60,exclude,nonfiction,,,,,,False,False
+892,Evidence Law,60,exclude,nonfiction,,,,,,False,False
+637,Politics of Bangladesh,60,exclude,nonfiction,,,,,,False,False
+1796,"Self-Help, Motivational and Meditation: English Books",60,exclude,nonfiction,,,,,en,False,False
+739,Literature Magazine,60,exclude,nonfiction,,,,,,False,False
+670,Deshi Recipe,60,exclude,nonfiction,,,,,,False,False
+702,Agriculture: Others,60,exclude,nonfiction,,,,,,False,False
+706,Art Criticism and Articles,60,exclude,nonfiction,,,,,,False,False
+707,Biographies of Artists,60,exclude,nonfiction,,,,,,False,False
+1213,Children and Teens: Fables,60,map,fiction,short_story_collection,,children,,,False,False
+2656,Islamic Philosophy,60,exclude,nonfiction,,,,,,True,False
+6771,HSC 1st Year: Mathematics Text Books,60,exclude,academic,,,,,,False,False
+1214,Children and Teens: Religious Books,60,exclude,nonfiction,,,,,,True,False
+1147,By Age,60,unknown,unmatched,,,,,,False,False
+1314,Philosophical Topic,60,unknown,unmatched,,,,,,False,False
+905,Business and Commerce Related Articles,60,exclude,nonfiction,,,,,,False,False
+1369,Fish Farming,60,unknown,unmatched,,,,,,False,False
+1038,Bangladeshi History,60,exclude,nonfiction,,,,,,False,False
+989,Science and Engineering,60,exclude,academic,,,,,,False,False
+1178,When 8-12: Science Fiction,60,map,fiction,,sci_fi,children,,,False,False
+1177,When 8-12: Story and Novel,60,map,fiction,,,children,,,False,False
+1553,Information and Technology,60,exclude,nonfiction,,,,,,False,False
+1021,Department of Philosophy,60,exclude,academic,,,,,,False,False
+7278,West Bengal Books: Poem,60,map,fiction,poetry,,,west_bengal,,False,False
+1027,Agriculture Engineering and Technology,60,exclude,academic,,,,,,False,False
+1227,Children and Teens: Story,60,map,fiction,short_story_collection,,children,,,False,False
+1026,Agriculture,60,exclude,nonfiction,,,,,,False,False
+939,Professional,60,unknown,unmatched,,,,,,False,False
+2324,College Admission Preparation,60,exclude,academic,,,,,,False,False
+2103,Pre order,60,unknown,unmatched,,,,,,False,False
+6363,Foreign Language Books: Medical,60,exclude,academic,,,,,en,False,False
+799,Children & Teen Magazine: Monthly,60,exclude,nonfiction,,,,,,False,False
+732,"Articles, Research and Statistics on Economics and Business",60,exclude,nonfiction,,,,,,False,False
+1502,About Musical Discussion,60,unknown,unmatched,,,,,,False,False
+747,Religious Magazine,60,exclude,nonfiction,,,,,,True,False
+1228,Children and Teens: Novel,60,map,fiction,novel,,children,,,False,False
+1255,Drama Criticism and Others,60,exclude,nonfiction,,,,,,False,False
+915,Translated Science Fiction,60,map,fiction,,sci_fi,,translated,,False,False
+1166,When 4-8: Rhymes and Poems,60,map,fiction,poetry,,children,,,False,False
+444,"Translated Books: Business, Investment & Economics",60,exclude,nonfiction,,,,translated,,False,False
+1424,Novel: Mystery and Detective,60,map,fiction,novel,detective,,,,False,False
+1265,Story Compilation,60,map,fiction,short_story_collection,,,,,False,True
+491,Politics: Bangladesh,60,exclude,nonfiction,,,,,,False,False
+5,Non-Fiction,60,exclude,nonfiction,,,,,,False,False
+1548,Poem and Rhyme: West Bengal,60,map,fiction,poetry,,,west_bengal,,False,False
+1767,HSC 1st Year: Information and Technology,60,exclude,academic,,,,,,False,False
+1055,History: Liberation War 1971,60,exclude,nonfiction,,,,,,False,False
+1311,"Society, Civilization & Culture of Bangladesh",60,exclude,nonfiction,,,,,,False,False
+2,Fiction,60,ignore,generic,,,,,,False,False
+2012,West Bengal Books: Cooking & Recipe,60,exclude,nonfiction,,,,west_bengal,,False,False
+2814,Alim Second Year,60,unknown,unmatched,,,,,,False,False
+2427,Math Olympiad,60,unknown,unmatched,,,,,,False,False
+2513,BCS Preli: Bangladesh Affairs,60,exclude,academic,,,,,,False,False
+627,"Weather, Nature and Climate",60,unknown,unmatched,,,,,,False,False
+2741,Qawmi Madrasa,60,exclude,academic,,,,,,False,False
+652,Divisions & District Based,60,unknown,unmatched,,,,,,False,False
+1132,Divisional and Sector Based War,60,unknown,unmatched,,,,,,False,False
+742,Literature Magazine: Monthly,60,exclude,nonfiction,,,,,,False,False
+872,Subject wise Music Book,60,exclude,nonfiction,,,,,,False,False
+873,Rabindra Music,60,exclude,nonfiction,,,,,,False,False
+299,Rokomari Selected Books: Others,60,unknown,unmatched,,,,,,False,False
+791,Science Magazine: Monthly,60,exclude,nonfiction,,,,,,False,False
+293,Journalism & Reporting,60,unknown,unmatched,,,,,,False,False
+751,Religious Magazine: Monthly,60,exclude,nonfiction,,,,,,True,False
+2847,Pharmacy,60,unknown,unmatched,,,,,,False,False
+756,Children & Teen,60,unknown,unmatched,,,,,,False,False
+455,Translated Books: Books of Drama,60,map,fiction,drama,,,translated,,False,False
+525,"Research & Article about Society, Civilization and Culture",60,exclude,nonfiction,,,,,,False,False
+464,History of Indian Subcontinent,60,exclude,nonfiction,,,,,,False,False
+1384,When 12-17: Children and Teens Collection,59,unknown,unmatched,,,,,,False,True
+871,Notation,59,unknown,unmatched,,,,,,False,False
+673,Language and Grammar Learning,59,exclude,nonfiction,,,,,,False,False
+1051,History of Bangladesh: Independence War,59,exclude,nonfiction,,,,,,False,False
+865,Music,59,exclude,nonfiction,,,,,,False,False
+2742,Qawmi Madani Nesab Madrasa,59,exclude,academic,,,,,,False,False
+628,Geography,59,unknown,unmatched,,,,,,False,False
+3463,HSC 2nd Year: Biology,59,exclude,academic,,,,,,False,False
+1750,HSC 1st Year: Biology,59,exclude,academic,,,,,,False,False
+576,Sports and Rules,59,unknown,unmatched,,,,,,False,False
+2554,Middle-Eastern Language,59,exclude,nonfiction,,,,,,False,False
+2634,Kids Naming Book,59,unknown,unmatched,,,,,,False,False
+1375,Discussion- Film,59,unknown,unmatched,,,,,,False,False
+1301,Poem Collections,59,map,fiction,poetry,,,,,False,True
+1304,Novel: English Language,59,map,fiction,novel,,,,en,False,False
+2109,"Boimela 2017: Novel, Short Stories and drama",59,ignore,promotion,,,,,,False,False
+698,Flower and Fruit Cultivation,59,unknown,unmatched,,,,,,False,False
+669,Recipe,59,exclude,nonfiction,,,,,,False,False
+1442,Class 9 and 10(SSC): Science Department Pattho Sohayika,59,exclude,academic,,,,,,False,False
+144,E.N.T,59,unknown,unmatched,,,,,,False,False
+1905,Award Winning Books,58,unknown,unmatched,,,,,,False,False
+944,Self-Development,58,unknown,unmatched,,,,,,False,False
+2321,Master's (Based on Honors),58,exclude,academic,,,,,,False,False
+6441,Class 9 and 10(Science): English Pattho Sohayika,58,exclude,academic,,,,,en,False,False
+519,"Life, Living and Culture",58,exclude,nonfiction,,,,,,False,False
+502,International Political Personality,58,unknown,unmatched,,,,,,False,False
+2352,Foreign Language Books: Game and sports,58,exclude,nonfiction,,,,,en,False,False
+941,Reference,58,exclude,nonfiction,,,,,,False,False
+1266,Novel Compilation,58,map,fiction,novel,,,,,False,True
+1186,When 8-12: Humor and Entertainment,58,map,fiction,,humor_satire,children,,,False,False
+580,Players,58,unknown,unmatched,,,,,,False,False
+1006,Arts and Social Science,58,exclude,nonfiction,,,,,,False,False
+566,Software & Aplication,58,unknown,unmatched,,,,,,False,False
+600,Translated & Foreign Books,58,unknown,unmatched,,,,translated,,False,False
+1383,When 8-12: Children and Teens Collection,58,unknown,unmatched,,,,,,False,True
+1380,Children and Teens: Horror,58,map,fiction,,horror,children,,,False,False
+1376,Women Biography,58,exclude,nonfiction,,,,,,False,False
+6806,HSC 1st Year: ICT Text Books,58,exclude,academic,,,,,,False,False
+633,Society and Culture of Bangladesh,58,exclude,nonfiction,,,,,,False,False
+1345,Philosophical Research and Articles,58,exclude,nonfiction,,,,,,False,False
+2582,July Uprising,58,unknown,unmatched,,,,,,False,False
+1199,When 12-17: Computer and Internet,57,exclude,nonfiction,,,,,,False,False
+425,Translated Books: Travel and Emigration,57,exclude,nonfiction,,,,translated,,False,False
+1184,When 8-12: Rhymes and Poems,57,map,fiction,poetry,,children,,,False,False
+3491,HSC 2nd Year: Accounting,57,exclude,academic,,,,,,False,False
+457,Ancient Civilization,57,exclude,nonfiction,,,,,,False,False
+699,Domestic Animals,57,unknown,unmatched,,,,,,False,False
+148,Hematology,57,unknown,unmatched,,,,,,False,False
+6895,HSC 2nd Year: Accounting Text Books,57,exclude,academic,,,,,,False,False
+1752,HSC 1st Year: English - Arts,57,exclude,academic,,,,,en,False,False
+1087,Islam and Bangladesh,57,unknown,unmatched,,,,,,False,False
+2558,War Tactics and Foreign Policy,57,unknown,unmatched,,,,,,False,False
+2845,West Bengal Books: Science Fiction,57,map,fiction,,sci_fi,,west_bengal,,False,False
+6775,HSC 1st Year: ICT Text Books,57,exclude,academic,,,,,,False,False
+979,BBA/ MBA,57,unknown,unmatched,,,,,,False,False
+8207,Dakhil: Class Ten,57,exclude,academic,,,,,,False,False
+3490,HSC 2nd Year: English Business Studies,57,exclude,academic,,,,,en,False,False
+668,Travel & Emigration: Others,56,exclude,nonfiction,,,,,,False,False
+8185,Islamic Literature: Novels,56,map,fiction,novel,,,,,True,False
+1379,When 12-17: Horror,56,map,fiction,,horror,teen,,,False,False
+596,Memories on Travel,56,exclude,nonfiction,,,,,,False,False
+956,Translated Books of Liberation War From the Foreigners Experience,56,unknown,unmatched,,,,translated,,False,False
+870,Musical Person,56,unknown,unmatched,,,,,,False,False
+3459,HSC 2nd Year: English Science,56,exclude,academic,,,,,en,False,False
+642,Bangladesh and Politics,56,exclude,nonfiction,,,,,,False,False
+900,Article about Women and Children,56,exclude,nonfiction,,,,,,False,False
+1060,Translated Books Of Liberation War From the Foreigners Experience,56,unknown,unmatched,,,,translated,,False,False
+1323,Translated Books Collections & Box Sets,55,ignore,promotion,,,,translated,,False,True
+2706,GRE,55,unknown,unmatched,,,,,,False,False
+710,Photo Albums,55,unknown,unmatched,,,,,,False,False
+1392,About Bangladesh,55,unknown,unmatched,,,,,,False,False
+1274,Bangladesh: Its Economics and Development,55,exclude,nonfiction,,,,,,False,False
+1088,Islamic Architecture and Culture,55,exclude,nonfiction,,,,,,True,False
+659,Travelling In Middle East,55,unknown,unmatched,,,,,,False,False
+511,Ancient Civilization,55,exclude,nonfiction,,,,,,False,False
+23,Language & Dictionary,55,exclude,nonfiction,,,,,,False,False
+1041,History: About Bangladesh,55,exclude,nonfiction,,,,,,False,False
+471,History of Middle East,54,exclude,nonfiction,,,,,,False,False
+143,Endocrinology,54,unknown,unmatched,,,,,,False,False
+730,Entrepreneur & Commercial Person,54,unknown,unmatched,,,,,,False,False
+7227,Kolkata Book Fair 2024,54,ignore,promotion,,,,,,False,False
+2555,East-Asian Language,54,exclude,nonfiction,,,,,,False,False
+664,Emigration,54,unknown,unmatched,,,,,,False,False
+1063,"History of Liberation War: Refugee, War Crime, Genocide, Women and Children",54,exclude,nonfiction,,,,,,False,False
+6841,HSC 2nd Year: Physics Text Books,54,exclude,academic,,,,,,False,False
+8279,History of the Jewish People,54,exclude,nonfiction,,,,,,False,False
+1766,HSC 1st Year: Accounting,54,exclude,academic,,,,,,False,False
+1556,Bangladesh Open University,54,exclude,academic,,,,,,False,False
+1319,Dictionary Based on Subject,53,exclude,nonfiction,,,,,,False,False
+560,Ethical Hacking & Cyber Security,53,unknown,unmatched,,,,,,False,False
+896,Article about History and Historians,53,exclude,nonfiction,,,,,,False,False
+6767,HSC 1st Year: Physics Text Books,53,exclude,academic,,,,,,False,False
+6776,HSC 1st Year: ICT Pattho Sohayika,53,exclude,academic,,,,,,False,False
+6769,HSC 1st Year: Chemistry Text Books,53,exclude,academic,,,,,,False,False
+1996,Arabic & Urdu Languages Books,53,unknown,unmatched,,,,,,False,False
+883,Film Stars,53,unknown,unmatched,,,,,,False,False
+7339,West Bengal Books: Story Compilation,53,map,fiction,short_story_collection,,,west_bengal,,False,True
+475,Regime,53,unknown,unmatched,,,,,,False,False
+482,Areas,53,unknown,unmatched,,,,,,False,False
+149,Histology,52,unknown,unmatched,,,,,,False,False
+975,"Foreign Language Books: Mystery, Detective, Horror, Thriller, Fantasy and Adventure",52,map,fiction,,detective|thriller|horror|fantasy|adventure,,,en,False,False
+1929,Award-Winning Authors' Books,52,unknown,unmatched,,,,,,False,False
+2570,Primary Teacher Entrance Exam,52,exclude,academic,,,,,,False,False
+7371,West Bengal Books: Classic Story,52,map,fiction,short_story_collection,,,west_bengal,,False,False
+635,Nature and Environment of Bangladesh,52,unknown,unmatched,,,,,,False,False
+1966,Children and Teens: General Knowledge,52,unknown,unmatched,,,,,,False,False
+705,Techniques of Drawing and Paintings,52,unknown,unmatched,,,,,,False,False
+1967,When 12-17: General Knowledge,52,unknown,unmatched,,,,,,False,False
+2011,West Bengal Books: Criticism,51,exclude,nonfiction,,,,west_bengal,,False,False
+643,Column and Articles on Politics,51,exclude,nonfiction,,,,,,False,False
+7338,West Bengal Books: Novel Compilation,51,map,fiction,novel,,,west_bengal,,False,True
+671,Foreign Recipe,51,exclude,nonfiction,,,,,,False,False
+589,Famous Persons,51,unknown,unmatched,,,,,,False,False
+590,Businessman & Economical Person,51,unknown,unmatched,,,,,,False,False
+704,Drawing and Painting Albums,51,unknown,unmatched,,,,,,False,False
+7358,West Bengal Books: Politicians,51,unknown,unmatched,,,,west_bengal,,False,False
+3004,West Bengal Books: Sports,51,unknown,unmatched,,,,west_bengal,,False,False
+1751,HSC 1st Year: Bengali - Arts,51,exclude,academic,,,,,,False,False
+127,Water Resources Engineering,51,exclude,academic,,,,,,False,False
+3489,HSC 2nd Year: Bangla Business Studies,51,exclude,academic,,,,,,False,False
+6941,"Freedom Fighters, Sector Commander and Forces",51,unknown,unmatched,,,,,,False,False
+869,Music Collection,50,exclude,nonfiction,,,,,,False,True
+2797,Jamaat Hedayatunnahu,50,unknown,unmatched,,,,,,False,False
+521,Archaeology and Archaeological History,50,exclude,nonfiction,,,,,,False,False
+2734,Foreign Language Books: Language And Dictionary,50,exclude,nonfiction,,,,,en,False,False
+745,Social and Political Magazine,50,exclude,nonfiction,,,,,,False,False
+638,Pre-Independence Situation of Bangladesh,50,unknown,unmatched,,,,,,False,False
+630,Dhaka,50,unknown,unmatched,,,,,,False,False
+1258,Article about Literature and Criticism,50,exclude,nonfiction,,,,,,False,False
+1881,Property Law,50,exclude,nonfiction,,,,,,False,False
+528,Asia,50,unknown,unmatched,,,,,,False,False
+1267,Article: English and Translate,50,exclude,nonfiction,,,,,en,False,False
+1074,Translated Books: History,50,exclude,nonfiction,,,,translated,,False,False
+734,"Various Books on Business, Investment & Economics",50,exclude,nonfiction,,,,,,False,False
+397,Sirat & Islamic Encyclopedia,50,exclude,nonfiction,,,,,,True,False
+1343,নবম ও দশম (মাধ্যমিক/এসএসসি) | Rokomari.com,49,unknown,unmatched,,,,,,False,False
+1212,Children and Teens: Animal and Animal Kingdom,49,unknown,unmatched,,,,,,False,False
+1039,History: Dhaka,49,exclude,nonfiction,,,,,,False,False
+993,Department of Mathematics,49,exclude,academic,,,,,,False,False
+554,Geography & Environmental Studies,49,unknown,unmatched,,,,,,False,False
+1745,HSC 1st Year: Bengali Science,49,exclude,academic,,,,,,False,False
+898,"Art, Culture and Tradition related Article",49,exclude,nonfiction,,,,,,False,False
+6845,HSC 2nd Year: Mathematics Text Books,49,exclude,academic,,,,,,False,False
+527,Society & Civilization,49,exclude,nonfiction,,,,,,False,False
+958,"Freedom Fighters, Sector Commander and Forces",48,unknown,unmatched,,,,,,False,False
+1359,Journalism,48,unknown,unmatched,,,,,,False,False
+1248,When 4-8: Drawing,48,unknown,unmatched,,,,,,False,False
+1286,Research and Deeds on Liberation War,48,exclude,nonfiction,,,,,,False,False
+483,India-The Sub continental,48,unknown,unmatched,,,,,,False,False
+504,Politics of Indian Subcontinent,48,exclude,nonfiction,,,,,,False,False
+4466,Data Science & Management,48,exclude,nonfiction,,,,,,False,False
+480,Islamic Ruling,48,exclude,nonfiction,,,,,,True,False
+3472,HSC 2nd Year: English Arts,48,exclude,academic,,,,,en,False,False
+6843,HSC 2nd Year: Chemistry Text Books,48,exclude,academic,,,,,,False,False
+1188,When 8-12: Animal and Animal Kingdom,48,unknown,unmatched,,,,,,False,False
+3497,HSC 2nd Year: Business management,48,exclude,academic,,,,,,False,False
+8186,Class 10,48,exclude,academic,,,,,,False,False
+1106,"Computer, Internet, Freelancing and Outsourcing Collection",47,exclude,nonfiction,,,,,,False,True
+466,History of Ancient India,47,exclude,nonfiction,,,,,,False,False
+3333,Bangla Department: Honors 1st Year,47,exclude,academic,,,,,,False,False
+1754,HSC 1st Year: English Business Studies,47,exclude,academic,,,,,en,False,False
+6807,HSC 1st Year: ICT Pattho Sohayika,47,exclude,academic,,,,,,False,False
+1130,Articles & Column Compilation,47,exclude,nonfiction,,,,,,False,True
+7356,"West Bengal Books: Musician, Artist and Literary Person",47,unknown,unmatched,,,,west_bengal,,False,False
+424,Translated Books: Liberation War 1971,47,unknown,unmatched,,,,translated,,False,False
+2469,Secret Society,47,exclude,nonfiction,,,,,,False,False
+1270,Archaeological History,47,exclude,nonfiction,,,,,,False,False
+1331,BCS Preli: Computer and Information Technology,47,exclude,academic,,,,,,False,False
+1070,History: Arts & Literature,46,exclude,nonfiction,,,,,,False,False
+8208,Palestine Chronicles,46,unknown,unmatched,,,,,,False,False
+7359,West Bengal Books: Historically Renowned Persons,46,unknown,unmatched,,,,west_bengal,,False,False
+1973,উচ্চ মাধ্যমিক কমন সাবজেক্ট প্রথম বর্ষ | Rokomari.com,46,unknown,unmatched,,,,,,False,False
+4480,Artificial Intelligence & Robotics,46,unknown,unmatched,,,,,,False,False
+1129,"Novel, Poem, Short Story & Drama Collection",46,map,fiction,,,,,,False,True
+7327,Class 9,46,exclude,academic,,,,,,False,False
+1220,Children and Teens: Humor and Entertainment,46,map,fiction,,humor_satire,children,,,False,False
+906,"Article about Music, Film and Entertainment",46,exclude,nonfiction,,,,,,False,False
+1968,When 8-12: General Knowledge,46,unknown,unmatched,,,,,,False,False
+920,President Ziaur Rahman,46,unknown,unmatched,,,,,,False,False
+2382,Teenage Health,46,exclude,nonfiction,,,,,,False,False
+1332,BCS Preli: Mathematical Reasoning,46,exclude,academic,,,,,,False,False
+1498,Children and Teens: Drawing and Music,45,exclude,nonfiction,,,,,,False,False
+1826,Civil Procedure & Practice Law,45,exclude,nonfiction,,,,,,False,False
+1821,Biostatistics,45,unknown,unmatched,,,,,,False,False
+1133,Media and Liberation War,45,unknown,unmatched,,,,,,False,False
+1115,Language & Dictionary Collection,45,exclude,nonfiction,,,,,,False,True
+1224,Children & Teens: History & Politics,45,exclude,nonfiction,,,,,,False,False
+1746,HSC 1st Year: English Science,45,exclude,academic,,,,,en,False,False
+8180,Bank Exam: Preliminary,44,exclude,academic,,,,,,False,False
+6823,HSC 1st Year: Accounting Text Books,44,exclude,academic,,,,,,False,False
+1760,HSC 1st Year: Sociology/ Social work,44,exclude,academic,,,,,,False,False
+955,Media and Liberation War,44,unknown,unmatched,,,,,,False,False
+522,Development and Evolution of Civilization,44,exclude,nonfiction,,,,,,False,False
+7347,"West Bengal Books: Mystery, Detective, Horror, Thriller and Adventure Collection",44,map,fiction,,detective|thriller|horror|adventure,,west_bengal,,False,True
+2335,Biomedical engineering,43,exclude,academic,,,,,,False,False
+7403,West Bengal Books: History and Tradition,43,exclude,nonfiction,,,,west_bengal,,False,False
+3471,HSC 2nd Year: Bangla Arts,43,exclude,academic,,,,,,False,False
+1170,When 4-8: Animal and Animal Kingdom,43,unknown,unmatched,,,,,,False,False
+3464,HSC 2nd Year: Information and Technology,43,exclude,academic,,,,,,False,False
+85,Various Religious Books,43,exclude,nonfiction,,,,,,True,False
+618,Political Philosophy,43,exclude,nonfiction,,,,,,False,False
+1191,When 12-17: Fables,43,map,fiction,short_story_collection,,teen,,,False,False
+508,Translated Books: Politics,43,exclude,nonfiction,,,,translated,,False,False
+2391,Humor Novel,43,map,fiction,novel,humor_satire,,,,False,False
+1328,BCS Preli: General Science,43,exclude,academic,,,,,,False,False
+6857,HSC 2nd Year: Bengali Text Books,42,exclude,academic,,,,,,False,False
+3458,HSC 2nd Year: Bengali Science,42,exclude,academic,,,,,,False,False
+3500,উচ্চ মাধ্যমিক কমন সাবজেক্ট দ্বিতীয় বর্ষ | Rokomari.com,42,unknown,unmatched,,,,,,False,False
+1815,Hospital Management,42,unknown,unmatched,,,,,,False,False
+1269,History Indian Subcontinent: Others,42,exclude,nonfiction,,,,,,False,False
+1052,History of Bangladesh: Post Independence Situation,42,exclude,nonfiction,,,,,,False,False
+942,Map Studies,42,unknown,unmatched,,,,,,False,False
+622,Exercise and diet,42,unknown,unmatched,,,,,,False,False
+717,Drama Compilation,42,map,fiction,drama,,,,,False,True
+7642,Dr. Muhammad Yunus,42,unknown,unmatched,,,,,,False,False
+781,Social and Political Magazine: Special Edition,42,exclude,nonfiction,,,,,,False,False
+2405,Religious and Devotional Poem,42,map,fiction,poetry,,,,,True,False
+3473,HSC 2nd Year: Economics,42,exclude,academic,,,,,,False,False
+1755,HSC 1st Year: Information and Technology,41,exclude,academic,,,,,,False,False
+1551,Articles & Research on IT,41,exclude,nonfiction,,,,,,False,False
+1825,Banking and Commerce Law,41,exclude,nonfiction,,,,,,False,False
+3492,HSC 2nd Year: Information and Technology,41,exclude,academic,,,,,,False,False
+1283,History of Liberation War: Research and Deeds,41,exclude,nonfiction,,,,,,False,False
+583,Philosopher,41,unknown,unmatched,,,,,,False,False
+481,Revolution and Rebellion,41,unknown,unmatched,,,,,,False,False
+1197,When 12-17: History & Politics,41,exclude,nonfiction,,,,,,False,False
+473,History of Europe,41,exclude,nonfiction,,,,,,False,False
+6478,Diploma in Engineering: 1st semester,41,exclude,academic,,,,,,False,False
+2353,"Family planning, Health, Nursing",41,exclude,academic,,,,,,False,False
+2313,Reporting compilation,41,unknown,unmatched,,,,,,False,True
+1765,HSC 1st Year: Information and Technology,41,exclude,academic,,,,,,False,False
+1119,"Business, Investing & Economics Collection",40,exclude,nonfiction,,,,,,False,True
+7361,West Bengal Books: Women Biography,40,exclude,nonfiction,,,,west_bengal,,False,False
+1366,TOEFL,40,unknown,unmatched,,,,,,False,False
+2473,MBBS 1st Year,40,unknown,unmatched,,,,,,False,False
+1230,Children and Teens: Poem,40,map,fiction,poetry,,children,,,False,False
+1203,When 12-17: Humor and Entertainment,40,map,fiction,,humor_satire,teen,,,False,False
+1753,HSC 1st Year: Bangla Business Studies,40,exclude,academic,,,,,,False,False
+930,BCS: Written,40,exclude,academic,,,,,,False,False
+3482,HSC 2nd Year: Information and Technology,40,exclude,academic,,,,,,False,False
+2790,Qawmi: Class Five,40,exclude,academic,,,,,,False,False
+2798,Jamaat Kafia,40,unknown,unmatched,,,,,,False,False
+1443,Class 9 and 10(SSC): Arts Department Pattho Sohayika,40,exclude,academic,,,,,,False,False
+604,Historically Renowned Persons,40,unknown,unmatched,,,,,,False,False
+6446,Class 9 and 10(Science): Biology Pattho Sohayika,40,exclude,academic,,,,,,False,False
+992,Department of Chemistry and Applied Chemistry,39,exclude,academic,,,,,,False,False
+970,Foreign Language Books: Science Fiction,39,map,fiction,,sci_fi,,,en,False,False
+7292,Teacher registration-college stage,39,exclude,academic,,,,,,False,False
+1819,Community Medicine,39,exclude,academic,,,,,,False,False
+130,Petroleum & Mineral Resources Engineering,39,exclude,academic,,,,,,False,False
+6905,HSC 2nd Year: Business organization and management Text Books,39,exclude,academic,,,,,,False,False
+1818,Epidemiology,39,unknown,unmatched,,,,,,False,False
+2215,"Foreign Language Books: Health, family, recipe, fashion",39,exclude,nonfiction,,,,,en,False,False
+2376,Department of Library Management and Information Science,39,exclude,academic,,,,,,False,False
+1358,Law,39,exclude,nonfiction,,,,,,False,False
+553,Chemistry,39,unknown,unmatched,,,,,,False,False
+594,Media & Cultural Personality,39,unknown,unmatched,,,,,,False,False
+1100,History and Tradition Collection,39,exclude,nonfiction,,,,,,False,True
+634,Industry and Farming of Bangladesh,39,unknown,unmatched,,,,,,False,False
+499,During 90 Decade & Present Bangladesh,39,unknown,unmatched,,,,,,False,False
+1062,Liberation War History: Arm and Civil Forces,38,exclude,nonfiction,,,,,,False,False
+1000,Department of Psychology,38,exclude,academic,,,,,,False,False
+2395,"Poems on Political, Liberation war, Language Movement",38,map,fiction,poetry,liberation_war,,,,False,False
+2838,West Bengal Books: Animals and Animal Kingdom,38,unknown,unmatched,,,,west_bengal,,False,False
+868,Theater,38,unknown,unmatched,,,,,,False,False
+142,Embryology,38,unknown,unmatched,,,,,,False,False
+601,"Poet, Musician and Literary Person",38,unknown,unmatched,,,,,,False,False
+1007,Department of Social Science,38,exclude,academic,,,,,,False,False
+1312,English Books on Science & Math,38,exclude,nonfiction,,,,,en,False,False
+1361,Treatment and Health Care,38,exclude,nonfiction,,,,,,False,False
+420,Translated Books: Award Winning Books,37,unknown,unmatched,,,,translated,,False,False
+2502,Political parties of Bangladesh,37,unknown,unmatched,,,,,,False,False
+2710,IELTS Writing,37,unknown,unmatched,,,,,,False,False
+1756,HSC 1st Year: Economics,37,exclude,academic,,,,,,False,False
+2626,Hafeji Quaran,37,unknown,unmatched,,,,,,False,False
+2478,"Foreign Language Books : Comic, Humor, Entertainment and IQ",37,map,fiction,comics,humor_satire,,,en,False,False
+7402,West Bengal Books: Politics,37,exclude,nonfiction,,,,west_bengal,,False,False
+617,Western philosophy,37,exclude,nonfiction,,,,,,False,False
+1429,"HSC 1st Year: Finance, Banking and Insurance",37,exclude,academic,,,,,,False,False
+7775,"Foreign Language Books: Computer, Internet, Freelancing & Outsourcing",37,exclude,nonfiction,,,,,en,False,False
+1557,Article: Collection,37,exclude,nonfiction,,,,,,False,True
+489,Marks,36,unknown,unmatched,,,,,,False,False
+8184,Islamic Literature: Poetry,36,map,fiction,poetry,,,,,True,False
+6785,HSC 1st Year: Bengali Pattho Sohayika,36,exclude,academic,,,,,,False,False
+2815,Fazil First Year,36,unknown,unmatched,,,,,,False,False
+1291,When 12-17: Others,36,unknown,unmatched,,,,,,False,False
+1108,Biographies & Memories Collection,36,exclude,nonfiction,,,,,,False,True
+6484,Diploma in Engineering: 7th semester,36,exclude,academic,,,,,,False,False
+947,Others Self Development,36,unknown,unmatched,,,,,,False,False
+951,Research Paper,36,exclude,nonfiction,,,,,,False,False
+2356,Homeopathy,36,unknown,unmatched,,,,,,False,False
+1049,History of Bangladesh: Research and Statistics,36,exclude,nonfiction,,,,,,False,False
+2435,When 8-12: Riddle and Puzzle,35,unknown,unmatched,,,,,,False,False
+599,Memorials and Others,35,unknown,unmatched,,,,,,False,False
+2625,Nurani Quaran,35,unknown,unmatched,,,,,,False,False
+3487,"HSC 2nd Year: Finance, Banking and Insurance",35,exclude,academic,,,,,,False,False
+83,Buddhism Books,35,unknown,unmatched,,,,,,False,False
+7398,West Bengal Books: Translated Books: Self-Development and Meditation,35,unknown,unmatched,,,,translated,,False,False
+6764,HSC 1st Year: Bengali Pattho Sohayika,35,exclude,academic,,,,,,False,False
+7384,West Bengal Books: Story Compilation,34,map,fiction,short_story_collection,,,west_bengal,,False,True
+2726,JavaScript Programming,34,unknown,unmatched,,,,,,False,False
+1135,HSC 1st Year: Production Management and Marketing,34,exclude,academic,,,,,,False,False
+2493,Travel Novel,34,map,fiction,novel,adventure,,,,False,False
+2472,Lady freedom fighter and War heroin,34,unknown,unmatched,,,,,,False,False
+2381,Engineering Job,34,exclude,academic,,,,,,False,False
+6887,HSC 2nd Year: Production Management and Marketing Text Books,34,exclude,academic,,,,,,False,False
+3006,"West Bengal Books: Business, Investing",34,exclude,nonfiction,,,,west_bengal,,False,False
+968,Foreign Language Books: Story,34,map,fiction,short_story_collection,,,,en,False,False
+1365,SAT,34,unknown,unmatched,,,,,,False,False
+694,Historical Story,34,map,fiction,short_story_collection,historical,,,,False,False
+493,Language movement,34,exclude,nonfiction,,,,,,False,False
+1382,When 4-8: Collection & Set Box,34,unknown,unmatched,,,,,,False,True
+3503,HSC 2nd Year: Optional Subject,34,exclude,academic,,,,,,False,False
+592,Social Worker & Reformer,33,unknown,unmatched,,,,,,False,False
+7369,West Bengal Books: Diary & Letter Collection,33,unknown,unmatched,,,,west_bengal,,False,True
+3474,HSC 2nd Year: Civics,33,exclude,academic,,,,,,False,False
+1761,HSC 1st Year: Islamic History,33,exclude,academic,,,,,,True,False
+1254,Poem Criticism,33,exclude,nonfiction,,,,,,False,False
+711,Techniques of Photography,33,unknown,unmatched,,,,,,False,False
+1305,English Story,33,map,fiction,short_story_collection,,,,en,False,False
+7312,West Bengal Books: Adventure,33,map,fiction,,adventure,,west_bengal,,False,False
+2514,BCS Preli: International Affairs,33,exclude,academic,,,,,,False,False
+985,Department of Finance,33,exclude,academic,,,,,,False,False
+141,Medical Dictionary,32,exclude,academic,,,,,,False,False
+1552,Folk culture,32,exclude,nonfiction,,,,,,False,False
+7346,West Bengal Books: Articles & Research Collection,32,exclude,nonfiction,,,,west_bengal,,False,True
+935,Techniques of Getting Job,32,exclude,academic,,,,,,False,False
+2417,"Foreign Language Books: Humor, Comics, Graphic Novel and story",32,map,fiction,comics,humor_satire,,,en,False,False
+2410,HSC 1st Year: Business organization and management,32,exclude,academic,,,,,,False,False
+1262,Children and Teens: Nature and Environment,32,unknown,unmatched,,,,,,False,False
+2556,European Language,32,exclude,nonfiction,,,,,,False,False
+1759,HSC 1st Year: Logic,32,exclude,academic,,,,,,False,False
+550,Electronics,32,unknown,unmatched,,,,,,False,False
+2729,C Plus Plus Programming,32,unknown,unmatched,,,,,,False,False
+2788,Qawmi: Class Three,32,exclude,academic,,,,,,False,False
+1888,Direct Taxes,31,unknown,unmatched,,,,,,False,False
+6788,HSC 1st Year: Economics Text Books,31,exclude,academic,,,,,,False,False
+2696,Foreign Language Books: Non-Fiction Other Books,31,exclude,nonfiction,,,,,en,False,False
+7267,"English: Comics, Graphic Novels & Stories",31,map,fiction,comics,,,,en,False,False
+880,Music: Others,31,exclude,nonfiction,,,,,,False,False
+7386,West Bengal Books: Classic Novel,31,map,fiction,novel,,,west_bengal,,False,False
+2436,When 12-17: Riddle and Puzzle,30,unknown,unmatched,,,,,,False,False
+2434,When 4-8: Riddle and Puzzle,30,unknown,unmatched,,,,,,False,False
+2476,Para Psychological Novel,30,map,fiction,novel,supernatural|psychological,,,,False,False
+999,Department of Environmental Science,30,exclude,academic,,,,,,False,False
+6833,HSC 1st Year: Business organization and management Text Books,30,exclude,academic,,,,,,False,False
+609,Scientist,30,unknown,unmatched,,,,,,False,False
+7280,West Bengal Books: Translated Poem,30,map,fiction,poetry,,,translated,,False,False
+2414,Meditation and Yoga,30,unknown,unmatched,,,,,,False,False
+1029,Agriculture Economics and Agriculture Business,29,exclude,nonfiction,,,,,,False,False
+882,Film: Technical Side,29,unknown,unmatched,,,,,,False,False
+132,Nuclear Energy Engineering,29,exclude,academic,,,,,,False,False
+1503,Processing,29,unknown,unmatched,,,,,,False,False
+537,Bangladeshi Ethnics,29,unknown,unmatched,,,,,,False,False
+1271,History: Others,29,exclude,nonfiction,,,,,,False,False
+6861,HSC 2nd Year: Economics Text Books,29,exclude,academic,,,,,,False,False
+2648,Math Olympiad (Primary),28,unknown,unmatched,,,,,,False,False
+2789,Qawmi: Class Four,28,exclude,academic,,,,,,False,False
+736,World Economy,28,unknown,unmatched,,,,,,False,False
+2817,Fazil Third Year,28,unknown,unmatched,,,,,,False,False
+1277,Recitation and Technics,28,unknown,unmatched,,,,,,False,False
+1272,History of Bangladesh: Others,28,exclude,nonfiction,,,,,,False,False
+1219,Children and Teens: Music and Drama Books,28,exclude,nonfiction,,,,,,False,False
+1308,Foreign Language Books: Politics,28,exclude,nonfiction,,,,,en,False,False
+7345,West Bengal Books: Children and Teens Compilation,28,unknown,unmatched,,,,west_bengal,,False,True
+1069,History of Liberation War: Liberation War and Politics,28,exclude,nonfiction,,,,,,False,False
+1163,"When 4-8: Mystery, Detective, Horror and Thriller",28,map,fiction,,detective|thriller|horror,children,,,False,False
+6442,Class 9 and 10(Science): Mathematics Pattho Sohayika,28,exclude,academic,,,,,,False,False
+2709,IELTS Reading,27,unknown,unmatched,,,,,,False,False
+510,Political English Books,27,unknown,unmatched,,,,,en,False,False
+2785,Qawmi: Nursery & Children Class,27,exclude,academic,,,,,,False,False
+7385,West Bengal Books: Contemporary Novel,27,map,fiction,novel,,,west_bengal,,False,False
+572,Management Information System,27,unknown,unmatched,,,,,,False,False
+2713,Political Science Department: Honors 1st Year,27,exclude,academic,,,,,,False,False
+561,Internet,27,unknown,unmatched,,,,,,False,False
+2804,Madani Nesab: Second Year,27,unknown,unmatched,,,,,,False,False
+603,Players,27,unknown,unmatched,,,,,,False,False
+6889,"HSC 2nd Year: Finance, Banking and Insurance Text Books",27,exclude,academic,,,,,,False,False
+6867,HSC 2nd Year: Logic Text Books,27,exclude,academic,,,,,,False,False
+1127,Comics & Graphic Novels Collection,26,map,fiction,comics,,,,,False,True
+1769,HSC 1st Year: Agriculture,26,exclude,academic,,,,,,False,False
+1891,Income Tax,26,unknown,unmatched,,,,,,False,False
+3339,History Department: Honors 1st Year,26,exclude,academic,,,,,,False,False
+6797,HSC 1st Year: Sociology/ Social work Pattho Sohayika,26,exclude,academic,,,,,,False,False
+2318,HSC 1st Year: Optional Subject,26,exclude,academic,,,,,,False,False
+2437,Prose,26,unknown,unmatched,,,,,,False,False
+6447,Class 9 and 10(Science): Higher Mathematics Pattho Sohayika,26,exclude,academic,,,,,,False,False
+1465,Childish Books,26,unknown,unmatched,,,,,,False,False
+6824,HSC 1st Year: Accounting Pattho Sohayika,26,exclude,academic,,,,,,False,False
+994,Department of Statistics,26,exclude,academic,,,,,,False,False
+6817,"HSC 1st Year: Finance, Banking and Insurance Text Books",26,exclude,academic,,,,,,False,False
+3293,Economics Department: Honors 1st Year,25,exclude,academic,,,,,,False,False
+606,Businessman,25,unknown,unmatched,,,,,,False,False
+6440,Class 9 and 10(Science): Bangla Pattho Sohayika,25,exclude,academic,,,,,,False,False
+1868,Labour/ Service Laws,25,unknown,unmatched,,,,,,False,False
+2249,Others collection,25,unknown,unmatched,,,,,,False,True
+3486,HSC 2nd Year: Production Management and Marketing,25,exclude,academic,,,,,,False,False
+1494,When 8-12: Environment and Nature,25,unknown,unmatched,,,,,,False,False
+1363,"Professional, Journal & Reference: Others",25,exclude,nonfiction,,,,,,False,False
+588,Buddhist Religious Personalities,25,exclude,nonfiction,,,,,,True,False
+6863,HSC 2nd Year: Civics Text Books,25,exclude,academic,,,,,,False,False
+170,Oxford Handbook's,25,unknown,unmatched,,,,,,False,False
+2510,Foreign Language Books: Non Fiction Compilation,25,exclude,nonfiction,,,,,en,False,True
+1028,Fisheries,24,unknown,unmatched,,,,,,False,False
+3476,HSC 2nd Year: Logic,24,exclude,academic,,,,,,False,False
+1849,Criminal Procedure,24,unknown,unmatched,,,,,,False,False
+2496,Physical and Mental Disorder,24,unknown,unmatched,,,,,,False,False
+973,Foreign Language Books : Poetry,24,map,fiction,poetry,,,,en,False,False
+2515,"BCS Preli: Geography, Environment and Disaster management",24,exclude,academic,,,,,,False,False
+1112,Family and Health Care Collection,24,exclude,nonfiction,,,,,,False,True
+1757,HSC 1st Year: Civics,24,exclude,academic,,,,,,False,False
+2803,Madani Nesab: First Year,24,unknown,unmatched,,,,,,False,False
+6773,HSC 1st Year: Biology Text Books,24,exclude,academic,,,,,,False,False
+1168,When 4-8: Humor and Jokes,24,map,fiction,,humor_satire,children,,,False,False
+2840,General Practice (GP),24,unknown,unmatched,,,,,,False,False
+1099,Politics Books Collection,24,exclude,nonfiction,,,,,,False,True
+6714,SSC/Dakhil (Vocational),24,exclude,academic,,,,,,False,False
+676,Language & Dictionary: Others,24,exclude,nonfiction,,,,,,False,False
+2468,Research and Development,23,exclude,nonfiction,,,,,,False,False
+2504,Constitution and Related Issue,23,unknown,unmatched,,,,,,False,False
+3475,HSC 2nd Year: History,23,exclude,academic,,,,,,False,False
+1146,Rhymes and Poems on Liberation War,23,map,fiction,poetry,liberation_war,,,,False,False
+729,Accounting,23,unknown,unmatched,,,,,,False,False
+2816,Fazil Second Year,23,unknown,unmatched,,,,,,False,False
+1893,Research & Reference/ Lexicons and Dictionaries,23,exclude,nonfiction,,,,,,False,False
+124,Naval Architecture & Marine Engineering,23,exclude,academic,,,,,,False,False
+6815,HSC 1st Year: Production Management and Marketing Text Books,23,exclude,academic,,,,,,False,False
+1763,HSC 1st Year: Geography,23,exclude,academic,,,,,,False,False
+1768,HSC 1st Year: Agriculture,23,exclude,academic,,,,,,False,False
+1143,Liberation War and Politics,23,exclude,nonfiction,,,,,,False,False
+3478,HSC 2nd Year: Islamic History,23,exclude,academic,,,,,,True,False
+6798,HSC 1st Year: Islamic History Text Books,23,exclude,academic,,,,,,True,False
+1368,Technical Education and Handicrafts,22,unknown,unmatched,,,,,,False,False
+3480,HSC 2nd Year: Geography,22,exclude,academic,,,,,,False,False
+1093,Story Collection,22,map,fiction,short_story_collection,,,,,False,True
+1428,Article for Children and Teens,22,exclude,nonfiction,,,,,,False,False
+6449,Class 9 and 10(Science): Religion and moral education Pattho Sohayika,22,exclude,academic,,,,,,False,False
+3325,Social Work Department: Honors 1st Year,22,exclude,academic,,,,,,False,False
+3392,"Professional, Journal, Reference, Collection",22,exclude,nonfiction,,,,,,False,True
+6896,HSC 2nd Year: Accounting Pattho Sohayika,22,exclude,academic,,,,,,False,False
+2571,Satire,22,unknown,unmatched,,,,,,False,False
+2784,Kamil,22,unknown,unmatched,,,,,,False,False
+2572,Ballad/ Lyrical Poem,21,map,fiction,poetry,,,,,False,False
+586,Hindu Religious Personalities,21,exclude,nonfiction,,,,,,True,False
+890,English Poem,21,map,fiction,poetry,,,,en,False,False
+1852,Penal Code,21,unknown,unmatched,,,,,,False,False
+2383,Translated Books Collection,21,unknown,unmatched,,,,translated,,False,True
+1157,When 0-4: Animal and Animal Kingdom,21,unknown,unmatched,,,,,,False,False
+3493,HSC 2nd Year: Agriculture,21,exclude,academic,,,,,,False,False
+8218,Kashmir: History and Governance,21,exclude,nonfiction,,,,,,False,False
+8187,Hifz Section,21,unknown,unmatched,,,,,,False,False
+614,Modern Philosophy,21,exclude,nonfiction,,,,,,False,False
+7352,West Bengal Books: Hinduism Books,21,unknown,unmatched,,,,west_bengal,,False,False
+936,Begum Khaleda Zia,20,unknown,unmatched,,,,,,False,False
+886,Musical Instruments ‍and Music,20,exclude,nonfiction,,,,,,False,False
+6479,Diploma in Engineering: 2nd semester,20,exclude,academic,,,,,,False,False
+3279,Physics Department: Honors 3 rd Year,20,exclude,academic,,,,,,False,False
+2777,Ibtedayi: Class Five,20,exclude,academic,,,,,,False,False
+986,Department of Banking,20,exclude,academic,,,,,,False,False
+1410,Economics Department: Masters,20,exclude,academic,,,,,,False,False
+459,History of Egyptian Civilization,20,exclude,nonfiction,,,,,,False,False
+2517,"BCS Preli: Ethics, Values and Good governance",20,exclude,academic,,,,,,False,False
+1054,History: Contemporary Aspect of Bangladesh,20,exclude,nonfiction,,,,,,False,False
+6794,HSC 1st Year: Logic Text Books,20,exclude,academic,,,,,,False,False
+6847,HSC 2nd Year: Biology Text Books,20,exclude,academic,,,,,,False,False
+1770,HSC 1st Year: Agriculture,20,exclude,academic,,,,,,False,False
+1172,When 4-8: Childish,20,unknown,unmatched,,,,,,False,False
+2707,GMAT,20,unknown,unmatched,,,,,,False,False
+6796,HSC 1st Year: HSC Sociology/ Social work Text Books,20,exclude,academic,,,,,,False,False
+881,Film Criticism,20,exclude,nonfiction,,,,,,False,False
+3000,Neonatology,20,unknown,unmatched,,,,,,False,False
+666,Travel Guide: Bangladesh,20,exclude,academic,,,,,,False,False
+2780,Dakhil: Class Eight,20,exclude,academic,,,,,,False,False
+874,Nazrul Music,20,exclude,nonfiction,,,,,,False,False
+2771,When 0-4: Flashcard,19,unknown,unmatched,,,,,,False,False
+2645,Junior Math Olympiad Category,19,unknown,unmatched,,,,,,False,False
+6790,HSC 1st Year: Civics Text Books,19,exclude,academic,,,,,,False,False
+1002,Department of Pharmacy,19,exclude,academic,,,,,,False,False
+3740,Anthropology,19,unknown,unmatched,,,,,,False,False
+7322,West Bengal Books: Mythological,19,map,fiction,,mythology,,west_bengal,,False,False
+3007,"West Bengal Books: Media, Journalism",19,unknown,unmatched,,,,west_bengal,,False,False
+733,Law of Business,19,exclude,nonfiction,,,,,,False,False
+875,Lalon Music,19,exclude,nonfiction,,,,,,False,False
+3483,HSC 2nd Year: Agriculture,19,exclude,academic,,,,,,False,False
+2717,Sociology Department: Honors 1st Year,19,exclude,academic,,,,,,False,False
+7367,West Bengal Books: Biography Collection,18,exclude,nonfiction,,,,west_bengal,,False,True
+3479,HSC 2nd Year: Islamic Studies,18,exclude,academic,,,,,,True,False
+610,Ancient Philosophy,18,exclude,nonfiction,,,,,,False,False
+6875,HSC 2nd Year: Geography Text Books,18,exclude,academic,,,,,,False,False
+178,Basic Sciences,18,unknown,unmatched,,,,,,False,False
+181,Engineering: Exams Preparation,18,exclude,academic,,,,,,False,False
+998,"Department of Soil, Water and Environment",18,exclude,academic,,,,,,False,False
+7294,College Level-Written,18,unknown,unmatched,,,,,,False,False
+2775,Ibtedayi: Class Three,18,exclude,academic,,,,,,False,False
+2423,Physics Olympiad,18,unknown,unmatched,,,,,,False,False
+1758,HSC 1st Year: History,18,exclude,academic,,,,,,False,False
+6480,Diploma in Engineering: 3rd semester,18,exclude,academic,,,,,,False,False
+1293,"Music, Films & Entertainment: Others",18,exclude,nonfiction,,,,,,False,False
+2516,BCS Preli: Mental ability,18,exclude,academic,,,,,,False,False
+6870,HSC 2nd Year: HSC Sociology/ Social work Pattho Sohayika,17,exclude,academic,,,,,,False,False
+1024,Law,17,exclude,nonfiction,,,,,,False,False
+3317,Botany Department: Honors 1st Year,17,exclude,academic,,,,,,False,False
+619,Fashion and Skin Care,17,unknown,unmatched,,,,,,False,False
+981,Department of Human Resource Management,17,exclude,academic,,,,,,False,False
+3465,HSC 2nd Year: Agriculture,17,exclude,academic,,,,,,False,False
+1096,Articles Collection,17,exclude,nonfiction,,,,,,False,True
+1762,HSC 1st Year: Islamic Studies,17,exclude,academic,,,,,,True,False
+6802,HSC 1st Year: Geography Text Books,17,exclude,academic,,,,,,False,False
+1253,Children and Teens: Drama,17,map,fiction,drama,,children,,,False,False
+712,Discussion and Criticism On Photography,17,exclude,nonfiction,,,,,,False,False
+2475,Engineering and Architecture,17,exclude,academic,,,,,,False,False
+607,Dominant Personalities,17,unknown,unmatched,,,,,,False,False
+6443,Class 9 and 10(Science): ICT Pattho Sohayika,17,exclude,academic,,,,,,False,False
+6869,HSC 2nd Year: HSC Sociology/ Social work Text Books,16,exclude,academic,,,,,,False,False
+1356,Information Technology,16,exclude,nonfiction,,,,,,False,False
+1772,HSC 1st Year: Statistics - Arts,16,exclude,academic,,,,,,False,False
+490,Capitalism,16,unknown,unmatched,,,,,,False,False
+2733,PHP Programming,16,unknown,unmatched,,,,,,False,False
+2779,Dakhil: Class Seven,16,exclude,academic,,,,,,False,False
+7269,Bengali language education,16,exclude,nonfiction,,,,,,False,False
+3291,Accounting Department: Honors 3rd Year,16,exclude,academic,,,,,,False,False
+792,Science Magazine: Special Edition,16,exclude,nonfiction,,,,,,False,False
+3277,Physics Department: Honors 1 ‍st Year,16,exclude,academic,,,,,,False,False
+776,General Knowledge Magazine: Monthly,16,exclude,nonfiction,,,,,,False,False
+1234,When 12-17: Drama,16,map,fiction,drama,,teen,,,False,False
+1095,Science Fiction Collection,16,map,fiction,,sci_fi,,,,False,True
+2509,Foreign Language Books: Fiction Compilation,16,map,fiction,,,,,en,False,True
+3321,Philosophy Department: Honors 1st Year,16,exclude,academic,,,,,,False,False
+2776,Ibtedayi: Class Four,16,exclude,academic,,,,,,False,False
+398,Islamic Studies (Text Books),16,exclude,academic,,,,,,True,False
+1728,Computer Education,16,exclude,nonfiction,,,,,,False,False
+173,Unani & Ayurvedic,16,unknown,unmatched,,,,,,False,False
+2818,Kamil First Year,15,unknown,unmatched,,,,,,False,False
+8188,Qur'an Hifz Support Books,15,unknown,unmatched,,,,,,False,False
+2773,Ibtedayi: Class One,15,exclude,academic,,,,,,False,False
+6477,Class 9 and 10(SSC): Optional Subject,15,exclude,academic,,,,,,False,False
+663,Travelling In Australia,15,unknown,unmatched,,,,,,False,False
+6366,West Bengal Books: Academic Books,15,unknown,unmatched,,,,west_bengal,,False,False
+1437,Political Science Department: Masters,15,exclude,academic,,,,,,False,False
+2387,Agriculture University Admission,15,exclude,academic,,,,,,False,False
+167,Rheumatology,15,unknown,unmatched,,,,,,False,False
+1870,Labour & Industrial Law,15,exclude,nonfiction,,,,,,False,False
+7374,West Bengal Books: Romantic Story,15,map,fiction,short_story_collection,romance,,west_bengal,,False,False
+183,Administration & Medicine Economics,15,exclude,academic,,,,,,False,False
+1077,Contemporary History,15,exclude,nonfiction,,,,,,False,False
+2778,Dakhil: Class Six,15,exclude,academic,,,,,,False,False
+3289,Accounting Department: Honors 1st Year,15,exclude,academic,,,,,,False,False
+6777,HSC 1st Year: Agricultural Education Text Books,14,exclude,academic,,,,,,False,False
+2408,Department of Biology,14,exclude,academic,,,,,,False,False
+472,History of Central Asia,14,exclude,nonfiction,,,,,,False,False
+1857,Hindu Law,14,exclude,nonfiction,,,,,,False,False
+1360,NGO,14,unknown,unmatched,,,,,,False,False
+1871,Law Manuals,14,exclude,nonfiction,,,,,,False,False
+6793,HSC 1st Year: History Pattho Sohayika,14,exclude,academic,,,,,,False,False
+6871,HSC 2nd Year: Islamic History Text Books,14,exclude,academic,,,,,,True,False
+7363,West Bengal Books: Philosopher,14,unknown,unmatched,,,,west_bengal,,False,False
+6900,HSC 2nd Year: Agricultural Education Pattho Sohayika,14,exclude,academic,,,,,,False,False
+2310,HSC 1st Year Suggestion: Science Department,14,exclude,academic,,,,,,False,False
+3484,HSC 2nd Year: Statistics,14,exclude,academic,,,,,,False,False
+1773,HSC 1st Year: Statistics - Business Studies,13,exclude,academic,,,,,,False,False
+1362,Statistics,13,unknown,unmatched,,,,,,False,False
+1310,Democracy,13,unknown,unmatched,,,,,,False,False
+2834,Ulumul Hadith Department,13,exclude,academic,,,,,,False,False
+7776,Foreign Language Books: Artificial Intelligence & Robotics,13,exclude,nonfiction,,,,,en,False,False
+2833,Screenplay,13,unknown,unmatched,,,,,,False,False
+6872,HSC 2nd Year: Islamic History Pattho Sohayika,13,exclude,academic,,,,,,True,False
+6874,HSC 2nd Year: Islamic Studies Pattho Sohayika,13,exclude,academic,,,,,,True,False
+6865,HSC 2nd Year: History Text Books,13,exclude,academic,,,,,,False,False
+7293,College Stage-Preliminary,13,unknown,unmatched,,,,,,False,False
+160,Parasitology,13,unknown,unmatched,,,,,,False,False
+649,Chittagong Hill Tracts,13,unknown,unmatched,,,,,,False,False
+2649,Math Olympiad (Junior),13,unknown,unmatched,,,,,,False,False
+1390,Stationary,13,unknown,unmatched,,,,,,False,False
+7277,West Bengal Books: Rhyme,13,map,fiction,poetry,,,west_bengal,,False,False
+2420,"Test Papers: Honors, Degree and Equivalent",13,exclude,academic,,,,,,False,False
+6862,HSC 2nd Year: Economics Pattho Sohayika,13,exclude,academic,,,,,,False,False
+2714,Political Science Department: Honors 2nd Year,13,exclude,academic,,,,,,False,False
+3288,Management Department: Honors 4th Year,13,exclude,academic,,,,,,False,False
+2544,HSC 1st Year: Home science,13,exclude,academic,,,,,,False,False
+2635,Diary for Childhood Memory,12,unknown,unmatched,,,,,,False,False
+7357,West Bengal Books: Religious Personalities,12,exclude,nonfiction,,,,west_bengal,,True,False
+1403,Management Department: Masters,12,exclude,academic,,,,,,False,False
+1860,Human Rights,12,unknown,unmatched,,,,,,False,False
+6795,HSC 1st Year: Logic Pattho Sohayika,12,exclude,academic,,,,,,False,False
+948,Deshi Journal,12,exclude,nonfiction,,,,,,False,False
+6469,Class 9 and 10 (Business Studies): Accounting Pattho Sohayika,12,exclude,academic,,,,,,False,False
+2650,Math Olympiad (Secondary),12,unknown,unmatched,,,,,,False,False
+2425,Biology Olympiad,12,unknown,unmatched,,,,,,False,False
+6818,"HSC 1st Year: Finance, Banking and Insurance Pattho Sohayika",11,exclude,academic,,,,,,False,False
+6828,HSC 1st Year: Agricultural Education Pattho Sohayika,11,exclude,academic,,,,,,False,False
+1032,African History,11,exclude,nonfiction,,,,,,False,False
+1044,Chittagong,11,unknown,unmatched,,,,,,False,False
+6448,Class 9 and 10(Science): Bangladesh and world identity Pattho Sohayika,11,exclude,academic,,,,,,False,False
+6468,Class 9 and 10 (Business Studies): Business Ventures Pattho Sohayika,11,exclude,academic,,,,,,False,False
+7401,West Bengal Books: Article Column,11,exclude,nonfiction,,,,west_bengal,,False,False
+655,Humor & Entertainment: Translation,11,map,fiction,,humor_satire,,translated,,False,False
+2323,School Admission Preparation,11,exclude,academic,,,,,,False,False
+7375,West Bengal Books: Historical Story,11,map,fiction,short_story_collection,historical,,west_bengal,,False,False
+6811,HSC 1st Year: Statistics Text Books,11,exclude,academic,,,,,,False,False
+6792,HSC 1st Year: History Text Books,11,exclude,academic,,,,,,False,False
+6789,HSC 1st Year: Economics Pattho Sohayika,11,exclude,academic,,,,,,False,False
+6801,HSC 1st Year: Islamic Studies Pattho Sohayika,11,exclude,academic,,,,,,True,False
+3296,Economics Department: Honors 4th Year,11,exclude,academic,,,,,,False,False
+565,S E O,11,unknown,unmatched,,,,,,False,False
+3280,Physics Department: Honors 4th Year,11,exclude,academic,,,,,,False,False
+2837,"Foreign Language Books: Music, Films and Entertainment",11,exclude,nonfiction,,,,,en,False,False
+3481,HSC 2nd Year: Psychology,11,exclude,academic,,,,,,False,False
+1011,Department of Public Administration,11,exclude,academic,,,,,,False,False
+6906,HSC 2nd Year: Business organization and management Pattho Sohayika,10,exclude,academic,,,,,,False,False
+6834,HSC 1st Year: Business organization and management Pattho Sohayika,10,exclude,academic,,,,,,False,False
+6471,"Class 9 and 10 (Business Studies): Finance, Banking and Insurance Pattho Sohayika",10,exclude,academic,,,,,,False,False
+6810,HSC 1st Year: Agricultural Education Pattho Sohayika,10,exclude,academic,,,,,,False,False
+6799,HSC 1st Year: Islamic History Pattho Sohayika,10,exclude,academic,,,,,,True,False
+6866,HSC 2nd Year: History Pattho Sohayika,10,exclude,academic,,,,,,False,False
+6829,HSC 1st Year: Statistics Text Books,10,exclude,academic,,,,,,False,False
+6868,HSC 2nd Year: Logic Pattho Sohayika,10,exclude,academic,,,,,,False,False
+8192,July Uprising: Poetry,10,map,fiction,poetry,,,,,False,False
+2508,Mountain Climb and Tracking Guide,10,exclude,academic,,,,,,False,False
+1814,Ultra,10,unknown,unmatched,,,,,,False,False
+125,Urban and Regional Planning,10,unknown,unmatched,,,,,,False,False
+3328,Social Work Department: Honors 4th Year,10,exclude,academic,,,,,,False,False
+1281,Regime: Others,10,unknown,unmatched,,,,,,False,False
+1862,Cyber Law,10,exclude,nonfiction,,,,,,False,False
+1822,Administrative Law,10,exclude,nonfiction,,,,,,False,False
+1296,Mobile Phone,10,unknown,unmatched,,,,,,False,False
+3485,HSC 2nd Year: Home science,10,exclude,academic,,,,,,False,False
+3273,Math Department: Honors 1st Year,10,exclude,academic,,,,,,False,False
+3345,Islamic History,10,exclude,nonfiction,,,,,,True,False
+593,Physician,9,unknown,unmatched,,,,,,False,False
+6778,HSC 1st Year: Agricultural Education Pattho Sohayika,9,exclude,academic,,,,,,False,False
+6360,West Bengal Books: Family and Parenting,9,exclude,nonfiction,,,,west_bengal,,False,False
+777,General Knowledge Magazine: Special Edition,9,exclude,nonfiction,,,,,,False,False
+2651,Math Olympiad (Higher Secondary),9,unknown,unmatched,,,,,,False,False
+8194,German Language Learning,9,exclude,nonfiction,,,,,,False,False
+8191,July Uprising: Stories,9,map,fiction,short_story_collection,,,,,False,False
+4453,Law and Justice,9,exclude,nonfiction,,,,,,False,False
+4215,Civil Engineering: 5th semester,9,exclude,academic,,,,,,False,False
+1043,Sylhet,9,unknown,unmatched,,,,,,False,False
+7351,West Bengal Books: Islamic Books,9,exclude,nonfiction,,,,west_bengal,,True,False
+4059,History Department: Degree 1st Year,9,exclude,academic,,,,,,False,False
+715,Various Books on Photography,9,unknown,unmatched,,,,,,False,False
+1848,Crime against Women,9,unknown,unmatched,,,,,,False,False
+1764,HSC 1st Year: Psychology,9,exclude,academic,,,,,,False,False
+2374,Bangla-English Poem,9,map,fiction,poetry,,,,,False,False
+2422,Department of Business Communication,9,exclude,academic,,,,,,False,False
+3309,English Department: Honors 1st Year,9,exclude,academic,,,,,en,False,False
+2731,R Programming,9,unknown,unmatched,,,,,,False,False
+7281,West Bengal Books: Romantic Poem,8,map,fiction,poetry,romance,,west_bengal,,False,False
+7334,Foreign Language Books: Hinduism Books,8,exclude,nonfiction,,,,,en,False,False
+784,Cooking Magazine,8,exclude,nonfiction,,,,,,False,False
+1823,Advocacy/ Adjudication Law,8,exclude,nonfiction,,,,,,False,False
+1294,Foreign Language Books: Other Foreign Books,8,exclude,nonfiction,,,,,en,False,False
+3318,Botany Department: Honors 2nd Year,8,exclude,academic,,,,,,False,False
+2336,Cytology,8,unknown,unmatched,,,,,,False,False
+1854,Environmental Law,8,exclude,nonfiction,,,,,,False,False
+1497,"Department of Industry, Production and Operation Management",8,exclude,academic,,,,,,False,False
+1407,Accounting Department: Masters,8,exclude,academic,,,,,,False,False
+516,Roman Civilization,8,exclude,nonfiction,,,,,,False,False
+6791,HSC 1st Year: Civics Pattho Sohayika,8,exclude,academic,,,,,,False,False
+6800,HSC 1st Year: Islamic Studies Text Books,8,exclude,academic,,,,,,True,False
+7393,West Bengal Books: Biographical novel,8,map,fiction,novel,historical,,west_bengal,,False,False
+6816,HSC 1st Year: Production Management and Marketing Pattho Sohayika,8,exclude,academic,,,,,,False,False
+6890,"HSC 2nd Year: Finance, Banking and Insurance Pattho Sohayika",8,exclude,academic,,,,,,False,False
+6864,HSC 2nd Year: Civics Pattho Sohayika,8,exclude,academic,,,,,,False,False
+6883,HSC 2nd Year: Statistics Text Books,8,exclude,academic,,,,,,False,False
+4017,Accounting Department: Degree 1st Year,7,exclude,academic,,,,,,False,False
+7381,West Bengal Books: Mythological & legendary Story,7,map,fiction,short_story_collection,mythology,,west_bengal,,False,False
+6888,HSC 2nd Year: Production Management and Marketing Pattho Sohayika,7,exclude,academic,,,,,,False,False
+6901,HSC 2nd Year: Statistics Text Books,7,exclude,academic,,,,,,False,False
+7387,West Bengal Books: Romantic Novel,7,map,fiction,novel,romance,,west_bengal,,False,False
+461,History of Mesopotamian Civilization,7,exclude,nonfiction,,,,,,False,False
+6459,Class 9 and 10 (Arts): Economy Pattho Sohayika,7,exclude,academic,,,,,,False,False
+6458,Class 9 and 10 (Arts): Urban Policy and Citizenship Pattho Sohayika,7,exclude,academic,,,,,,False,False
+6878,HSC 2nd Year: Psychology Pattho Sohayika,7,exclude,academic,,,,,,False,False
+6814,HSC 1st Year: Home science Pattho Sohayika,7,exclude,academic,,,,,,False,False
+3281,Zoology Department: Honors 1st Year,7,exclude,academic,,,,,,False,False
+3310,English Department: Honors 2nd Year,7,exclude,academic,,,,,en,False,False
+2819,Kamil Final Year,7,unknown,unmatched,,,,,,False,False
+2774,Ibtedayi: Class Two,7,exclude,academic,,,,,,False,False
+8306,Private University Admission Preparation,7,exclude,academic,,,,,,False,False
+3305,Psychology Department: Honors 1st Year,7,exclude,academic,,,,,,False,False
+1882,"Press, Media & Telecommunication Laws",7,unknown,unmatched,,,,,,False,False
+1867,Jurisprudence,7,unknown,unmatched,,,,,,False,False
+2466,Department of Biotechnology,7,exclude,academic,,,,,,False,False
+2708,IELTS Listening,7,unknown,unmatched,,,,,,False,False
+8190,July Uprising: Novel,7,map,fiction,novel,,,,,False,False
+8189,Tajweed and Qariyah Education,7,unknown,unmatched,,,,,,False,False
+1025,Department of Education and Research,6,exclude,academic,,,,,,False,False
+997,Department Of Biochemistry & Molecular Biology,6,exclude,academic,,,,,,False,False
+7368,West Bengal Books: Speech Compilation,6,unknown,unmatched,,,,west_bengal,,False,True
+6803,HSC 1st Year: Geography Pattho Sohayika,6,exclude,academic,,,,,,False,False
+7286,School Level-Written,6,unknown,unmatched,,,,,,False,False
+6457,Class 9 and 10 (Arts): Geography and environment Pattho Sohayika,6,exclude,academic,,,,,,False,False
+1851,NDPS (Narcotic Drugs),6,unknown,unmatched,,,,,,False,False
+1828,Constitutional Law,6,exclude,nonfiction,,,,,,False,False
+2543,HSC 1st Year: Home Science,6,exclude,academic,,,,,,False,False
+2023,Women and Gender Studies,6,unknown,unmatched,,,,,,False,False
+3494,HSC 2nd Year: Statistics,6,exclude,academic,,,,,,False,False
+460,History of Greek Civilization,6,exclude,nonfiction,,,,,,False,False
+8195,French Language Learning,6,exclude,nonfiction,,,,,,False,False
+3329,Public Administration Department: Honors 1st Year,6,exclude,academic,,,,,,False,False
+1066,History: Razakar/Pakistani collaborator,6,exclude,nonfiction,,,,,,False,False
+1140,Razakar/Pakistani collaborator,6,unknown,unmatched,,,,,,False,False
+3466,HSC 2nd Year: Statistics,6,exclude,academic,,,,,,False,False
+6813,HSC 1st Year: Home science Text Books,6,exclude,academic,,,,,,False,False
+6886,HSC 2nd Year: Home science Pattho Sohayika,6,exclude,academic,,,,,,False,False
+517,Mesopotamian civilization,6,exclude,nonfiction,,,,,,False,False
+6804,HSC 1st Year: Psychology Text Books,6,exclude,academic,,,,,,False,False
+6805,HSC 1st Year: Psychology Pattho Sohayika,6,exclude,academic,,,,,,False,False
+6873,HSC 2nd Year: Islamic Studies Text Books,5,exclude,academic,,,,,,True,False
+6876,HSC 2nd Year: Geography Pattho Sohayika,5,exclude,academic,,,,,,False,False
+6877,HSC 2nd Year: Psychology Text Books,5,exclude,academic,,,,,,False,False
+7389,West Bengal Books: Political Novel,5,map,fiction,novel,social,,west_bengal,,False,False
+1859,Succession Act,5,unknown,unmatched,,,,,,False,False
+1534,English Medium: Class-2,5,exclude,academic,,,,,en,False,False
+1103,Liberation War 1971 Collection,5,unknown,unmatched,,,,,,False,True
+4121,Computer Technology: 2nd semester,5,exclude,nonfiction,,,,,,False,False
+4139,Computer Technology: 7th semester,5,exclude,nonfiction,,,,,,False,False
+4168,Electrical Engineering: 7th semester,5,exclude,academic,,,,,,False,False
+8196,Spanish Language Learning,5,exclude,nonfiction,,,,,,False,False
+1416,Marketing Department: Masters,5,exclude,academic,,,,,,False,False
+2805,Madani Nesab: Third Year,5,unknown,unmatched,,,,,,False,False
+3275,Math Department: Honors 3rd Year,5,exclude,academic,,,,,,False,False
+3468,HSC 2nd Year: Home Science,5,exclude,academic,,,,,,False,False
+1001,Department of Microbiology,4,exclude,academic,,,,,,False,False
+2424,Chemistry Olympiad,4,unknown,unmatched,,,,,,False,False
+1252,Children and Teens: Music,4,exclude,nonfiction,,,,,,False,False
+1102,Bangladesh Related Books Collection,4,unknown,unmatched,,,,,,False,True
+1509,Geography Department: Masters Book,4,exclude,academic,,,,,,False,False
+4308,Mechanical Engineering: 4th semester,4,exclude,academic,,,,,,False,False
+4029,Political Science Department: Degree 1st Year,4,exclude,academic,,,,,,False,False
+4031,Political Science Department: Degree 3rd Year,4,exclude,academic,,,,,,False,False
+6885,HSC 2nd Year: Home science Text Books,4,exclude,academic,,,,,,False,False
+6511,Refrigeration and Air-condition Engineering: 1st Semester,4,exclude,academic,,,,,,False,False
+587,Christian Religious Personalities,4,exclude,nonfiction,,,,,,True,False
+6854,HSC 2nd Year: Statistics Pattho Sohayika,4,exclude,academic,,,,,,False,False
+2375,Library,4,unknown,unmatched,,,,,,False,False
+3311,English Department: Honors 3rd Year,4,exclude,academic,,,,,en,False,False
+2808,Madani Nesab: Fifth Year,4,unknown,unmatched,,,,,,False,False
+1771,HSC 1st Year: Statistics,4,exclude,academic,,,,,,False,False
+4211,Civil Engineering: 4th semester,4,exclude,academic,,,,,,False,False
+8197,Italian Language Learning,4,exclude,nonfiction,,,,,,False,False
+6830,HSC 1st Year: Statistics Pattho Sohayika,3,exclude,academic,,,,,,False,False
+6451,"Class 9 and 10(Science): Physical Education, Health Science and Sports Pattho Sohayika",3,exclude,academic,,,,,,False,False
+6907,HSC 2nd Year: Business Policy/ Commercial Geography Text Books,3,exclude,academic,,,,,,False,False
+4150,Electrical Engineering: 3rd semester,3,exclude,academic,,,,,,False,False
+4063,Islamic History,3,exclude,nonfiction,,,,,,True,False
+3274,Math Department: Honors 2nd Year,3,exclude,academic,,,,,,False,False
+3312,English Department: Honors 4th Year,3,exclude,academic,,,,,en,False,False
+3320,Botany Department: Honors 4th Year,3,exclude,academic,,,,,,False,False
+2769,Diploma in Textile Engineering,3,exclude,academic,,,,,,False,False
+4175,Electronics Engineering: 3rd semester,3,exclude,academic,,,,,,False,False
+2377,Dress Making,3,unknown,unmatched,,,,,,False,False
+1393,Math Department: Masters 1st Year,3,exclude,academic,,,,,,False,False
+3347,Islamic Studies Department: Honors 1st Year,3,exclude,academic,,,,,,True,False
+6812,HSC 1st Year: Statistics Pattho Sohayika,3,exclude,academic,,,,,,False,False
+6716,Basic Trade (360 Hour),2,unknown,unmatched,,,,,,False,False
+6831,HSC 1st Year: Shorthand/ Secretarial Science Text Books,2,exclude,academic,,,,,,False,False
+6903,HSC 2nd Year: Shorthand/ Secretarial Science Text Books,2,exclude,academic,,,,,,False,False
+713,Photography Magazine,2,exclude,nonfiction,,,,,,False,False
+6835,HSC 1st Year: Business Policy/ Commercial Geography Text Books,2,exclude,academic,,,,,,False,False
+1324,HSC Suggestion 1st Year: Arts Department,2,exclude,academic,,,,,,False,False
+6779,HSC 1st Year: Statistics Text Books,2,exclude,academic,,,,,,False,False
+2086,Buy Superstore - Best Online Superstore Products Shop in BD | Rokomari.com,2,unknown,unmatched,,,,,,False,False
+2550,HSC 1st Year: Business Policy/ Commercial Geography,2,exclude,academic,,,,,,False,False
+7410,West Bengal Books: Career Development,2,unknown,unmatched,,,,west_bengal,,False,False
+474,History of French Revolution,2,exclude,nonfiction,,,,,,False,False
+512,Maya Civilization,2,exclude,nonfiction,,,,,,False,False
+6627,Computer Science and Technology: 3rd Semester,2,exclude,nonfiction,,,,,,False,False
+6782,HSC 1st Year: Home Science Text Books,2,exclude,academic,,,,,,False,False
+4106,Computer Technology: 1st Semester,2,exclude,nonfiction,,,,,,False,False
+4148,Electrical Engineering: 2nd semester,2,exclude,academic,,,,,,False,False
+3467,HSC 2nd Year Suggestion: Science Department,2,exclude,academic,,,,,,False,False
+4147,Electrical Engineering: 1st Semester,2,exclude,academic,,,,,,False,False
+4057,Bangla Department: Degree 2nd Year,1,exclude,academic,,,,,,False,False
+6607,Garments and Textile Technology: 8th Semester,1,exclude,nonfiction,,,,,,False,False
+6623,Data Telecommunication and Networking: 7th Semester,1,unknown,unmatched,,,,,,False,False
+2213,Class 7 (Vocational),1,exclude,academic,,,,,,False,False
+1482,History Department: Masters Book,1,exclude,academic,,,,,,False,False
+8288,"West Bengal Children’s Books: Mystery, Detective, Thriller and Adventure",1,map,fiction,,detective|thriller|adventure,children,west_bengal,,False,False
+4157,Electrical Engineering: 4th semester,1,exclude,academic,,,,,,False,False
+1873,Civil Court Manual,1,unknown,unmatched,,,,,,False,False
+2768,Diploma in Textile Engineering,1,exclude,academic,,,,,,False,False
+2807,Diploma in Agriculture,1,exclude,nonfiction,,,,,,False,False
+3469,HSC 2nd Year Suggestion: Arts Department,1,exclude,academic,,,,,,False,False
+2212,Class 6 (Vocational),1,exclude,academic,,,,,,False,False
+6715,JSC (Vocational) Books - জেএসসি (ভোকেশনাল) এর প্রোডাক্ট | Rokomari.com,0,exclude,academic,,,,,,False,False
+6263,Foam Play,0,unknown,unmatched,,,,,,False,False
+2836,Diploma in Forestry Books - ডিপ্লোমা ইন ফরেস্ট্রি এর প্রোডাক্ট | Rokomari.com,0,unknown,unmatched,,,,,,False,False
+2953,Baby Mosquito Nets,0,unknown,unmatched,,,,,,False,False
+2977,Diploma in Livestock Books - ডিপ্লোমা ইন লাইভস্টক এর প্রোডাক্ট | Rokomari.com,0,unknown,unmatched,,,,,,False,False
+3013,Islamic Fragrance Products,0,exclude,nonfiction,,,,,,True,False
+2830,Diploma in Fisheries Books - ডিপ্লোমা ইন ফিসারিজ এর প্রোডাক্ট | Rokomari.com,0,unknown,unmatched,,,,,,False,False
+1985,Islami Product Package,0,ignore,promotion,,,,,,False,False
+1988,Supplier and Campaign Page,0,unknown,unmatched,,,,,,False,False
+2289,Rehal,0,unknown,unmatched,,,,,,False,False
+1984,Diary and Notebook,0,unknown,unmatched,,,,,,False,False
+2098,Attar,0,unknown,unmatched,,,,,,False,False
+2094,Islamic Accessories,0,exclude,nonfiction,,,,,,True,False
+2170,Jaynamaz,0,unknown,unmatched,,,,,,False,False
+2152,Muslim Prayer Cap,0,unknown,unmatched,,,,,,False,False
+2290,Tasbih,0,unknown,unmatched,,,,,,False,False
+2337,Hajj & Umrah Essentials,0,unknown,unmatched,,,,,,False,False
+2372,Surma,0,unknown,unmatched,,,,,,False,False
+2541,Miswak,0,unknown,unmatched,,,,,,False,False
+2358,Buy Food Products - Best Online Shop in BD | Rokomari.com,0,unknown,unmatched,,,,,,False,False
+2364,Dates (Khejur),0,unknown,unmatched,,,,,,False,False
+171,Oxford Emergencies Books - Oxford Emergencies এর প্রোডাক্ট | Rokomari.com,0,unknown,unmatched,,,,,,False,False
+135,Glass and Ceramics Engineering Books - Glass and Ceramics Engineering এর প্রোডাক্ট | Rokomari.com,0,exclude,academic,,,,,,False,False
