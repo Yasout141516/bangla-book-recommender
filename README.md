@@ -3,10 +3,10 @@
 **Find Bangla books by the taste you describe.** Ask for *"a slow, dark mystery set in old Dhaka"*, or *"books like Sonar Kella"*,
 in Bangla, English or romanised Bangla, and get matching books with a short reason for each.
 
-A retrieval-augmented recommendation system over a catalogue of about **9.8k Bangla fiction works**, built from open research datasets,
+A retrieval-augmented recommendation system over a catalogue of about **9.5k Bangla fiction works**, built from open research datasets,
 Wikipedia and Wikidata. It covers Bangladeshi, West Bengal (Indian Bengali) and translated books.
 
-> **Status:** data collection ✅ done · cleaning pipeline ⏳ next · retrieval and LLM reranking 🔜
+> **Status:** data collection ✅ · cleaning S1–S6 ✅ (102 tests, 18/18 validation checks) · S7–S12 ⏳ · retrieval 🔜
 > See [PROGRESS.md](PROGRESS.md) for a detailed checklist.
 
 ---
@@ -50,7 +50,8 @@ Details: [data model](docs/03-data-model.md) · [tag vocabulary](docs/04-tag-voc
 | Unique books | 127,302 |
 | Fiction category (novel, story, thriller, horror, comics…), excluding religious and academic | 22,646 |
 | + usable summary (≥200 chars, mostly Bangla, not a table of contents or preface) | 10,673 |
-| **Distinct works after merging editions** | **9,804** (≈1.2k West Bengal · ≈1.5k translated · ≈3.2k with reviews) |
+| **Distinct works after merging editions** | **9,804** (rough profile estimate) |
+| **After S1–S6 cleaning** (summary classes, store bundles removed) | **9,497** distinct works: 8,259 blurbs, 2,005 flap texts |
 
 Key data-quality findings (full [profile report](docs/reports/rokomaribg-profile.md)):
 - 99.7% of summaries end with a scraped "Show More" button label; after removing it, **58% of books have no summary**.
@@ -92,6 +93,11 @@ python scripts/crawl.py boitoi  --limit 100
 # 4. Record checksums, then profile
 python scripts/make_manifest.py
 python scripts/profile_rokomaribg.py        # writes docs/reports/rokomaribg-profile.md
+
+# 5. Clean (S1–S6), validate, test
+python -m scripts.clean.rokomari_books       # data/interim/rokomari_books.parquet (~3 min)
+python -m scripts.clean.validate_s1_s6       # 18 hard checks; exits 1 on failure
+python -m pytest tests
 ```
 On Windows, set `PYTHONIOENCODING=utf-8` so Bangla prints correctly in the console.
 
@@ -116,6 +122,9 @@ PROGRESS.md    what's done and what's left
 | [07 Roadmap](docs/07-roadmap.md) | Phases |
 | [08 Data pipeline](docs/08-data-pipeline.md) | Stages, storage formats, cleaning steps |
 | [09 Literature review](docs/09-literature-review.md) | Related work and the techniques we adopt |
+| [10 Cleaning spec](docs/10-cleaning-spec.md) | Step-by-step cleaning rules with real examples and checks |
+| [11 Challenges and lessons](docs/11-challenges-and-lessons.md) | Problems found, root causes, fixes and measured impact (interview prep) |
+| [Report: cleaning S1–S6](docs/reports/cleaning-s1-s6.md) · [validation](docs/reports/validation-s1-s6.md) | Generated rule counts and the 18 hard checks |
 
 ## Ethics and licensing
 - Non-commercial portfolio project (D-010). Dataset licenses are respected, and no data is redistributed.

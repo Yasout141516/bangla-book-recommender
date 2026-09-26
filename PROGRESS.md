@@ -21,13 +21,16 @@ Last updated: 2026-09-26. Decisions are referenced as D-xxx ([decision log](docs
 
 ## ⏳ Phase 1b: Cleaning pipeline (next)
 Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
-- [ ] **Clean RokomariBG books → `data/interim/rokomari_books.parquet`**
-  - [ ] deduplicate by `book_id`, keeping the longest summary (D-013)
-  - [ ] strip "Show More"; normalise whitespace; `bnunicodenormalizer` + NFC; clean ZWJ/ZWNJ
-  - [ ] Bangla digits → ASCII; validate ISBN-10/13; explicit nulls
-  - [ ] detect the script of each field (Bangla / Latin / mixed)
-  - [ ] clean titles: format suffixes `(Paperback)`; series and volume tags into their own fields
-  - [ ] classify summaries: blurb / excerpt / table of contents / preface / English / empty
+- [x] **Clean RokomariBG books → `data/interim/rokomari_books.parquet`** (`python -m scripts.clean.rokomari_books`)
+  - [x] S1 deduplicate by `book_id`, keeping the longest summary (D-013)
+  - [x] S2 strip "Show More" and HTML residue; normalise whitespace; legacy-encoding repairs; `bnunicodenormalizer` (one harmful step disabled) + NFC; clean ZWJ/ZWNJ
+  - [x] S3 Bangla digits → ASCII; validate ISBN-10/13; explicit nulls
+  - [x] S4 detect the script of each field (Bangla / Latin / mixed)
+  - [x] S5 clean titles: binding, paper, volume, series, language, bundle and collection markers
+  - [x] S6 classify summaries: flap / blurb / summary / excerpt / toc / preface / author_bio / english / empty
+  - [x] 102 unit tests; validation script with 18 hard checks, all passing ([report](docs/reports/validation-s1-s6.md))
+  - [x] Problems and fixes written up in [docs/11](docs/11-challenges-and-lessons.md)
+  - Result: **9,497 distinct fiction works** with a usable summary (8,259 blurbs, 2,005 flap texts)
 - [ ] **Category mapping table**: 1,515 Rokomari categories → our genres and format; drop merchandising lists
 - [ ] **Origin**: publisher "(India)" → ISBN prefix → translation category
 - [ ] **Author table**
@@ -59,7 +62,8 @@ Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
 - [ ] Simple web demo
 
 ## Known issues and open questions
-- Some "usable" summaries are book excerpts, not blurbs. The summary classifier will lower the 9.8k count somewhat.
+- Rules can't tell a narrative opening (the first scene of the book) from flap copy written as a scene. An LLM check on a sample is planned for labelling.
+- Some summaries are study-guide style (character analysis) rather than blurbs; not detected by rules.
 - The West Bengal share is small (~1.2k). Boighor and Boitoi can resume later if needed.
 - Wikidata's genre field is noisy (e.g. "film promotion"); use it only for author identity.
 - The choice of LLMs for labelling and reranking (cost vs Bangla quality) is still open.
