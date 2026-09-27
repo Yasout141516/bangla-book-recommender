@@ -41,15 +41,16 @@ Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
 - [x] Full rebuild from raw data: 7 min 46 s, identical numbers
 - [ ] Parsers for Wikipedia, Boighor and Boitoi pages → attach better premises for matching works (optional)
 
-### Catalogue (2026-09-26)
+### Catalogue (2026-09-27)
 | | Works |
 |---|---|
-| In catalogue | **14,155** (numbers below are from the 14,024 run, before the subtitle split) |
-| Format | novel 6,457 · stories 2,958 · poetry 1,969 · comics 377 · drama 263 · mixed/unknown 2,000 |
-| Origin | Bangladesh 10,491 · translated 1,862 · West Bengal 1,671 (confidence: high 5,262 · medium 5,891 · low 2,871) |
-| Summary source | blurb 11,364 · flap text 2,645 |
-| Main author linked to Wikidata | 3,133 |
-| With at least one review | 6,372 |
+| In catalogue | **14,155** |
+| Format | novel 6,510 · stories 2,967 · poetry 1,973 · comics 397 · drama 264 · mixed/unknown 2,044 |
+| Origin | Bangladesh 10,559 · translated 1,889 · West Bengal 1,707 |
+| Summary source | blurb 11,482 · flap text 2,658 |
+| Volumes grouped as series entries | 548 works in 258 groups |
+
+**Next phase: see [HANDOFF.md](HANDOFF.md).**
 
 ## 🔜 Phase 2: Labelling
 - [ ] Prompt: spoiler-free `premise_bn` / `premise_en` / `hook` from source text only (D-008)

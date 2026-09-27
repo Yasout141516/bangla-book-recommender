@@ -7,7 +7,7 @@ A retrieval-augmented recommendation system over a catalogue of **14,155 Bangla 
 Wikipedia and Wikidata. It covers Bangladeshi, West Bengal (Indian Bengali) and translated books.
 
 > **Status:** data collection ✅ · cleaning S1–S12 ✅ (193 tests, 40/40 validation checks) · labelling 🔜 · retrieval 🔜
-> See [PROGRESS.md](PROGRESS.md) for a detailed checklist.
+> See [PROGRESS.md](PROGRESS.md) for a detailed checklist and [HANDOFF.md](HANDOFF.md) for where to pick up.
 
 ---
 
