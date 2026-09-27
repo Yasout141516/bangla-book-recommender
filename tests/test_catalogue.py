@@ -94,3 +94,30 @@ from scripts.clean.authors import country_origin
 ])
 def test_country_origin(countries, expected):
     assert country_origin(countries) == expected
+
+
+from scripts.clean.works import slug_volume, subtitle_signature, cluster_signatures
+
+
+@pytest.mark.parametrize("slug,vol", [
+    ("golposomogro-1st-part", 1), ("da-gargi-samagra-vol-5", 5), ("katay-katay-2nd-part", 2),
+    ("nishuti-3", 3), ("upponassomogro-4th-khondo", 4), ("pother-pachali", None), ("1984", None),
+])
+def test_slug_volume(slug, vol):
+    assert slug_volume(slug) == vol
+
+
+@pytest.mark.parametrize("slug,n,sig", [
+    ("masud-rana-dhongso-pahar", 2, "dhongso-pahar"),        # truncated title: different books
+    ("masud-rana-kurukkhetro", 2, "kurukkhetro"),
+    ("pother-pachali", 2, ""),                                # spelling variant: no signature
+    ("golpoguccho-okhondo-sonkolon", 1, ""),                  # generic words only
+    ("nouka-dubi", 1, ""),                                    # one-word title romanised as two words
+])
+def test_subtitle_signature(slug, n, sig):
+    assert subtitle_signature(slug, n) == sig
+
+
+def test_cluster_signatures():
+    labels = cluster_signatures(["", "dhongso-pahar", "dhongso-pahad", "kurukkhetro"])
+    assert labels[0] == "" and labels[1] == labels[2] and labels[1] != labels[3]

@@ -366,3 +366,40 @@ def test_show_more_followed_by_page_junk():
 ])
 def test_conjuncts_preserved_or_repaired(raw, expected):
     assert T.normalize_bn(raw) == unicodedata.normalize("NFC", expected)
+
+
+# ---------- S12: source-text quality (real examples from the catalogue) ----------
+
+@pytest.mark.parametrize("garbled,fixed", [
+    ("গছেনে", "গেছেন"), ("মানুষরে", "মানুষের"), ("বাংলাদশে", "বাংলাদেশ"),
+    ("রাজনীতরি", "রাজনীতির"), ("জাতরি", "জাতির"), ("নাগরকি", "নাগরিক"),
+])
+def test_unshift_vowels(garbled, fixed):
+    assert T.unshift_vowels(T.normalize_bn(garbled)) == T.normalize_bn(fixed)
+
+
+def _common(*words):
+    return {T.normalize_bn(w) for w in words}
+
+
+def test_garbled_summary_detected():
+    common = _common("জনপ্রিয়", "গেছেন", "রেখে", "মানুষের", "বাংলাদেশ", "জাতির", "রাজনীতির")
+    text = T.normalize_bn("জনপ্রয়ি এক লেখক মারা গছেনে, রখে গছেনে এক তরুণী স্ত্রী। বাংলাদশে জাতরি রাজনীতরি কথা।")
+    assert T.is_garbled(text, common)
+
+
+def test_names_and_real_words_not_garbled():
+    # টমি (Tommy), জনি (Johnny), সনে (poetic "with") look like shifted words but are real.
+    common = _common("টিম", "জিন", "সেন")
+    text = T.normalize_bn("টমি আর জনি নদীর ধারে খেলতে গেল। সনে সনে তারা গান গাইল। " * 3)
+    assert not T.is_garbled(text, common)
+
+
+def test_list_summary():
+    quiz = T.normalize_bn("কুইজ এক্সপ্রেস (কিছু অংশ) কেন? ১. চোরে চোরে মাসতুতো ভাই কেন? ২. নাগরা জুতোর বৈশিষ্ট্য কী? "
+                          "৩. আদায়-কাঁচকলায় কেন? ৪. হাতি কেন শুঁড় তোলে? ৫. বাঘ কেন ডোরাকাটা?")
+    assert T.is_list_summary(quiz)
+    blurb_with_list = T.normalize_bn("এই সংকলনে রবীন্দ্রনাথের সেরা উপন্যাসগুলো একসঙ্গে স্থান পেয়েছে। প্রেম, সমাজ ও "
+                                     "মানুষের সম্পর্কের জটিলতা নিয়ে লেখা এই উপন্যাসগুলো বাংলা সাহিত্যের অমূল্য সম্পদ। "
+                                     "উপন্যাসগুলো হলো- ১. বউ ঠাকুরানীর হাট, ২. রাজর্ষি, ৩. চোখের বালি, ৪. নৌকাডুবি")
+    assert not T.is_list_summary(blurb_with_list)

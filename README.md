@@ -3,10 +3,10 @@
 **Find Bangla books by the taste you describe.** Ask for *"a slow, dark mystery set in old Dhaka"*, or *"books like Sonar Kella"*,
 in Bangla, English or romanised Bangla, and get matching books with a short reason for each.
 
-A retrieval-augmented recommendation system over a catalogue of **14,024 Bangla fiction works** (novels, stories, poetry, drama, comics), built from open research datasets,
+A retrieval-augmented recommendation system over a catalogue of **14,155 Bangla fiction works** (novels, stories, poetry, drama, comics), built from open research datasets,
 Wikipedia and Wikidata. It covers Bangladeshi, West Bengal (Indian Bengali) and translated books.
 
-> **Status:** data collection ✅ · cleaning S1–S12 ✅ (171 tests, 40/40 validation checks) · labelling 🔜 · retrieval 🔜
+> **Status:** data collection ✅ · cleaning S1–S12 ✅ (193 tests, 40/40 validation checks) · labelling 🔜 · retrieval 🔜
 > See [PROGRESS.md](PROGRESS.md) for a detailed checklist.
 
 ---
@@ -61,7 +61,7 @@ Details: [data model](docs/03-data-model.md) · [tag vocabulary](docs/04-tag-voc
 | Fiction category (novel, story, thriller, horror, comics…), excluding religious and academic | 22,646 |
 | + usable summary (≥200 chars, mostly Bangla, not a table of contents or preface) | 10,673 |
 | **Distinct works after merging editions** | **9,804** (rough profile estimate) |
-| **After S1–S12 cleaning** | **14,024 works** in the catalogue (editions merged, fiction by category, Bangla only, usable summary) |
+| **After S1–S12 cleaning** | **14,155 works** in the catalogue (editions merged, fiction by category, Bangla only, usable summary) |
 
 The earlier figures (9,804, then 9,497) matched "story" inside "History" and are superseded; see [docs/11](docs/11-challenges-and-lessons.md) #18.
 

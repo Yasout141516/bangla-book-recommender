@@ -35,8 +35,8 @@ Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
 - [x] **S8 origin and language**: literary origin, with the author's nationality first (D-021); English-language books identified and excluded
 - [x] **S9 author table**: names parsed (pen names, honorifics, ranks, descriptors, organisations); 16,601 Rokomari ids
 - [x] **S10 Wikidata linking**: 357 ids → 355 people; hand-checked precision 37/40 correct, 0/40 wrong (D-020)
-- [x] **S11 works**: 127,302 editions → 118,175 works; merge only with a known author; volume from title or URL slug (D-022)
-- [x] **S12 catalogue**: **14,024 works** in the catalogue; every excluded work keeps its reasons
+- [x] **S11 works**: 127,302 editions → 120,189 works; merge only with a known author; volume from title or URL slug (D-022)
+- [x] **S12 catalogue**: **14,155 works** in the catalogue; every excluded work keeps its reasons
 - [x] Validation: 22 hard checks for S7–S12 ([report](docs/reports/validation-s7-s12.md)); 171 unit tests in total
 - [x] Full rebuild from raw data: 7 min 46 s, identical numbers
 - [ ] Parsers for Wikipedia, Boighor and Boitoi pages → attach better premises for matching works (optional)
@@ -44,7 +44,7 @@ Steps are detailed in [08 Data pipeline](docs/08-data-pipeline.md).
 ### Catalogue (2026-09-26)
 | | Works |
 |---|---|
-| In catalogue | **14,024** |
+| In catalogue | **14,155** (numbers below are from the 14,024 run, before the subtitle split) |
 | Format | novel 6,457 · stories 2,958 · poetry 1,969 · comics 377 · drama 263 · mixed/unknown 2,000 |
 | Origin | Bangladesh 10,491 · translated 1,862 · West Bengal 1,671 (confidence: high 5,262 · medium 5,891 · low 2,871) |
 | Summary source | blurb 11,364 · flap text 2,645 |

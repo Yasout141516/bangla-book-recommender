@@ -345,5 +345,53 @@ def classify_summary(text):
     return "blurb", _cut_tail(text)
 
 
+# ---------- S12: source-text quality ----------
+
+_CONS_G = r"[\u0995-\u09b9\u09dc-\u09df\u09ce]\u09bc?"          # consonant (+ nukta); ASCII escapes because ড়/য় endpoints are not NFC-stable
+_SHIFTED = "িে"                                        # ি ে: the signs seen shifted in the data
+LIST_ITEM = re.compile(r"(?:^|\s)[০-৯\d]{1,2}\s*[.:)\-]\s")
+LIST_ITEM_TEXT = re.compile(r"(?:^|\s)[০-৯\d]{1,2}\s*[.:)\-]\s*[^০-৯\d]{0,70}")
+
+
+def unshift_vowels(word):
+    """Undo a source artifact where ি/ে sits one consonant too far right: গছেনে → গেছেন, মানুষরে → মানুষের."""
+    parts = re.findall(_CONS_G + "|.", word, flags=re.S)
+    out, j = [], 0
+    while j < len(parts):
+        if (j + 1 < len(parts) and re.fullmatch(_CONS_G, parts[j]) and parts[j + 1] in _SHIFTED
+                and out and re.fullmatch(_CONS_G, out[-1])):
+            prev = out.pop()
+            out += [prev, parts[j + 1], parts[j]]
+            j += 2
+        else:
+            out.append(parts[j])
+            j += 1
+    return "".join(out)
+
+
+def displaced_vowel_words(text, common_words):
+    """Words that are not common but become a common word once ি/ে is moved back (see unshift_vowels)."""
+    # 4+ characters: the 3-character false positives were names and real words (টমি, জনি, সনে, কনে).
+    words = [w for w in re.findall(r"[\u0980-\u09FF]+", text or "") if len(w) >= 4]
+    bad = [w for w in words if w not in common_words and unshift_vowels(w) != w and unshift_vowels(w) in common_words]
+    return bad, len(words)
+
+
+def is_garbled(text, common_words):
+    """Garbled source text: >5% displaced-vowel words, or 3+ different ones. Measured on the catalogue:
+    8/8 above 5% were garbled; 1–2 hits were mostly names (টমি, জনি) or real words (সনে, কনে)."""
+    bad, n = displaced_vowel_words(text, common_words)
+    return len(bad) / max(n, 1) > 0.05 or len(set(bad)) >= 3
+
+
+def is_list_summary(text):
+    """A summary that is essentially a numbered list (4+ items, <150 chars of prose outside the items).
+    Of 54 catalogue summaries with a numbered list, 53 are blurbs that contain a list and are kept."""
+    if not text or len(LIST_ITEM.findall(text)) < 4:
+        return False
+    prose = re.sub(r"\s+", " ", LIST_ITEM_TEXT.sub(" ", text)).strip()
+    return len(prose) < 150
+
+
 def summary_usable(cls, text):
     return bool(text) and len(text) >= USABLE_MIN.get(cls, 10**9)

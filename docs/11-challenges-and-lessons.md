@@ -216,8 +216,39 @@ data checks, and **reading samples by hand**. The worst bug (reversed vowel sign
 - The first S11 version sorted each work group separately and didn't finish in 10 minutes. The vectorised version
   (sort once, `drop_duplicates`, `groupby` aggregations) runs in about 80 seconds with the same logic.
 
+### 25. RokomariBG truncates titles: 38 Masud Rana novels are all "মাসুদ রানা"
+- **Found by:** reviewing the 48 merged works whose page counts differed by more than 3×. Masud Rana, প্রোফেসর শঙ্কু,
+  রুবাইয়াৎ (Hafiz vs Omar Khayyam), য়ুরোপ (two travelogues) and রবীন্দ্র (a children's collection vs the complete works)
+  were all different books merged under a truncated title.
+- **Evidence kept elsewhere:** the URL slug has the full romanised title: `masud-rana-dhongso-pahar`, `masud-rana-kurukkhetro`.
+- **Approach that failed:** whole-slug similarity. Same-book scores (0.52–0.95) overlapped different-book scores
+  (0.53–0.93), because different books share the truncated title as a prefix.
+- **Fix:** a *subtitle signature*. Take the slug words beyond the title's word count, remove generic words (somogro,
+  khondo, part), the author's name and short leftovers, and merge only when signatures match. Ordinal volumes in slugs
+  (`1st-khondo`, `vol-5`) count as volumes.
+- **Checked on known books:** Masud Rana 1 → 39 works; the classics stay together (পথের পাঁচালী 96, চাঁদের পাহাড় 82).
+  Of 14 classics, 5 editions split off by the same author: 3 correct (a manuscript edition, গল্পগুচ্ছ volumes 1–2) and
+  1 wrong (*Hamlet* "Prince of Denmark" subtitle). *প্রোফেসর শঙ্কু ও রোবু* merges back because `robu` is under 5 letters.
+- The Bangla display title stays truncated; `slug_title` keeps the romanised full title for labelling.
+
+### 26. Not everything asked for was safe to do
+- **"Merge same title + author split into several works":** all 67 cases were real volumes (Humayun Ahmed's
+  উপন্যাস সমগ্র 15–22, টারজান 2/3/4). Merging would have lost the volume, so they share a `series_group_id` instead.
+- **"Drop numbered-list summaries":** 54 summaries contain a numbered list, but 53 are blurbs that include one
+  ("this collection contains: 1. … 2. …"). Only 1 (a quiz book) is list-only and was dropped.
+- **"Drop source errors":** a general typo detector flagged 306 summaries, but hand-checking 20 found only about 5
+  really broken. The rest were names, poetry, dialect or old-style verse. A narrow detector for the real artifact
+  (ি/ে shifted one letter right, e.g. `গছেনে` for `গেছেন`) was precise: 8/8 above 5% were garbled. 11 were dropped.
+- **Lesson:** check what a requested action would actually remove before doing it.
+
+### 27. Garbled source text: vowel signs shifted one letter
+- `জনপ্রয়ি এক কথাসাহত্যিকি মারা গছেনে` should read `জনপ্রিয় এক কথাসাহিত্যিক মারা গেছেন`. Another legacy-encoding
+  artifact, found in a handful of books. `unshift_vowels` can repair it (`নাগরকি→নাগরিক`); for now those books are
+  excluded rather than repaired.
+- Only words of 4+ characters count: the 3-character hits were names and real words (টমি, জনি, সনে, কনে).
+
 ## How validation works
-1. **Unit tests** (171 tests in `tests/`): real messy values from the data, plus a regression test for every bug above.
+1. **Unit tests** (193 tests in `tests/`): real messy values from the data, plus a regression test for every bug above.
 2. **Validation script** (`python -m scripts.clean.validate_s1_s6` → [report](reports/validation-s1-s6.md)): hard invariants on every row.
    - Examples: IDs unique; the cleaned summary is a substring of the raw summary, so nothing is invented;
      no reversed vowel signs; normalising twice changes nothing; every ISBN passes its checksum;

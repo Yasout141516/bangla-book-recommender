@@ -185,3 +185,13 @@ To change a decision, add a new entry that supersedes the old one. Don't edit ol
   The volume comes from the title, else from a trailing number in the Rokomari URL slug. Bundles, placeholder titles and
   author-less editions never merge.
 - **Why:** docs/11 #21–22.
+
+### D-023: Slug subtitles split works; volumes are grouped, not merged; stop cleaning here
+- **Date:** 2026-09-27
+- **Decision:**
+  - Editions stay merged only if their URL-slug subtitle signatures match (RokomariBG truncates titles).
+  - Volumes of one book (same title and author, different volume) stay separate works with a shared
+    `series_group_id` (258 groups).
+  - List-only summaries (1) and garbled source text (11) are excluded.
+  - No further cleaning for now: 14,155 works is enough for the project.
+- **Why:** docs/11 #25–27. More rule-tuning has diminishing returns; the remaining issues are documented.
